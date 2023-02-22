@@ -66,7 +66,7 @@ const NavDrawer = () => {
           to="/home/models"
         >
           <img alt="tentativo" src="https://www.hytera.la/assets/img/logo.svg" />
-          Crelosa
+          <span>Crelosa</span>
         </Link>
         <Icon
           className="size-menu-btn"
@@ -91,7 +91,7 @@ const NavDrawer = () => {
           to="/home/models"
         >
           <img alt="tentativo" src="https://www.hytera.la/assets/img/logo.svg" />
-          Crelosa
+          <span>Crelosa</span>
         </Link>
         <nav
           className="mobile-nav"

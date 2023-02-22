@@ -16,11 +16,20 @@
 }
 
 .brand {
-  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
   font-family: 'Pacifico', cursive;
   text-decoration: none;
   color: #333;
+  height: 10rem;
+  gap: 1rem;
+  /* border: 1px solid #000; */
 }
+
+/* .brand img {
+  padding-bottom: 1rem;
+} */
 
 .size-menu-btn {
   width: 40px;
@@ -107,7 +116,9 @@
   }
 
   .brand {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .mobile-nav {
