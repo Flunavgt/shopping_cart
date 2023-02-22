@@ -5,8 +5,8 @@ const FETCH_BIKES_MODELS = 'final_capstone_frontend/models/FETCH_BIKES_MODELS';
 const ADD_BIKE_MODEL = 'final_capstone_frontend/models/ADD_BIKE_MODEL';
 const DELETE_BIKE_MODEL = 'final_capstone_frontend/models/DELETE_BIKE_MODEL';
 
-// URL
-const modelsURL = 'https://bikes-db.onrender.com/api/v1/bikes';
+// URL http://localhost:3000/
+const modelsURL = 'http://localhost:3000/api/v1/bikes';
 
 // Async function (Function Action Creator)
 const fetchModelsAsync = createAsyncThunk(
