@@ -20,7 +20,7 @@ const Form = () => {
 
     if (model !== '' && photo !== '' && power > 0 && weight > 0 && price > 0 && description !== '') {
       const bike = {
-        brand: 'ducati', model, photo, power, weight, price, description,
+        brand: 'Hytera', model, photo, power, weight, price, description,
       };
       dispatch(addBikeAsync(bike));
       e.target.reset();
@@ -49,48 +49,48 @@ const Form = () => {
           type="text"
           value={model}
           onChange={(e) => setModel(e.target.value)}
-          placeholder="Model name"
+          placeholder="Nombre del Modelo"
         />
         <input
           className="bike-input"
           type="text"
           value={photo}
           onChange={(e) => setPhoto(e.target.value)}
-          placeholder="Image URL"
+          placeholder="Link de la imagen"
         />
         <input
           className="bike-input"
           type="number"
           value={power}
           onChange={(e) => setPower(e.target.value)}
-          placeholder="Bike power HP"
+          placeholder="Potencia del transmisor (W)"
         />
         <input
           className="bike-input"
           type="number"
           value={weight}
           onChange={(e) => setWeight(e.target.value)}
-          placeholder="Bike weight Kg"
+          placeholder="Peso (gr)"
         />
         <input
           className="bike-input"
           type="number"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
-          placeholder="Price $ per day"
+          placeholder="Precio por día"
         />
         <textarea
           className="bike-input"
           type="text"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          placeholder="Write a short description"
+          placeholder="Escribe una breve descripción"
           rows="6"
         />
         <input
           className="res-btn add-bike-btn"
           type="submit"
-          value="Add Bike"
+          value="Agregar Modelo"
           title="Click this or press enter to submit"
         />
       </form>

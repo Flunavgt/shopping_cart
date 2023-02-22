@@ -24,23 +24,23 @@ const Info = ({ details }) => {
   return (
     <>
       <h2 className="details-title">{model}</h2>
-      <p className="offer">- $45 deposit upon any Ducati rent!</p>
+      <p className="offer">Se requiere un deposito de $xxx para la renta</p>
       <ul className="features">
         <li className="feature-item">
-          <span>Power</span>
-          <span>{`${power} HP`}</span>
+          <span>Potencia de transmisión</span>
+          <span>{`${power} W`}</span>
         </li>
         <li className="feature-item">
-          <span>Weight</span>
-          <span>{`${weight} Kg`}</span>
+          <span>Peso</span>
+          <span>{`${weight} gr`}</span>
         </li>
         <li className="feature-item">
-          <span>Price</span>
-          <span>{`$${price} /day`}</span>
+          <span>Precio</span>
+          <span>{`$${price} por día`}</span>
         </li>
         <li className="feature-item">
-          <span>Duration</span>
-          <span>48 Months</span>
+          <span>Renta minima</span>
+          <span>24 Hrs</span>
         </li>
       </ul>
     </>
@@ -77,7 +77,7 @@ const ReserveLink = ({ bikeModel }) => (
       color="#fff"
       icon="fa6-solid:motorcycle"
     />
-    <span>Reserve</span>
+    <span>Reservar</span>
     <div className="res-arr-cont">
       <Icon
         className="reserve-arrow"

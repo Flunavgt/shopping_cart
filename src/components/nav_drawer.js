@@ -10,7 +10,7 @@ const NavDrawer = () => {
   const dispatch = useDispatch();
 
   const createLinks = () => {
-    const tags = ['MODELOS', 'TIENDA', 'MIS COMPRAS', 'ADD MOTORCYCLE', 'DELETE MOTORCYCLE'];
+    const tags = ['MODELOS', 'TIENDA', 'MIS COMPRAS', 'AGREGAR MODELO', 'REMOVER MODELO'];
     const addresses = ['/home/models', '/home/reserve', '/home/my-reservations', '/home/add-motorcycle', '/home/delete-motorcycle'];
     const links = [];
 
@@ -65,6 +65,7 @@ const NavDrawer = () => {
           onClick={() => setShowMenu(false)}
           to="/home/models"
         >
+          <img alt="tentativo" src="https://www.hytera.la/assets/img/logo.svg" />
           Crelosa
         </Link>
         <Icon
@@ -89,6 +90,7 @@ const NavDrawer = () => {
           className="brand"
           to="/home/models"
         >
+          <img alt="tentativo" src="https://www.hytera.la/assets/img/logo.svg" />
           Crelosa
         </Link>
         <nav
