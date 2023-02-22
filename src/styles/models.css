@@ -32,6 +32,10 @@
   align-items: center;
 }
 
+.bike-item:hover {
+  background-color: rgba(197, 196, 196, 0.443);
+}
+
 .bike-link {
   display: flex;
   flex-direction: column;
@@ -43,6 +47,9 @@
 .img-cont {
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 350px;
+  height: 350px;
 }
 
 .circle {
@@ -50,12 +57,15 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #e2a8a8;
+  background-color: #8eaf1a;
+  left: 10px;
+  top: 10px;
   z-index: -1;
 }
 
 .img-bike {
-  width: 350px;
+  max-width: 350px;
+  max-height: 350px;
 }
 
 .model-name {
