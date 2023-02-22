@@ -50,12 +50,12 @@ const Reserve = () => {
 
   return (
     <div className='form-container'>
-      <h1 className='tit-form'>RESERVE A BIKE</h1>
+      <h1 className='tit-form'>RESERVAR RADIO</h1>
       <form className='res-form'
         onSubmit={handleSubmit}
       >
         <div>
-          <label>Location</label>
+          <label>Ubicación:</label>
           <input
             type="text"
             value={location}
@@ -64,7 +64,7 @@ const Reserve = () => {
         </div>
 
         <div>
-          <label>Start Date</label>
+          <label>Fecha de Inicio:</label>
           <input
             type="date"
             value={start_date}
@@ -73,7 +73,7 @@ const Reserve = () => {
         </div>
 
         <div>
-          <label>End Date</label>
+          <label>Fecha de Termino:</label>
           <input
             type="date"
             value={end_date}
@@ -81,7 +81,7 @@ const Reserve = () => {
           />
         </div>
         <div>
-          <label>Bike:</label>
+          <label>Modelo de Radio:</label>
           <input list="models"
             name="models"
             id="list-cont"
@@ -93,7 +93,7 @@ const Reserve = () => {
             </datalist>
         </div>
         <div className="res-btn-cont">
-          <input className='reserve-btn' type="submit" value="Add Reservation" />
+          <input className='reserve-btn' type="submit" value="Crear Reservación" />
         </div> 
       </form>
     </div>

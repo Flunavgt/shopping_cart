@@ -21,7 +21,7 @@ const ModelName = ({ bike, deleteHandler }) => {
           className="del-btn"
           onClick={() => deleteHandler(id)}
         >
-          Remove
+          REMOVER
         </button>
       </div>
     </li>
@@ -53,7 +53,7 @@ const DeleteMotorcycle = () => {
 
   return (
     <div className="bike-form-cont">
-      <h2 className="models-title">MODELS</h2>
+      <h2 className="models-title">MODELOS</h2>
       <ul className="models-list">
         { createList(bikes) }
       </ul>

@@ -21,7 +21,7 @@ const MyReservations = () => {
 
   return (
     <div className="res-container">
-      <div className="title"><h1 className="res-title">My Reservations</h1></div>
+      <div className="title"><h1 className="res-title">Reservaciones</h1></div>
 
       {reservations.length !== 0 ? reservations.map((reservation) => {
         const bike = bikes.find((bike) => bike.id === reservation.bike_id);
@@ -29,26 +29,26 @@ const MyReservations = () => {
           <div className="card" key={reservation.id}>
             <div className="bike-info">
               <h2>
-                City:
+                Ciudad:
                 <span>{' '}</span>
                 {reservation.location}
               </h2>
               {bike
                 ? (
                   <h2>
-                    Bike Model:
+                    Modelo de Radio:
                     <span>{' '}</span>
                     {bike.model}
                   </h2>
                 )
                 : <p /> }
               <h2>
-                Start Date:
+                Fecha de inicio:
                 <span>{' '}</span>
                 {moment(reservation.start_date).utc().format('YYYY-MM-DD')}
               </h2>
               <h2>
-                End Date:
+                Fecha de termino:
                 <span>{' '}</span>
                 {moment(reservation.end_date).utc().format('YYYY-MM-DD')}
               </h2>
@@ -65,7 +65,7 @@ const MyReservations = () => {
                 : <p /> }
             </div>
             <div className="delete-reservation">
-              <button className="delete-btn" type="button" onClick={() => handleDelete(reservation.id)}>Delete</button>
+              <button className="delete-btn" type="button" onClick={() => handleDelete(reservation.id)}>Eliminar Reservación</button>
             </div>
           </div>
         );
