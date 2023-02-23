@@ -75,7 +75,8 @@ const ReserveLink = ({ bikeModel }) => (
     <Icon
       className="bike-icon"
       color="#fff"
-      icon="fa6-solid:motorcycle"
+      icon="mdi:radio-handheld"
+      style={{ fontSize: '30px' }}
     />
     <span>Reservar</span>
     <div className="res-arr-cont">
