@@ -3,6 +3,7 @@
 
 .det-cont {
   box-sizing: border-box;
+  /* border: 1px solid #f20505; */
 }
 
 .first-img {
@@ -31,6 +32,8 @@
 
 .single-bike {
   width: 90%;
+  /* max-height: 80vh; */
+  /* border: 1px solid #000; */
 }
 
 .details-title {
@@ -43,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
+  /* border: 3px solid #000; */
 }
 
 .offer {
