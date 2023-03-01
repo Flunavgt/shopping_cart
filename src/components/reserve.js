@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { addReservation } from '../redux/reservations/reservations';
+import { addOperation } from '../redux/operations/operations';
 import '../styles/reserve.css'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
@@ -11,7 +11,7 @@ const Reserve = () => {
   const dispatch = useDispatch();
   const locationReact = useLocation()
   const navigate = useNavigate();
-  const { bikeModel } = locationReact.state || {bikeModel: ''};
+  const { productModel } = locationReact.state || {productModel: ''};
   const user = useSelector((state) => state.current_user.user)
   const models = useSelector((state) => state.models);
   useEffect(() => {
@@ -21,28 +21,28 @@ const Reserve = () => {
   const [start_date, setStartDate] = useState('');
   const [end_date, setEndDate] = useState('');
   const [location, setLocation] = useState('');
-  const [modelName, setModelName] = useState(bikeModel);
+  const [modelName, setModelName] = useState(productModel);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const targetBike = models.find((bike) => bike.model === e.target[3].value);
-    const { id } = targetBike;
+    const targetProduct = models.find((product) => product.model === e.target[3].value);
+    const { id } = targetProduct;
 
     const formData = {
-      user_id: user.id, bike_id: id, start_date, end_date, location,
+      user_id: user.id, product_id: id, start_date, end_date, location,
     };
-    dispatch(addReservation(formData));
+    dispatch(addOperation(formData));
     e.target.reset();
-    navigate('/home/my-reservations')
+    navigate('/home/my-operations')
   };
 
-  const modelsList = (bikes) => {
-    const list = bikes.map((bike) => (
+  const modelsList = (products) => {
+    const list = products.map((product) => (
       <option
-        key={`res-${bike.id}`}
+        key={`res-${product.id}`}
       >
-        { bike.model }
+        { product.model }
       </option>
     ));
     return list;

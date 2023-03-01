@@ -3,12 +3,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import {
   fetchModelsAsync,
-  deleteBikeAsync,
+  deleteProductAsync,
 } from '../redux/models/models';
 import '../styles/delete_motorcycle.css';
 
-const ModelName = ({ bike, deleteHandler }) => {
-  const { id, model } = bike;
+const ModelName = ({ product, deleteHandler }) => {
+  const { id, model } = product;
 
   return (
     <li className="model-item">
@@ -30,39 +30,39 @@ const ModelName = ({ bike, deleteHandler }) => {
 
 const DeleteMotorcycle = () => {
   const dispatch = useDispatch();
-  const bikes = useSelector((state) => state.models);
+  const products = useSelector((state) => state.models);
 
   useEffect(() => {
     dispatch(fetchModelsAsync());
   }, [dispatch]);
 
   const deleteHandler = (id) => {
-    dispatch(deleteBikeAsync(id));
+    dispatch(deleteProductAsync(id));
   };
 
-  const createList = (bikes) => {
-    const list = bikes.map((bike) => (
+  const createList = (products) => {
+    const list = products.map((product) => (
       <ModelName
-        bike={bike}
+        product={product}
         deleteHandler={deleteHandler}
-        key={`del-${bike.id}`}
+        key={`del-${product.id}`}
       />
     ));
     return list;
   };
 
   return (
-    <div className="bike-form-cont">
+    <div className="product-form-cont">
       <h2 className="models-title">MODELOS</h2>
       <ul className="models-list">
-        { createList(bikes) }
+        { createList(products) }
       </ul>
     </div>
   );
 };
 
 ModelName.propTypes = {
-  bike: PropTypes.shape({
+  product: PropTypes.shape({
     id: PropTypes.number,
     model: PropTypes.string,
   }).isRequired,

@@ -9,10 +9,10 @@ import { Icon } from '@iconify/react';
 import { fetchModelsAsync } from '../redux/models/models';
 import '../styles/models.css';
 
-const Bike = ({ bike }) => {
+const Product = ({ product }) => {
   const {
     id, brand, model, photo, description,
-  } = bike;
+  } = product;
 
   const socialMedia = () => {
     const modelMedia = ['ri:facebook-fill', 'mdi:twitter', 'mdi:instagram'];
@@ -33,48 +33,48 @@ const Bike = ({ bike }) => {
   };
 
   return (
-    <li className="bike-item">
-      <Link className="bike-link" to={`/home/models/${id}`}>
+    <li className="product-item">
+      <Link className="product-link" to={`/home/models/${id}`}>
         <div className="img-cont">
           <div className="circle" />
           <img
             src={photo}
             alt={`${brand} ${model}`}
             title={`${brand} ${model}`}
-            className="img-bike"
+            className="img-product"
           />
         </div>
         <h2 className="model-name">{model}</h2>
       </Link>
-      <p className="bike-description">{description}</p>
-      <ul className="bike-social">
+      <p className="product-description">{description}</p>
+      <ul className="product-social">
         { socialMedia() }
       </ul>
     </li>
   );
 };
 
-const BikesList = () => {
+const ProductsList = () => {
   const dispatch = useDispatch();
-  const bikes = useSelector((state) => state.models);
+  const products = useSelector((state) => state.models);
 
   useEffect(() => {
     dispatch(fetchModelsAsync());
   }, [dispatch]);
 
-  const createList = (bikes) => {
-    const list = bikes.map((bike) => (
-      <Bike
-        bike={bike}
-        key={bike.id}
+  const createList = (products) => {
+    const list = products.map((product) => (
+      <Product
+        product={product}
+        key={product.id}
       />
     ));
     return list;
   };
 
   return (
-    <ul className="bikes-list">
-      { createList(bikes) }
+    <ul className="products-list">
+      { createList(products) }
     </ul>
   );
 };
@@ -83,12 +83,12 @@ const Models = () => (
   <div className="models-cont">
     <h1 className="models-title">Radios Disponibles</h1>
     <p className="model-subtitle">Por favor haga su selección</p>
-    <BikesList />
+    <ProductsList />
   </div>
 );
 
-Bike.propTypes = {
-  bike: PropTypes.shape({
+Product.propTypes = {
+  product: PropTypes.shape({
     id: PropTypes.number,
     brand: PropTypes.string,
     model: PropTypes.string,

@@ -33,25 +33,25 @@
   border-radius: 5px;
 }
 
-.bike-cont {
+.product-cont {
   height: 104px;
   width: 140px;
   display: flex;
 }
 
-.bike-photo {
+.product-photo {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
   display: block;
 }
 
-.bike-info {
+.product-info {
   display: flex;
   flex-direction: column;
 }
 
-.bike-info h2 {
+.product-info h2 {
   margin: 4px 0;
 }
 
@@ -84,7 +84,7 @@
   text-align: center;
 }
 
-.no-reservations {
+.no-operations {
   text-align: center;
   margin: 30px 0;
   font-weight: bold;
@@ -109,24 +109,24 @@
     padding: 0;
   }
 
-  .bike-cont {
+  .product-cont {
     height: 100px;
     width: 120px;
   }
 
-  .bike-photo {
+  .product-photo {
     max-width: 100%;
     max-height: 100%;
     margin: auto;
     display: block;
   }
 
-  .bike-info {
+  .product-info {
     display: flex;
     flex-direction: column;
   }
 
-  .bike-info h2 {
+  .product-info h2 {
     margin: 4px 0;
   }
 }

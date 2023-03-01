@@ -11,7 +11,7 @@ const NavDrawer = () => {
 
   const createLinks = () => {
     const tags = ['MODELOS', 'AGENDAR', 'MIS RESERVACIONES', 'AGREGAR MODELO', 'REMOVER MODELO'];
-    const addresses = ['/home/models', '/home/reserve', '/home/my-reservations', '/home/add-motorcycle', '/home/delete-motorcycle'];
+    const addresses = ['/home/models', '/home/reserve', '/home/my-operations', '/home/add-motorcycle', '/home/delete-motorcycle'];
     const links = [];
 
     for (let i = 0; i < tags.length; i += 1) {

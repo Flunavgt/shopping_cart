@@ -6,7 +6,7 @@ const ADD_BIKE_MODEL = 'final_capstone_frontend/models/ADD_BIKE_MODEL';
 const DELETE_BIKE_MODEL = 'final_capstone_frontend/models/DELETE_BIKE_MODEL';
 
 // URL http://localhost:3000/
-const modelsURL = 'http://localhost:3000/api/v1/bikes';
+const modelsURL = 'http://localhost:3000/api/v1/products';
 
 // Async function (Function Action Creator)
 const fetchModelsAsync = createAsyncThunk(
@@ -18,21 +18,21 @@ const fetchModelsAsync = createAsyncThunk(
   },
 );
 
-const addBikeAsync = createAsyncThunk(
+const addProductAsync = createAsyncThunk(
   ADD_BIKE_MODEL,
-  async (bike) => {
+  async (product) => {
     await fetch(modelsURL, {
       method: 'POST',
-      body: JSON.stringify(bike),
+      body: JSON.stringify(product),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
     });
-    return { ...bike };
+    return { ...product };
   },
 );
 
-const deleteBikeAsync = createAsyncThunk(
+const deleteProductAsync = createAsyncThunk(
   DELETE_BIKE_MODEL,
   async (id) => {
     await fetch(`${modelsURL}/${id}`, {
@@ -54,18 +54,18 @@ const modelSlice = createSlice({
       .addCase(fetchModelsAsync.fulfilled, (state, action) => (
         [...action.payload]
       ))
-      .addCase(addBikeAsync.fulfilled, (state, action) => (
+      .addCase(addProductAsync.fulfilled, (state, action) => (
         [...state, { ...action.payload }]
       ))
-      .addCase(deleteBikeAsync.fulfilled, (state, action) => {
+      .addCase(deleteProductAsync.fulfilled, (state, action) => {
         const id = action.payload;
-        return state.filter((bike) => bike.id !== id);
+        return state.filter((product) => product.id !== id);
       });
   },
 });
 
 export {
-  fetchModelsAsync, addBikeAsync, deleteBikeAsync,
+  fetchModelsAsync, addProductAsync, deleteProductAsync,
 };
 
 export default modelSlice.reducer;

@@ -70,10 +70,10 @@ const ExtraInfo = () => (
   </>
 );
 
-const ReserveLink = ({ bikeModel }) => (
-  <Link className="res-btn" to="/home/reserve" state={{ bikeModel }}>
+const ReserveLink = ({ productModel }) => (
+  <Link className="res-btn" to="/home/reserve" state={{ productModel }}>
     <Icon
-      className="bike-icon"
+      className="product-icon"
       color="#fff"
       icon="mdi:radio-handheld"
       style={{ fontSize: '30px' }}
@@ -108,7 +108,7 @@ const ModelDetails = () => {
           src={photo}
           alt={`${brand} ${model}`}
           title={`${brand} ${model}`}
-          className="single-bike"
+          className="single-product"
         />
       </section>
       <section className="second-info">
@@ -117,7 +117,7 @@ const ModelDetails = () => {
           key={details.id}
         />
         <ExtraInfo />
-        <ReserveLink bikeModel={model || ''} />
+        <ReserveLink productModel={model || ''} />
       </section>
     </div>
   );
@@ -134,7 +134,7 @@ Info.propTypes = {
   }).isRequired,
 };
 ReserveLink.propTypes = {
-  bikeModel: PropTypes.string.isRequired,
+  productModel: PropTypes.string.isRequired,
 };
 
 export default ModelDetails;
