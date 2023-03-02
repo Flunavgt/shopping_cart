@@ -29,9 +29,9 @@ const MyOperations = () => {
           <div className="card" key={operation.id}>
             <div className="product-info">
               <h2>
-                Ciudad:
+                tipo de operación:
                 <span>{' '}</span>
-                {operation.location}
+                {operation.type}
               </h2>
               {product
                 ? (

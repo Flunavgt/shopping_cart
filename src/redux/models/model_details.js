@@ -1,11 +1,11 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // Actions
-const FETCH_BIKE_DETAILS = 'final_capstone_frontend/models/FETCH_BIKE_DETAILS';
+const FETCH_OPERATION_DETAILS = 'final_capstone_frontend/models/FETCH_PRODUCTS_DETAILS';
 
 // Async function (Function Action Creator)
 const fetchDetailsAsync = createAsyncThunk(
-  FETCH_BIKE_DETAILS,
+  FETCH_OPERATION_DETAILS,
   async (id) => {
     const modelURL = `http://localhost:3000/api/v1/products/${id}`;
     const response = await fetch(modelURL);

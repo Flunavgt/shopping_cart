@@ -1,16 +1,16 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // Actions
-const FETCH_BIKES_MODELS = 'final_capstone_frontend/models/FETCH_BIKES_MODELS';
-const ADD_BIKE_MODEL = 'final_capstone_frontend/models/ADD_BIKE_MODEL';
-const DELETE_BIKE_MODEL = 'final_capstone_frontend/models/DELETE_BIKE_MODEL';
+const FETCH_OPERATIONS_MODELS = 'final_capstone_frontend/models/FETCH_OPERATIONS_MODELS';
+const ADD_OPERATION_MODEL = 'final_capstone_frontend/models/ADD_OPERATION_MODEL';
+const DELETE_OPERATION_MODEL = 'final_capstone_frontend/models/DELETE_OPERATION_MODEL';
 
 // URL http://localhost:3000/
 const modelsURL = 'http://localhost:3000/api/v1/products';
 
 // Async function (Function Action Creator)
 const fetchModelsAsync = createAsyncThunk(
-  FETCH_BIKES_MODELS,
+  FETCH_OPERATIONS_MODELS,
   async () => {
     const response = await fetch(modelsURL);
     const output = await response.json();
@@ -19,7 +19,7 @@ const fetchModelsAsync = createAsyncThunk(
 );
 
 const addProductAsync = createAsyncThunk(
-  ADD_BIKE_MODEL,
+  ADD_OPERATION_MODEL,
   async (product) => {
     await fetch(modelsURL, {
       method: 'POST',
@@ -33,7 +33,7 @@ const addProductAsync = createAsyncThunk(
 );
 
 const deleteProductAsync = createAsyncThunk(
-  DELETE_BIKE_MODEL,
+  DELETE_OPERATION_MODEL,
   async (id) => {
     await fetch(`${modelsURL}/${id}`, {
       method: 'DELETE',

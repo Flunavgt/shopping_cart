@@ -9,9 +9,9 @@ import { fetchModelsAsync } from '../redux/models/models';
 
 const Reserve = () => {
   const dispatch = useDispatch();
-  const locationReact = useLocation()
+  const typeReact = useLocation()
   const navigate = useNavigate();
-  const { productModel } = locationReact.state || {productModel: ''};
+  const { productModel } = typeReact.state || {productModel: ''};
   const user = useSelector((state) => state.current_user.user)
   const models = useSelector((state) => state.models);
   useEffect(() => {
@@ -20,7 +20,7 @@ const Reserve = () => {
 
   const [start_date, setStartDate] = useState('');
   const [end_date, setEndDate] = useState('');
-  const [location, setLocation] = useState('');
+  const [type, settype] = useState('');
   const [modelName, setModelName] = useState(productModel);
 
   const handleSubmit = (e) => {
@@ -30,7 +30,7 @@ const Reserve = () => {
     const { id } = targetProduct;
 
     const formData = {
-      user_id: user.id, product_id: id, start_date, end_date, location,
+      user_id: user.id, product_id: id, start_date, end_date, type,
     };
     dispatch(addOperation(formData));
     e.target.reset();
@@ -58,8 +58,8 @@ const Reserve = () => {
           <label>Ubicación:</label>
           <input
             type="text"
-            value={location}
-            onChange={(e) => { setLocation(e.target.value); }}
+            value={type}
+            onChange={(e) => { settype(e.target.value); }}
           />
         </div>
 
