@@ -28,7 +28,7 @@ const Signin = () => {
   };
   useEffect(() => {
     if (currentUser.login) {
-      navigate('/home/models');
+      navigate('/models');
     }
   });
   return (

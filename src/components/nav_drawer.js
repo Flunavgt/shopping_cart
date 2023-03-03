@@ -1,41 +1,77 @@
 import { Icon } from '@iconify/react';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, Link } from 'react-router-dom';
 import '../styles/navdrawer.css';
 import { cleanUser } from '../redux/models/login';
 
 const NavDrawer = () => {
   const [showMenu, setShowMenu] = useState(false);
+
+  // Verificar si hay un usuario conectado o es libre
+  const currentUser = useSelector((state) => state.current_user);
+
   const dispatch = useDispatch();
 
   const createLinks = () => {
     const tags = ['MODELOS', 'AGENDAR', 'MIS RESERVACIONES', 'AGREGAR MODELO', 'REMOVER MODELO'];
-    const addresses = ['/home/models', '/home/reserve', '/home/my-operations', '/home/add-motorcycle', '/home/delete-motorcycle'];
+    const addresses = ['/models', '/reserve', '/my-operations', '/add-motorcycle', '/delete-motorcycle'];
     const links = [];
 
     for (let i = 0; i < tags.length; i += 1) {
+      // Desabilitar botón de "mis reservaciones" si no está conectado el usuario
+      if (i === 2 && currentUser.login === false) {
+        links.push(
+          <NavLink
+            className="link logout"
+            onClick={() => setShowMenu(false)}
+            to="/login"
+            key={tags[i]}
+          >
+            {tags[i]}
+          </NavLink>,
+        );
+      } else {
+        links.push(
+          <NavLink
+            className="link"
+            onClick={() => setShowMenu(false)}
+            to={addresses[i]}
+            key={tags[i]}
+          >
+            {tags[i]}
+          </NavLink>,
+        );
+      }
+    }
+
+    // Se agrego condición para confirmar el acceso de un usuario
+    if (currentUser.login) {
+      // Mostrar LogOut si existe un usuario conectado
       links.push(
         <NavLink
-          className="link"
-          onClick={() => setShowMenu(false)}
-          to={addresses[i]}
-          key={tags[i]}
+          className="link logout"
+          onClick={() => dispatch(cleanUser())}
+          to="/"
+          key={tags.length}
         >
-          {tags[i]}
+          LOG OUT
+        </NavLink>,
+      );
+    } else {
+      // Mostrar Login si no hay usuario
+      links.push(
+        <NavLink
+          className="link logout"
+          onClick={() => dispatch(cleanUser())}
+          to="/login"
+          key={6}
+        >
+          LOG IN
         </NavLink>,
       );
     }
-    links.push(
-      <NavLink
-        className="link logout"
-        onClick={() => dispatch(cleanUser())}
-        to="/"
-        key={6}
-      >
-        LOG OUT
-      </NavLink>,
-    );
+
     return links;
   };
 
@@ -63,7 +99,7 @@ const NavDrawer = () => {
         <Link
           className="brand"
           onClick={() => setShowMenu(false)}
-          to="/home/models"
+          to="/models"
         >
           <img alt="tentativo" src="https://www.hytera.la/assets/img/logo.svg" />
           <span>Crelosa</span>
@@ -74,11 +110,15 @@ const NavDrawer = () => {
           onClick={() => setShowMenu(!showMenu)}
         />
         <div className={`mobile-cont ${showMenu ? 'show-nav' : 'hide-nav'}`}>
+
           <nav
             className="mobile-nav"
           >
             { createLinks() }
           </nav>
+          {
+            currentUser.login ? <h1>{currentUser.user.name}</h1> : null
+          }
           <ul className="footer-menu">
             { socialMedia() }
           </ul>
@@ -86,13 +126,19 @@ const NavDrawer = () => {
       </div>
 
       <div className="desktop-menu">
+
         <Link
           className="brand"
-          to="/home/models"
+          to="/models"
         >
           <img alt="tentativo" src="https://www.hytera.la/assets/img/logo.svg" />
           <span>Crelosa</span>
+          {
+            // Se agrego el nombre en el navbar para identificar usuario
+            currentUser.login ? <h1>{currentUser.user.name}</h1> : null
+          }
         </Link>
+
         <nav
           className="mobile-nav"
         >

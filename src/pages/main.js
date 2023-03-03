@@ -12,6 +12,7 @@ const Main = () => (
     <NavDrawer />
     <main>
       <Routes>
+        <Route path="/" element={<Models />} />
         <Route path="/models" element={<Models />} />
         <Route path="/models/:id" element={<ModelDetails />} />
         <Route path="/reserve" element={<Reserve />} />

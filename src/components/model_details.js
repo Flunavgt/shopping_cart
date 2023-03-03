@@ -7,7 +7,7 @@ import { fetchDetailsAsync } from '../redux/models/model_details';
 import '../styles/details.css';
 
 const BackToModels = () => (
-  <Link className="back-btn" to="/home/models">
+  <Link className="back-btn" to="/models">
     <Icon
       className="back-arrow"
       color="#fff"
@@ -71,7 +71,7 @@ const ExtraInfo = () => (
 );
 
 const ReserveLink = ({ productModel }) => (
-  <Link className="res-btn" to="/home/reserve" state={{ productModel }}>
+  <Link className="res-btn" to="/reserve" state={{ productModel }}>
     <Icon
       className="product-icon"
       color="#fff"

@@ -5,8 +5,8 @@ import Authentification from './pages/authentification';
 const App = () => (
   <>
     <Routes>
-      <Route path="/" element={<Authentification />} />
-      <Route path="/home/*" element={<Main />} />
+      <Route path="/login/*" element={<Authentification />} />
+      <Route path="/*" element={<Main />} />
     </Routes>
   </>
 );
