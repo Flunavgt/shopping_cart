@@ -34,7 +34,7 @@ const Product = ({ product }) => {
 
   return (
     <li className="product-item">
-      <Link className="product-link" to={`/models/${id}`}>
+      <Link className="product-link" to={`/main/models/${id}`}>
         <div className="img-cont">
           <div className="circle" />
           <img

@@ -4,23 +4,24 @@ import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, Link } from 'react-router-dom';
 import '../styles/navdrawer.css';
 import { cleanUser } from '../redux/models/login';
+import * as routes from '../pages/routes';
 
 const NavDrawer = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  // Verificar si hay un usuario conectado o es libre
+  // Verificar si hay un usuario conectado o es libre.
   const currentUser = useSelector((state) => state.current_user);
 
   const dispatch = useDispatch();
 
   const createLinks = () => {
-    const tags = ['MODELOS', 'AGENDAR', 'MIS RESERVACIONES', 'AGREGAR MODELO', 'REMOVER MODELO'];
-    const addresses = ['/models', '/reserve', '/my-operations', '/add-motorcycle', '/delete-motorcycle'];
+    const tags = ['CRELOSA PAGE', 'MODELOS', 'AGENDAR', 'MIS RESERVACIONES', 'AGREGAR MODELO', 'REMOVER MODELO'];
+    const addresses = [`${routes.crelosaPage}`, `${routes.store}/models`, `${routes.store}/reserve`, `${routes.store}/my-operations`, `${routes.store}/add-motorcycle`, `${routes.store}/delete-motorcycle`];
     const links = [];
 
     for (let i = 0; i < tags.length; i += 1) {
       // Desabilitar botón de "mis reservaciones" si no está conectado el usuario
-      if (i === 2 && currentUser.login === false) {
+      if (i === 3 && currentUser.login === false) {
         links.push(
           <NavLink
             className="link logout"
@@ -52,7 +53,7 @@ const NavDrawer = () => {
         <NavLink
           className="link logout"
           onClick={() => dispatch(cleanUser())}
-          to="/"
+          to={routes.store}
           key={tags.length}
         >
           LOG OUT
@@ -64,8 +65,8 @@ const NavDrawer = () => {
         <NavLink
           className="link logout"
           onClick={() => dispatch(cleanUser())}
-          to="/login"
-          key={6}
+          to={routes.loginPage}
+          key={tags.length}
         >
           LOG IN
         </NavLink>,

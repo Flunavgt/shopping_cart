@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { cleanUser, findUserAsync } from '../redux/models/login';
+import * as routes from '../pages/routes';
 //  error = This user is not in database
 
 const Login = () => {
@@ -30,9 +31,11 @@ const Login = () => {
 
   useEffect(() => {
     if (currentUser.login) {
-      navigate('/models');
+      // navigate('/main/models');
+      navigate(`${routes.store}/models`);
     }
   });
+
   return (
     <section id="login" className="main-authentification">
       <div className="container">
@@ -51,7 +54,7 @@ const Login = () => {
               <button className="button login__submit" type="button" onClick={changeLogin}>
                 <span className="button__text">Sign Up</span>
               </button>
-              <button className="button login__submit" type="button" onClick={() => { navigate('/models'); }}>
+              <button className="button login__submit" type="button" onClick={() => { navigate(`${routes.store}/models`); }}>
                 <span className="button__text">Continue with out user</span>
               </button>
             </form>
