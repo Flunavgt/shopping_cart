@@ -70,24 +70,35 @@ const ExtraInfo = () => (
   </>
 );
 
-const ReserveLink = ({ productModel }) => (
-  <Link className="res-btn" to="/reserve" state={{ productModel }}>
-    <Icon
-      className="product-icon"
-      color="#fff"
-      icon="mdi:radio-handheld"
-      style={{ fontSize: '30px' }}
-    />
-    <span>Reservar</span>
-    <div className="res-arr-cont">
+const ReserveLink = ({ productModel }) => {
+  const currentUser = useSelector((state) => state.current_user);
+
+  let destiny = '/reserve';
+
+  // The user needs to login before booking.
+  if (!currentUser.login) {
+    destiny = '/login';
+  }
+
+  return (
+    <Link className="res-btn" to={destiny} state={{ productModel }}>
       <Icon
-        className="reserve-arrow"
+        className="product-icon"
         color="#fff"
-        icon="ic:baseline-keyboard-arrow-right"
+        icon="mdi:radio-handheld"
+        style={{ fontSize: '30px' }}
       />
-    </div>
-  </Link>
-);
+      <span>Reservar</span>
+      <div className="res-arr-cont">
+        <Icon
+          className="reserve-arrow"
+          color="#fff"
+          icon="ic:baseline-keyboard-arrow-right"
+        />
+      </div>
+    </Link>
+  );
+};
 
 const ModelDetails = () => {
   const dispatch = useDispatch();
