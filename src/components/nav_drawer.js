@@ -15,7 +15,7 @@ const NavDrawer = () => {
   const dispatch = useDispatch();
 
   const createLinks = () => {
-    const tags = ['CRELOSA PAGE', 'MODELOS', 'AGENDAR', 'MIS RESERVACIONES', 'AGREGAR MODELO', 'REMOVER MODELO'];
+    const tags = ['CRELOSA OFICIAL', 'MODELOS', 'AGENDAR', 'MIS RESERVACIONES', 'AGREGAR MODELO', 'REMOVER MODELO'];
     const addresses = [`${routes.crelosaPage}`, `${routes.store}/models`, `${routes.store}/reserve`, `${routes.store}/my-operations`, `${routes.store}/add-motorcycle`, `${routes.store}/delete-motorcycle`];
     const links = [];
 

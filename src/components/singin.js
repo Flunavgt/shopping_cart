@@ -17,9 +17,11 @@ const Signin = () => {
     document.getElementById('login').classList.toggle('inactive');
     dispatch(cleanUser());
   };
+
   const handleOnChange = (e) => {
     setName(e.target.value);
   };
+
   const handleOnSubmit = (e) => {
     e.preventDefault();
     if (name.trim() !== '') {
@@ -27,6 +29,7 @@ const Signin = () => {
       setName('');
     }
   };
+
   useEffect(() => {
     if (currentUser.login) {
       // navigate('/models');
