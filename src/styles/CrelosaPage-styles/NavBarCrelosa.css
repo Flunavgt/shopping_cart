@@ -15,20 +15,14 @@ body {
 }
 
 .top_line {
-  border: 1px solid #000;
   width: 100vw;
   height: 20px;
   background-color: var(--First-main-bg-color);
 }
 
 .NavBarCrelosa_MainContainer {
-  border: 1px solid #000;
   width: 100vw;
   height: 15vh;
   display: flex;
   background: #22269375;
-}
-
-.border {
-  border: 1px solid #000;
 }
