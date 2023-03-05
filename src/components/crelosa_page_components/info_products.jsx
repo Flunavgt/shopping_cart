@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const InfoProducts = () => (
-  <div className="border">info_products</div>
+  <Link to="/main">
+    <button type="submit">this is it</button>
+  </Link>
 );
 
 export default InfoProducts;
