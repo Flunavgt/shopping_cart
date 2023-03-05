@@ -9,16 +9,15 @@ import InfoProducts from '../components/crelosa_page_components/info_products';
 const CrelosaMainPage = () => (
   <>
     <NavBarCrelosa />
-    <section>
-      {/* <Routes> */}
-      {/* <Route path="/*" element={<Caratula />} /> */}
-      <Caratula />
-      <InfoProducts />
-      {/* <Route path="/models/:id" element={<QuieneSomos />} />
+
+    {/* <Routes> */}
+    {/* <Route path="/*" element={<Caratula />} /> */}
+    <InfoProducts />
+    <Caratula />
+    {/* <Route path="/models/:id" element={<QuieneSomos />} />
         <Route path="/reserve" element={<Asociados />} />
         <Route path="/my-operations" element={<PieDePagina />} /> */}
-      {/* </Routes> */}
-    </section>
+    {/* </Routes> */}
   </>
 );
 

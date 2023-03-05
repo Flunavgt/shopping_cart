@@ -4,9 +4,9 @@
   --Snd-main-bg-color: #DDDA2D;
 }
 
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 .Main_container {
   display: flex;
