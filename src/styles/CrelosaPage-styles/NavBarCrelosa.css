@@ -2,8 +2,19 @@
 
 .Main_container {
   display: flex;
+  position: absolute;
   flex-direction: column;
   width: 100vw;
+  z-index: 99;
+}
+
+.caratula_logo_container {
+  height: 90%;
+  max-height: 50px;
+}
+
+.logo_main_img {
+  height: 100%;
 }
 
 .top_line {

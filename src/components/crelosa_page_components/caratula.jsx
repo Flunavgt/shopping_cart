@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 // import React from 'react';
 import '../../styles/CrelosaPage-styles/caratula.css';
 import React, { useEffect } from 'react';
@@ -56,7 +57,6 @@ const Caratula = () => {
   return (
     <section className="Main_caratula_container">
       <div id={mapId} />
-      ;
     </section>
   );
 };

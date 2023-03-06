@@ -19,6 +19,12 @@ const InfoProducts = () => (
       </Link>
     </div>
 
+    <div className="buttons__infoproducts_container_buttom">
+      <a href="/main" className="buttonStorebtn">
+        IR A LA TIENDA
+      </a>
+    </div>
+
   </section>
 );
 

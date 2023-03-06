@@ -16,8 +16,8 @@ const NavBarCrelosa = () => {
       <header className="top_line" />
 
       <section className="NavBarCrelosa_MainContainer">
-        <div className="caratula_img_container">
-          <img src="https://crelosa.com/wp-content/uploads/2019/11/logo.jpg" alt="CRELOSA_LOGO" className="caratula_main_img" />
+        <div className="caratula_logo_container">
+          <img src="https://crelosa.com/wp-content/uploads/2019/11/logo.jpg" alt="CRELOSA_LOGO" className="logo_main_img" />
         </div>
 
         <div className="buttons_links_container">

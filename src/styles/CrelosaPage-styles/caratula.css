@@ -4,30 +4,20 @@ body {
 
 .Main_caratula_container {
   width: 100vw;
-  height: 85vh;
-  background-color: rgb(16, 107, 163);
+  height: 100vh;
+  background-color: var(--bg-main-caratua);
   display: flex;
   justify-content: center;
-  align-items: top;
-}
-
-.caratula_img {
-  width: 100%;
-  height: fit-content;
-}
-
-.caratula_img_container {
-  height: 90%;
-  max-height: 50px;
-}
-
-.caratula_main_img {
-  height: 100%;
+  align-items: center;
 }
 
 #map {
   width: 80vw;
   height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
 }
 
 .leaflet-container {
