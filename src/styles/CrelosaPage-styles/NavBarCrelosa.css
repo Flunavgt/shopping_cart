@@ -2,6 +2,9 @@
   /* Logo colors */
   --First-main-bg-color: #222593; 
   --Snd-main-bg-color: #DDDA2D;
+
+  /* NavBar colors */
+  --bg-color: #040967e7;
 }
 
 .Main_container {
@@ -23,8 +26,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  background: #22269375;
-  padding: 0 1% 0 1%;
+  background: var(--bg-color);
+  padding: 0 5% 0 5%;
+  overflow-x: hidden;
 }
 
 .buttons_links_container {
