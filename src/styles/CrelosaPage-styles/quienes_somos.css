@@ -2,3 +2,12 @@
 .border {
   border: 1px solid #000;
 }
+
+.Main_quienessomos_container {
+  width: 99vw;
+  border: 5px solid #000;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../../styles/CrelosaPage-styles/info_products.css';
 
 const InfoProducts = () => (
-  <section className="Main_infoproducts_container">
+  <section id="info_products" className="Main_infoproducts_container">
 
     <div className="buttons__infoproducts_container">
       <Link to="/main">

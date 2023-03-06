@@ -4,7 +4,7 @@
   --Snd-main-bg-color: #DDDA2D;
 
   /* NavBar colors */
-  --bg-color: #040967e7;
+  --bg-color: #ffffffe7;
 }
 
 .Main_container {
@@ -32,7 +32,7 @@
 }
 
 .buttons_links_container {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
 }
@@ -41,4 +41,9 @@
   width: 20%;
   border-radius: 50px;
   cursor: pointer;
+  text-align: center;
+}
+
+.buttons_links_container a {
+  text-align: center;
 }
