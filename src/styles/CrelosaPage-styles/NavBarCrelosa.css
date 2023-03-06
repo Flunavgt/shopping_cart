@@ -36,23 +36,20 @@
 }
 
 .buttons_links_container {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
 }
 
-.buttons_links_container button {
-  width: 20%;
-  cursor: pointer;
-  text-align: center;
-  border: 1px solid #000;
-}
-
 .buttons_links_container a {
-  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #000;
+  font-size: medium;
+}
+
+.buttons_links_container a:hover {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;;
 }
