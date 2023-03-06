@@ -24,3 +24,13 @@ body {
 .caratula_main_img {
   height: 100%;
 }
+
+#map {
+  width: 80vw;
+  height: 60vh;
+}
+
+.leaflet-container {
+  width: 80%;
+  height: 80%;
+}
