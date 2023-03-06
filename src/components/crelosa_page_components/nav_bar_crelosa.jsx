@@ -26,7 +26,7 @@ const NavBarCrelosa = () => {
           <a type="button" href="#info_products">PRODUCTOS & SEVICIOS</a>
           <a type="button" href="#quienes_somos?">¿QUIENES SOMOS?</a>
           <a type="button" href="#asociados">SOCIOS</a>
-          <a type="button" href="#contacto">CONTACTO</a>
+          <a type="button" href="#piedepagina">CONTACTO</a>
         </div>
 
       </section>
