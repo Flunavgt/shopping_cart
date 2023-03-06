@@ -1,7 +1,6 @@
-
-/* .border {
+.border {
   border: 1px solid #000;
-} */
+}
 
 .Main_caratula_container {
   width: 100vw;
@@ -11,12 +10,22 @@
   top: 0;
   left: 0;
   z-index: -1;
+  display: flex;
+  justify-content: center;
 }
 
 .caratula_space {
-  width: 100%;
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  top: 25vh;
+}
+
+.caratula_img_container {
+  height: 90%;
+  max-height: 50px;
+}
+
+.caratula_main_img {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

@@ -4,10 +4,6 @@
   --Snd-main-bg-color: #DDDA2D;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .Main_container {
   display: flex;
   flex-direction: column;
@@ -24,5 +20,21 @@ body {
   width: 100vw;
   height: 15vh;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
   background: #22269375;
+  padding: 0 1% 0 1%;
+}
+
+.buttons_links_container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons_links_container button {
+  width: 20%;
+  border-radius: 50px;
+  cursor: pointer;
 }
