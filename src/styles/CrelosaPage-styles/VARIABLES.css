@@ -1,0 +1,20 @@
+:root {
+  /* Logo colors */
+  --First-main-bg-color: #222593; 
+  --Snd-main-bg-color: #DDDA2D;
+
+  /* NavBar colors */
+  --bg-color: #ffffffe7;
+
+  /* Info product */
+  --bg-infoproducs-section: black;
+
+  /* Quienes Somos? */
+  --bg-quienessomos-section: green;
+
+  /* Asociados */
+  --bg-asociados-section: purple;
+
+
+  /* Footer */
+}

@@ -1,5 +1,5 @@
 .toStorebtn {
-  background-color: #000;
+  background-color: var(--bg-infoproducs-section);
   color: #fff;
   border: 1px solid #000;
   border-radius: 5px;

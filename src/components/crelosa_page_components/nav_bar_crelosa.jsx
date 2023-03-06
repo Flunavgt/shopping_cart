@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as routes from '../../pages/routes';
 import '../../styles/CrelosaPage-styles/NavBarCrelosa.css';
+import '../../styles/CrelosaPage-styles/VARIABLES.css';
 
 const NavBarCrelosa = () => {
   const navigate = useNavigate();
@@ -24,7 +25,8 @@ const NavBarCrelosa = () => {
           <button type="button" onClick={ChangePage}>CRELOSA STORE</button>
           <a type="button" href="#info_products">PRODUCTOS & SEVICIOS</a>
           <a type="button" href="#quienes_somos?">¿QUIENES SOMOS?</a>
-          <button type="button" onClick={' '}>CONTACTO</button>
+          <a type="button" href="#asociados">SOCIOS</a>
+          <a type="button" href="#contacto">CONTACTO</a>
         </div>
 
       </section>

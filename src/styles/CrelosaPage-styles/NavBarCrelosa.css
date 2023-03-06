@@ -1,11 +1,4 @@
-:root {
-  /* Logo colors */
-  --First-main-bg-color: #222593; 
-  --Snd-main-bg-color: #DDDA2D;
 
-  /* NavBar colors */
-  --bg-color: #ffffffe7;
-}
 
 .Main_container {
   display: flex;
@@ -39,11 +32,16 @@
 
 .buttons_links_container button {
   width: 20%;
-  border-radius: 50px;
   cursor: pointer;
   text-align: center;
+  border: 1px solid #000;
 }
 
 .buttons_links_container a {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  border: 1px solid #000;
 }
