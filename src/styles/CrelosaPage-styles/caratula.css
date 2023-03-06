@@ -8,7 +8,20 @@ body {
   background-color: rgb(16, 107, 163);
   display: flex;
   justify-content: center;
-  align-items: top;
+  /* align-items: top; */
+}
+
+.map_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5vh; */
+}
+
+.map_container h1 {
+  margin: 3.5vh 0;
+  font-size: 2.5rem;
+  color: #fff;
 }
 
 .caratula_img {
@@ -23,6 +36,10 @@ body {
 
 .caratula_main_img {
   height: 100%;
+}
+
+.mapCover {
+  border: 5px solid #fff;
 }
 
 #map {
