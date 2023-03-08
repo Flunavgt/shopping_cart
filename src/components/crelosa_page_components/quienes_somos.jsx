@@ -15,7 +15,7 @@ const QuieneSomos = () => (
       </p>
       <h1>Nuestra Vision</h1>
       <p>
-        Ser la empresa líder en el mercado de equipos de comunicación, ofreciendo
+        Mantenernos como empresa líder en el mercado de equipos de comunicación, ofreciendo
         productos de alta calidad y con la mejor garantía del mercado.
       </p>
       <h1>Nuestra Mision</h1>
@@ -30,16 +30,9 @@ const QuieneSomos = () => (
       </p>
     </div>
     <div className="vismissom">
-      <h1>Vision 2</h1>
-      <p>
-        Brindarle al cliente un servicio de calidad, con productos de alta
-        tecnología y con la mejor garantía del mercado.
-      </p>
-    </div>
-    <div className="vismissom">
       <h1>Mision 3</h1>
       <p>
-        En nuestra compañía de comunicaciones por radio trunking, nuestra misión
+        En nuestra compañía de comunicaciones, nuestra misión
         va más allá de proporcionar soluciones de comunicación confiables y
         eficientes. Nos apasiona ayudar a nuestros clientes a mejorar su
         seguridad, eficiencia y productividad en cada una de sus actividades. Nos
@@ -54,7 +47,7 @@ const QuieneSomos = () => (
       </p>
       <h1>vision 3</h1>
       <p>
-        En nuestra compañía de comunicaciones por radio trunking, nuestra visión
+        En nuestra compañía de comunicaciones, nuestra visión
         es llegar a ser líderes en el mercado ofreciendo soluciones de vanguardia
         que permitan a nuestros clientes comunicarse de manera efectiva y segura
         en cualquier situación. Nuestra pasión por ser reconocidos por nuestra
