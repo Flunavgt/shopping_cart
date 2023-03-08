@@ -5,8 +5,8 @@ import {
   FaTwitter,
   FaYoutube,
   FaInstagram,
-  FaEnvelope,
 } from 'react-icons/fa';
+import { BsEnvelopeAt } from 'react-icons/bs';
 import { GoDeviceMobile, GoLocation } from 'react-icons/go';
 import '../../styles/CrelosaPage-styles/pie_de_pagina.css';
 
@@ -113,7 +113,7 @@ const PieDePagina = () => (
           </a>
           <div className="crelosaMail">
             <a href="mailto:crelosa@crelosa.com" target="_blank" rel="noreferrer">
-              <FaEnvelope />
+              <BsEnvelopeAt />
             </a>
           </div>
         </div>
