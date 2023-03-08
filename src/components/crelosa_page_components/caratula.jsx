@@ -7,6 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
 import collegePng from './images/radio-tower.png';
+import Imgradcarat from './images/hytera-walkie.png';
 
 const Caratula = () => {
   const savedMap = useRef();
@@ -109,7 +110,31 @@ const Caratula = () => {
       <div className="Container_title_caraturla">
         <h6>Ésta es nuestra</h6>
         <h1>Cobertura</h1>
-        <span>Mensaje super importantisimo</span>
+        <img src={Imgradcarat} alt="Imagen de radio" />
+        <div className="Container_text_caratula">
+          <div>
+            <p> Abarcamos todo el territorio nacional</p>
+            <br />
+            <p>Haz click en las imágenes del mapa </p>
+            <p>para mas información</p>
+          </div>
+          <div className="pocInfo">
+            <h2>Que es PoC</h2>
+            <p>
+              Push to talk Over Cellular es una comunicación instantánea
+              que permite utilizar radions de comunicación como un teléfono
+              celular y transmitir voz, video y datos.
+            </p>
+            <br />
+            <br />
+            <h2>Beneficios</h2>
+            <ol>
+              <li>- Gran escalabilidad</li>
+              <li>- Orientados a Trabajo</li>
+              <li>- Se ajusta a presupuesto</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -56,8 +56,7 @@ body {
 .Container_title_caraturla {
   width: 50%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   position: relative;
 }
@@ -66,7 +65,7 @@ body {
   font-size: 3.5rem;
   color: #000000;
   position: absolute;
-  top: 9%;
+  top: 12%;
   left: 5%;
   padding-bottom: 0.2rem;
   border-bottom: 5px solid #0759cd;
@@ -76,11 +75,37 @@ body {
 .Container_title_caraturla h6 {
   color: #000000;
   position: absolute;
-  top: 7%;
+  top: 10%;
   left: 5%;
 }
 
-.Container_title_caraturla span {
-  font-size: 1.5rem;
+.Container_title_caraturla img {
+  font-size: 3.5rem;
   color: #000000;
+  position: absolute;
+  top: 6%;
+  right: 22%;
+  width: 10rem;
+}
+
+.Container_text_caratula {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22vh;
+  margin-left: 5%;
+  font-size: 1.5rem;
+}
+
+.pocInfo {
+  margin-top: 5vh;
+  width: 40vw;
+}
+
+.pocInfo h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pocInfo li {
+  margin-left: 2rem;
 }
