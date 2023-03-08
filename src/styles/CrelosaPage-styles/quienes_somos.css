@@ -1,21 +1,19 @@
 
 .Main_quienessomos_container {
-  width: 99vw;
-  background-color: var(--bg-quienessomos-section);
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* justify-content: center;
-  align-items: center; */
-  gap: 2rem;
-  border: 1px solid #000;
+  height: 90vh;
+}
+
+.backgroundmv {
+  width: 100vw;
+  height: 35vh;
+  
 }
 
 .vismissom {
-  width: 80vw;
-  margin-inline: 10vw;
+  display: flex;
+  width: 90vw;
+  margin-inline: 5vw;
+  justify-content: flex-start;
 }
 
 .vismissom p {
@@ -23,7 +21,30 @@
 }
 
 .vismissom h1 {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.mision,
+.vision {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+  height: 45vh;
+  /* gap: 1rem; */
+  width: 100%;
+}
+
+.vision p {
+  margin-left: 7%;
+}
+
+.mision p {
+  margin-right: 7%;
+}
+
+.mision  {
+ border-right: 3px solid #bf6a0ea7;
 }
