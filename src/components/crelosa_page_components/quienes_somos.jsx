@@ -4,33 +4,7 @@ import '../../styles/CrelosaPage-styles/quienes_somos.css';
 const QuieneSomos = () => (
   <section id="quienes_somos?" className="Main_quienessomos_container">
     <div className="vismissom">
-      <h1>¿QUIENES SOMOS?</h1>
-      <p>
-        Somos una empresa dedicada a la venta de equipos de comunicación, con más
-        de 20 años de experiencia en el mercado, ofreciendo productos de alta
-        calidad y con la mejor garantía del mercado.
-        Contamos con un equipo de profesionales altamente capacitados para
-        brindarle el mejor servicio y asesoría en la compra de sus equipos de
-        comunicación.
-      </p>
-      <h1>Nuestra Vision</h1>
-      <p>
-        Mantenernos como empresa líder en el mercado de equipos de comunicación, ofreciendo
-        productos de alta calidad y con la mejor garantía del mercado.
-      </p>
-      <h1>Nuestra Mision</h1>
-      <p>
-        Brindarle al cliente un servicio de calidad, con productos de alta
-        tecnología y con la mejor garantía del mercado.
-      </p>
-      <h1>Nuestros Valores</h1>
-      <p>
-        Compromiso, Responsabilidad, Honestidad, Respeto, Confianza, Calidad,
-        Servicio, Eficiencia, Innovación, Trabajo en equipo.
-      </p>
-    </div>
-    <div className="vismissom">
-      <h1>Mision 3</h1>
+      <h1>Misión</h1>
       <p>
         En nuestra compañía de comunicaciones, nuestra misión
         va más allá de proporcionar soluciones de comunicación confiables y
@@ -45,7 +19,7 @@ const QuieneSomos = () => (
         Nuestro compromiso con la innovación y el servicio al cliente no es solo
         un objetivo, es una forma de vida en nuestra empresa.
       </p>
-      <h1>vision 3</h1>
+      <h1>Visión</h1>
       <p>
         En nuestra compañía de comunicaciones, nuestra visión
         es llegar a ser líderes en el mercado ofreciendo soluciones de vanguardia

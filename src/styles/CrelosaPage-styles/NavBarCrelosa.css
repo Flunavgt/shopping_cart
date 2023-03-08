@@ -1,13 +1,16 @@
-
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .Main_container {
   display: flex;
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   width: 100vw;
-  height: 15vh;
-  max-height: 100px;
-  z-index: 99;
+  height: 100vh;
+  z-index: 9999;
+  /* border: 5px solid #000; */
 }
 
 .caratula_logo_container {
@@ -27,19 +30,20 @@
 
 .NavBarCrelosa_MainContainer {
   width: 100vw;
-  height: 15vh;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  gap: 50px;
   background: var(--bg-color);
   padding: 0 5% 0 5%;
   overflow-x: hidden;
+  /* transition: 0.5s; */
 }
 
 .buttons_links_container {
   width: 60%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -56,15 +60,98 @@
   border-right: 1px solid #000;;
 }
 
-.bolita_retorno {
-  /* position: -webkit-sticky; */
-  position: absolute;
-  /* position: sticky; */
-  bottom: -90px;
-  right: 20px;
-  z-index: 999;
+
+.size_menuCrelosa_btn {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background-color: rgb(217, 126, 7);;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 99;
+  border: 1px solid #000;
+}
+
+.desktop_navbar {
+  display: none;
+}
+
+.mobil_navbar {
+  display: none;
+}
+
+/* desktop version */
+@media screen and (min-width: 768px) {
+  .mobil_navbar {
+    display: none;
+  }
+
+  .desktop_navbar {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .Main_container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100vw;
+    height: 12vh;
+    z-index: 9999;
+  }
+  
+  .caratula_logo_container {
+    height: 90%;
+    max-height: 50px;
+  }
+  
+  .logo_main_img {
+    height: 100%;
+  }
+  
+  .top_line {
+    width: 100vw;
+    height: 20px;
+    background-color: var(--First-main-bg-color);
+  }
+  
+  .NavBarCrelosa_MainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* position: absolute; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg-color);
+    padding: 0 5% 0 5%;
+    overflow-x: hidden;
+  }
+  
+  .buttons_links_container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .buttons_links_container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+  }
+  
+  .buttons_links_container a:hover {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;;
+  }
+  
+  .size_menuCrelosa_btn {
+    display: none;
+  }
 }

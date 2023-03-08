@@ -2,17 +2,24 @@
 .Main_quienessomos_container {
   width: 99vw;
   background-color: var(--bg-quienessomos-section);
-  height: 55vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* justify-content: center;
   align-items: center; */
   gap: 2rem;
+  border: 1px solid #000;
 }
 
 .vismissom {
   width: 80vw;
   margin-inline: 10vw;
+}
+
+.vismissom p {
+  text-align: justify;
 }
 
 .vismissom h1 {

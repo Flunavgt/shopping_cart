@@ -4,7 +4,7 @@
   --Snd-main-bg-color: #DDDA2D;
 
   /* NavBar colors */
-  --bg-color: #ffffffe7;
+  --bg-color: #ffffff;
 
   /* Caratula */
   --bg-main-caratua: rgb(16, 107, 163);
@@ -13,7 +13,7 @@
   --bg-infoproducs-section: black;
 
   /* Quienes Somos? */
-  --bg-quienessomos-section: green;
+  --bg-quienessomos-section: rgb(255, 255, 255);
 
   /* Asociados */
   --bg-asociados-section: purple;
