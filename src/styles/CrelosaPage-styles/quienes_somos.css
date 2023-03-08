@@ -1,6 +1,7 @@
 
 .Main_quienessomos_container {
-  height: 90vh;
+  height: 95vh;
+  margin-bottom: 4vh;
 }
 
 .backgroundmv {
@@ -18,12 +19,13 @@
 
 .vismissom p {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .vismissom h1 {
   font-size: 3.5rem;
   color: #000;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .mision,
@@ -32,7 +34,7 @@
   flex-direction: column;
   margin-top: 3rem;
   align-items: center;
-  height: 45vh;
+  height: 52vh;
   /* gap: 1rem; */
   width: 100%;
 }
