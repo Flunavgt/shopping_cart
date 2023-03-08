@@ -10,7 +10,6 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 9999;
-  /* border: 5px solid #000; */
 }
 
 .caratula_logo_container {
@@ -31,13 +30,14 @@ body {
 .NavBarCrelosa_MainContainer {
   width: 100vw;
   height: 100vh;
+  max-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: var(--bg-color);
   padding: 0 5% 0 5%;
   overflow-x: hidden;
-  /* transition: 0.5s; */
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.156);
 }
 
 .buttons_links_container {
@@ -68,7 +68,7 @@ body {
   top: 25px;
   right: 25px;
   z-index: 99;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .desktop_navbar {

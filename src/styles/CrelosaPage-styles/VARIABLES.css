@@ -4,13 +4,16 @@
   --Snd-main-bg-color: #DDDA2D;
 
   /* NavBar colors */
-  --bg-color: #ffffff;
+  --bg-color: rgb(255, 255, 255);
 
   /* Caratula */
-  --bg-main-caratua: rgb(16, 107, 163);
+  --bg-main-caratula: rgb(255, 255, 255);
 
   /* Info product */
-  --bg-infoproducs-section: black;
+  --bg-infoproducs-section: rgb(3, 3, 3);
+  --letter-color: rgb(1, 1, 1);
+  --bg-color-store-btn: rgb(255, 255, 255);
+  --bg-hovercolor-store-btn: rgb(0, 0, 0);
 
   /* Quienes Somos? */
   --bg-quienessomos-section: rgb(255, 255, 255);
@@ -20,5 +23,4 @@
 
   /* Footer */
   --bg-piedepagina-section: rgb(7, 177, 168);
-
 }

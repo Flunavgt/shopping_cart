@@ -1,20 +1,76 @@
-.toStorebtn {
-  background-color: var(--bg-infoproducs-section);
-  color: #fff;
-  border-radius: 5px;
-  padding: 150px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .Main_infoproducts_container {
   width: 99vw;
   height: 100vh;
-  border: 5px solid #000;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: #fefffef3;
+}
+
+.Main_title_servicios_y_productos {
+  margin: 50px auto;
+  font-size: 50px;
+  font-weight: 700;
+  border-right: .15em solid #18BDEC;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.toStorebtn {
+  color: var(--letter-color);
+  text-decoration: none;
+  cursor: pointer;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  border-radius: 5px;
+}
+
+.toStorebtn:hover {
+  background-color: #d2cece48;
+  transform: 0.1;
+  border-radius: 15px;
+}
+
+.toStorebtn img {
+  width: 100%;
+  height: 100%;
+}
+
+.radio_bg {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.main_photo_src {
+  position: absolute;
+  z-index: 3;
+}
+
+.main_photo_src:hover {
+  border: 10px 10px groove #000;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.5s;
 }
 
 .buttons__infoproducts_container {
@@ -22,23 +78,90 @@
   justify-content: space-around;
   align-items: center;
   height: 60%;
-  border: 1px solid #000;
 }
 
 .buttons__infoproducts_container_buttom {
-  border: 1px solid #000;
   width: 100%;
-  height: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .buttonStorebtn {
-  background-color: var(--bg-infoproducs-section);
-  color: #fff;
-  border-radius: 5px;
-  padding: 50px 100px;
+  border: 1px solid #000;
+  color: var(--letter-color);
+  border-radius: 15px;
+  padding: 50px 50px;
   text-decoration: none;
   cursor: pointer;
+  background-color: var(--bg-color-store-btn);
+  height: 90%;
+  width: 20%;
+  text-align: center;
+}
+
+.buttonStorebtn:hover {
+  background-color: var(--bg-hovercolor-store-btn);
+  color: white;
+}
+
+.title_infoRadio_img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: oblique;
+  color: transparent;
+  transition: 0.5s;
+}
+
+.title_infoRadio_img:hover {
+  color: black;
+  text-shadow:  rgb(255, 255, 254) 1px 0 10px;
+}
+
+/* Button animation */
+.ov-btn-slide-left {
+  background: #fff;
+  color: #050505;
+  border: 2px solid #000000;
+  padding: 20px 25px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.ov-btn-slide-left:hover {
+  color: #fff;
+}
+
+.ov-btn-slide-left::after {
+  content: "";
+  background: var(--First-main-bg-color);
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.ov-btn-slide-left:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }

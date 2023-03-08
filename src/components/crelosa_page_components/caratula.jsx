@@ -48,7 +48,7 @@ const Caratula = () => {
 
     const map = Leafleat.map(mapId, {
       center: [15.7835, -90.2308],
-      zoom: 7,
+      zoom: 7.5,
       scrollWheelZoom: false,
     });
 
