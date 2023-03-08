@@ -2,8 +2,21 @@
 .Main_quienessomos_container {
   width: 99vw;
   background-color: var(--bg-quienessomos-section);
-  height: 35vh;
+  height: 55vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 2rem;
+}
+
+.vismissom {
+  width: 80vw;
+  margin-inline: 10vw;
+}
+
+.vismissom h1 {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 1rem;
 }
