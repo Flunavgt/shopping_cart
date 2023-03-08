@@ -1,14 +1,4 @@
-.Main_infoproducts_container {
-  width: 99vw;
-  height: 100vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background: #fefffef3;
-  /* border: 1px solid #c60000; */
-}
-
+/* NO SIRVE +++++++++++++++++++++++++++++++++++++++++  */
 .Main_title_servicios_y_productos {
   /* margin-top: 50px; */
   font-size: 50px;
@@ -73,7 +63,7 @@
   border-radius: 10px;
   padding: 15px;
   transition: 0.5s;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   padding: 5px;
 }
 
@@ -98,7 +88,7 @@
 }
 
 .buttonStorebtn {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   color: var(--letter-color);
   border-radius: 15px;
   padding: 50px 50px;
@@ -115,25 +105,27 @@
   color: white;
 }
 
-.title_infoRadio_img {
+/* .btn_compra_infoRadio_img {
   position: absolute;
   width: 100%;
-  top: 50%;
+  height: 100%;
+  top: 0%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  z-index: 3;
+  align-items: end;
+  z-index: 2;
   font-size: 2rem;
   font-weight: 600;
   font-style: oblique;
   color: transparent;
   transition: 0.5s;
-}
+  border: 1px solid #000;
+} */
 
-.title_infoRadio_img:hover {
+/* .btn_compra_infoRadio_img:hover {
   color: black;
   text-shadow:  rgb(255, 255, 254) 1px 0 10px;
-}
+} */
 
 /* Button animation */
 .ov-btn-slide-left {
@@ -174,4 +166,160 @@
   bottom: 0;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
+}
+/* NO SIRVE +++++++++++++++++++++++++++++++++++++++++  */
+
+/* Contenedor general */
+.Main_infoproducts_container {
+  width: 100vw;
+  height: 100vh;
+  padding: 60px 100px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background: #fefffef3;
+  /* border: 1px solid #c60000; */
+}
+
+.zona1 {
+  /* border: 1px solid #000; */
+  background-color: var(--bg-container-photoscontainer);
+  border-radius: 5px 0px 0px 5px;
+  width: 50%;
+  min-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);;
+  grid-template-rows: repeat(2, 1fr);;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
+  /* gap: 20px; */
+  align-items: center;
+  justify-items: end;
+  padding: 15px 15px 15px 0px;
+  /* box-shadow: 10px 10px 10px black; */
+  box-shadow: 10px 10px 10px var(--bg-shadow-photoscontainer);
+
+}
+
+.zona1 div {
+  width: 90%;
+  height: 90%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.zona1 div:hover {
+  background-color: rgba(178, 178, 178, 0.655);
+  transition: 0.2s;
+}
+
+.zona1 div .main {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  z-index: 2;
+  /* border: 1px solid #000; */
+}
+
+.zona1 div .main_pendiente {
+  width: 80%;
+  height: auto;
+  /* position: absolute;
+  right: 5px;
+  bottom: 5px; */
+  z-index: 2;
+  transform: rotate(-45deg);
+}
+
+.zona1 .container_btn_to_the_store:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.9s;
+  border: 1px solid #000;
+  color: white !important;
+}
+
+.zona2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 05px 05px 0px;
+  min-width: 500px;
+  background-color: var(--bg-container-photoscontainer);
+  width: 50%;
+  box-shadow: 10px 10px 10px var(--bg-shadow-photoscontainer);
+}
+
+.zona2 div {
+  width: 90%;
+  height: 90%;
+  /* max-height: 600px; */
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  /* border: 4px solid #000; */
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.569); */
+}
+
+.zona2 div .main_big_img{
+  position: absolute;
+  height: 100%;
+}
+
+.bg_img_logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50% !important;
+  height: auto !important;
+  opacity: 0.4;
+  z-index: 0;
+  /* border: 1px solid #000; */
+}
+
+.btn_to_the_store {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.zona1 div .title_infoRadio_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  z-index: 3;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: oblique;
+  color: transparent;
+  transition: 0.5s;
+  /* border: 1px solid #000;  */
+  background: transparent;
+}
+
+.zona1 div .title_infoRadio_img .description {
+  /* border: 1px solid #000; */
+  position: absolute;
+  top: 70%;
+  right: 0;
+  width: 50%;
+}
+
+.zona1 div .title_infoRadio_img:hover {
+  color: black;
+  text-shadow:  rgb(255, 255, 254) 1px 0 10px;
 }
