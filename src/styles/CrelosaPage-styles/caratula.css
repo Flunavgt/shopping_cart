@@ -44,7 +44,7 @@ body {
 
 #map {
   width: 40vw;
-  height: 40vw;
+  height: 45vw;
   /* margin-top: 30px; */
   box-shadow: 10px 5px 100px black;
 }
@@ -66,6 +66,18 @@ body {
 
 .Container_title_caraturla h1 {
   font-size: 3.5rem;
+  color: #000000;
+  position: absolute;
+  top: 9%;
+  left: 5%;
+  padding-bottom: 0.2rem;
+  border-bottom: 5px solid #0759cd;
+  border-bottom-right-radius: 15px;
+  width: 235px;
+}
+
+.Container_title_caraturla h6 {
+  font-size: 1rem;
   color: #000000;
   position: absolute;
   top: 7%;

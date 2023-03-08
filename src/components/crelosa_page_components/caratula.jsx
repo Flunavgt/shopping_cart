@@ -48,7 +48,7 @@ const Caratula = () => {
 
     const map = Leafleat.map(mapId, {
       center: [15.7835, -90.2308],
-      zoom: 7.5,
+      zoom: 7,
       scrollWheelZoom: false,
     });
 
@@ -107,6 +107,7 @@ const Caratula = () => {
         </>
       </div>
       <div className="Container_title_caraturla">
+        <h6>Ésta es nuestra</h6>
         <h1>Cobertura</h1>
         <span>Mensaje super importantisimo</span>
       </div>
