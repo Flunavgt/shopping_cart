@@ -103,12 +103,13 @@ const Caratula = () => {
     <section id="cobertura" className="Main_caratula_container">
       <div className="map_container">
         <>
-          {/* <p>Cobertura</p> */}
           <div id={mapId} className="mapCover" />
         </>
       </div>
-      {/* <div>ESTOS SON TODOS LOS PUNTOS DE VENTA
-       EN DONDE PUEDEN COMPRAR ESTA EXCELENTE MARCA</div> */}
+      <div className="Container_title_caraturla">
+        <h1>Cobertura</h1>
+        <span>Mensaje super importantisimo</span>
+      </div>
     </section>
   );
 };

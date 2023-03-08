@@ -7,7 +7,7 @@ body {
   height: 100vh;
   background-color: var(--bg-main-caratula);
   display: flex;
-  justify-content: center;
+  justify-content: right;
   /* border: 1px solid #000; */
   position: relative;
 }
@@ -17,16 +17,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  gap: 40px;
   position: absolute;
   top: 7%;
   left: 5%;
-  /* margin-top: 120px; */
-}
-
-.map_container p {
-  font-size: 3.5rem;
-  color: #000000;
+  /* border: 1px solid #000; */
 }
 
 .caratula_img {
@@ -52,9 +46,33 @@ body {
   width: 40vw;
   height: 40vw;
   /* margin-top: 30px; */
+  box-shadow: 10px 5px 100px black;
 }
 
 .leaflet-container {
   width: 80%;
   height: 80%;
+}
+
+.Container_title_caraturla {
+  /* border: 1px solid #000; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.Container_title_caraturla h1 {
+  font-size: 3.5rem;
+  color: #000000;
+  position: absolute;
+  top: 7%;
+  left: 5%;
+}
+
+.Container_title_caraturla span {
+  font-size: 1.5rem;
+  color: #000000;
 }
