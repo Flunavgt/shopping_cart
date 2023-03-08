@@ -3,7 +3,7 @@ import React from 'react';
 import kenwood1 from './images/asociados/kenwood.png';
 import barret from './images/asociados/barret2.png';
 // import barret1 from './images/asociados/Barrett2.png';
-import barrett3 from './images/asociados/barrett3.webp';
+// import barrett3 from './images/asociados/barrett3.webp';
 // import hytera from './images/asociados/hytera.png';
 import hytera1 from './images/asociados/hytera1.png';
 import icom from './images/asociados/icom.png';
@@ -21,7 +21,7 @@ const Asociados = () => (
       <img src={barret} alt="midland" />
       {/* <img src={hytera} alt="hytera" /> */}
       {/* <img src={barret1} alt="doriginal" /> */}
-      <img src={barrett3} alt="doriginal" />
+      {/* <img src={barrett3} alt="doriginal" /> */}
       <img src={hytera1} alt="doriginal" />
       <img src={icom} alt="doriginal" />
       <img src={motorola} alt="doriginal" />
