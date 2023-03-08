@@ -16,11 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  position: absolute;
-  top: 7%;
-  left: 5%;
-  /* border: 1px solid #000; */
+  align-items: center;
+  padding: 50px;
+  width: 50%;
 }
 
 .caratula_img {
@@ -44,8 +42,9 @@ body {
 
 #map {
   width: 40vw;
-  height: 45vw;
-  /* margin-top: 30px; */
+  height: 40vw;
+  max-width: 1500px;
+  max-height: 1500px;
   box-shadow: 10px 5px 100px black;
 }
 
@@ -55,7 +54,6 @@ body {
 }
 
 .Container_title_caraturla {
-  /* border: 1px solid #000; */
   width: 50%;
   display: flex;
   justify-content: center;
@@ -73,11 +71,9 @@ body {
   padding-bottom: 0.2rem;
   border-bottom: 5px solid #0759cd;
   border-bottom-right-radius: 15px;
-  width: 235px;
 }
 
 .Container_title_caraturla h6 {
-  font-size: 1rem;
   color: #000000;
   position: absolute;
   top: 7%;
