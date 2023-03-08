@@ -10,27 +10,37 @@
 .crelosaGeneral {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 90vw;
   margin-inline: 5vw;
   /* align-items: center; */
   /* padding: 20px 15px; */
 }
 
-/* .social,
-.terminos,
-.generalesCrelosa {
-  width: 33%;
-} */
+.crelosaGeneral h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
 
 .iconoEspacio {
   margin-right: 7px;
+}
+
+.contactodirecciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100%; */
+  gap: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .sNetworks {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin: 2.5rem 0;
 }
 
 .instagram {
