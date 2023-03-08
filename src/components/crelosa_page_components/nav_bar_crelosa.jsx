@@ -19,7 +19,7 @@ const NavBarCrelosa = () => {
           </div>
 
           <div className="buttons_links_container">
-            <a className="btn" href="#/">INICIO</a>
+            <a className="btn" href="#cobertura">COBERTURA</a>
             <a className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
             <a className="btn" href={routes.store}>TIENDA</a>
             <a className="btn" href="#quienes_somos?">¿QUIENES SOMOS?</a>
@@ -52,7 +52,7 @@ const NavBarCrelosa = () => {
           </div>
 
           <div className="buttons_links_container">
-            <a className="btn" href="#/">INICIO</a>
+            <a className="btn" href="#cobertura">COBERTURA</a>
             <a className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
             <a className="btn" href={routes.store}>TIENDA</a>
             <a className="btn" href="#quienes_somos?">¿QUIENES SOMOS?</a>

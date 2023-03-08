@@ -100,13 +100,15 @@ const Caratula = () => {
   }, []);
 
   return (
-    <section className="Main_caratula_container">
+    <section id="cobertura" className="Main_caratula_container">
       <div className="map_container">
         <>
-          <p>Cobertura</p>
+          {/* <p>Cobertura</p> */}
           <div id={mapId} className="mapCover" />
         </>
       </div>
+      {/* <div>ESTOS SON TODOS LOS PUNTOS DE VENTA
+       EN DONDE PUEDEN COMPRAR ESTA EXCELENTE MARCA</div> */}
     </section>
   );
 };
