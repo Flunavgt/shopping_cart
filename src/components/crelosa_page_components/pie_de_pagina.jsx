@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaYoutube,
   FaInstagram,
+  FaWhatsapp,
 } from 'react-icons/fa';
 import { BsEnvelopeAt } from 'react-icons/bs';
 import { GoDeviceMobile, GoLocation } from 'react-icons/go';
@@ -77,7 +78,11 @@ const PieDePagina = () => (
         </div>
         <p>
           <GoDeviceMobile className="iconoEspacio" />
-          PBX:(502) 2333 4620
+          PBX: (502) 2333 4620  o  (502) 2313 7200
+        </p>
+        <p>
+          <GoDeviceMobile className="iconoEspacio" />
+          PBX:(502) 2313 7200
         </p>
       </div>
       {/* <p> Horarios:</p>
@@ -111,8 +116,16 @@ const PieDePagina = () => (
           <a href="https://www.instagram.com/crelosagua/?hl=en">
             <FaInstagram className="instagram" />
           </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=50231017755"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaWhatsapp color="green" fontSize="2rem" />
+
+          </a>
           <div className="crelosaMail">
-            <a href="mailto:crelosa@crelosa.com" target="_blank" rel="noreferrer">
+            <a href="mailto:ventas@crelosa.com" target="_blank" rel="noreferrer">
               <BsEnvelopeAt />
             </a>
           </div>

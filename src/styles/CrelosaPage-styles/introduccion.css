@@ -9,6 +9,44 @@
   align-items: bottom;
 }
 
-.cover_img_intro {
+/* .cover_img_intro {
   width: fit-content;
+} */
+
+.videoIntro {
+  position: relative;
+}
+
+.videoTag {
+  width: 100vw;
+  margin-bottom: 1rem;
+}
+
+.infoCompany {
+  position: absolute;
+  bottom: 345px;
+  right: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  text-align: justify;
+  color: white;
+  /* background-color: rgba(250, 235, 215, 0.445); */
+  /* padding: 2%; */
+  /* box-shadow: 3px 3px 5px gray, -3px -3px 5px gray; */
+  /* border-radius: 15px; */
+}
+
+.titleCompanyintro {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  position: absolute;
+  Top: 15%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  color: white;
+  text-shadow: aqua 0px 0px 10px;
 }
