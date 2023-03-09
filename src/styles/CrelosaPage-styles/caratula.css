@@ -45,7 +45,7 @@ body {
   height: 40vw;
   max-width: 1500px;
   max-height: 1500px;
-  box-shadow: 10px 5px 100px black;
+  box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.83);
 }
 
 .leaflet-container {
