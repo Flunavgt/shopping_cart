@@ -24,17 +24,29 @@
 
 .infoCompany {
   position: absolute;
-  bottom: 345px;
-  right: 50%;
+  top: 15%;
+  right: 7%;
   display: flex;
   flex-direction: column;
-  width: 20vw;
+  width: 25vw;
   text-align: justify;
   color: white;
   /* background-color: rgba(250, 235, 215, 0.445); */
   /* padding: 2%; */
   /* box-shadow: 3px 3px 5px gray, -3px -3px 5px gray; */
   /* border-radius: 15px; */
+}
+
+/* .infoCompany h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+} */
+
+.infoCompany p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 .titleCompanyintro {
@@ -46,7 +58,7 @@
   left: 15%;
   display: flex;
   flex-direction: column;
-  width: 20vw;
+  width: 35vw;
   color: white;
   text-shadow: aqua 0px 0px 10px;
 }
@@ -62,3 +74,44 @@
 .titleCompanyintro span {
   margin: 5% 0 0 30%;
 }
+
+.disOne,
+.disTwo {
+  border: none;
+  /* background-color: transparent; */
+  background-color: rgba(240, 248, 255, 0.185);
+  border-radius: 15px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  padding: 0.5rem 2rem;
+}
+
+.disOne {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+}
+
+.disTwo {
+  position: absolute;
+  top: 52%;
+  left: 47%;
+}
+
+.disOne:hover,
+.disTwo:hover {
+  background-color: rgba(240, 248, 255, 0.385);
+  border: 2px solid rgb(240, 248, 2);
+  cursor: pointer;
+}
+
+.dissapearone,
+.dissapeartwo {
+  display: none;
+};
+
+/* .dissapeartwo {
+  display: none;
+}; */
+
