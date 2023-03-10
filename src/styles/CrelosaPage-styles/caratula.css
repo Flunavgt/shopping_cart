@@ -7,9 +7,16 @@ body {
   height: 100vh;
   background-color: var(--bg-main-caratula);
   display: flex;
-  justify-content: right;
-  /* border: 1px solid #000; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 10px solid #f00909; */
   position: relative;
+}
+
+.Main_caratula_container > div:first-child {
+  align-self: flex-start;
+  margin: 1vw 0 0 20vw;
 }
 
 .map_container {
@@ -17,7 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 0 0 35px 0;
   width: 50%;
 }
 
@@ -41,8 +48,8 @@ body {
 }
 
 #map {
-  width: 40vw;
-  height: 40vw;
+  width: 60vw;
+  height: 46vw;
   max-width: 1500px;
   max-height: 1500px;
   box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.83);
@@ -54,8 +61,9 @@ body {
 }
 
 .Container_title_caraturla {
-  width: 50%;
+  width: auto;
   display: flex;
+  justify-content: flex-start;
   align-items: left;
   flex-direction: column;
   position: relative;
@@ -64,9 +72,9 @@ body {
 .Container_title_caraturla h1 {
   font-size: 3.5rem;
   color: #000000;
-  position: absolute;
+  /* position: absolute;
   top: 12%;
-  left: 5%;
+  left: 5%; */
   padding-bottom: 0.2rem;
   border-bottom: 5px solid #0759cd;
   border-bottom-right-radius: 15px;
@@ -74,19 +82,19 @@ body {
 
 .Container_title_caraturla h6 {
   color: #000000;
-  position: absolute;
+  /* position: absolute;
   top: 10%;
-  left: 5%;
+  left: 5%; */
 }
 
-.Container_title_caraturla img {
+/* .Container_title_caraturla img {
   font-size: 3.5rem;
   color: #000000;
   position: absolute;
   top: 6%;
-  right: 22%;
+  right: 0%;
   width: 10rem;
-}
+} */
 
 .Container_text_caratula {
   display: flex;

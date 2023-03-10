@@ -31,13 +31,15 @@ const Introducción = () => {
           Líder en
           <span>Comunicaciones</span>
         </h1>
-        <button onClick={() => distwo('.dissapearone')} type="button" className="disOne">
-          <h2>DMR</h2>
-        </button>
+        <div className="containerBtnDmr">
+          <button onClick={() => distwo('.dissapearone')} type="button" className="disOne">
+            <h2>DMR</h2>
+          </button>
 
-        <button onClick={() => distwo('.dissapeartwo')} type="button" className="disTwo">
-          <h2>DMR Tier 3</h2>
-        </button>
+          <button onClick={() => distwo('.dissapeartwo')} type="button" className="disTwo">
+            <h2>DMR Tier 3</h2>
+          </button>
+        </div>
         <div className="infoCompany">
           {/* <button onClick={disOne} type="button" className="disOne">
             <h2>DMR</h2>

@@ -7,7 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
 import collegePng from './images/radio-tower.png';
-import Imgradcarat from './images/hytera-walkie.png';
+// import Imgradcarat from './images/hytera-walkie.png';
 
 const Caratula = () => {
   const savedMap = useRef();
@@ -49,7 +49,7 @@ const Caratula = () => {
 
     const map = Leafleat.map(mapId, {
       center: [15.7835, -90.2308],
-      zoom: 7,
+      zoom: 8,
       scrollWheelZoom: false,
     });
 
@@ -301,16 +301,16 @@ const Caratula = () => {
 
   return (
     <section id="cobertura" className="Main_caratula_container">
-      <div className="map_container">
+      {/* <div className="map_container">
         <>
           <div id={mapId} className="mapCover" />
         </>
-      </div>
+      </div> */}
       <div className="Container_title_caraturla">
         <h6>Ésta es nuestra</h6>
         <h1>Cobertura</h1>
-        <img src={Imgradcarat} alt="Imagen de radio" />
-        <div className="Container_text_caratula">
+        {/* <img src={Imgradcarat} alt="Imagen de radio" /> */}
+        {/* <div className="Container_text_caratula">
           <div>
             <p> Abarcamos todo el territorio nacional</p>
             <br />
@@ -333,7 +333,12 @@ const Caratula = () => {
               <li>- Se ajusta a presupuesto</li>
             </ol>
           </div>
-        </div>
+        </div> */}
+      </div>
+      <div className="map_container">
+        <>
+          <div id={mapId} className="mapCover" />
+        </>
       </div>
     </section>
   );

@@ -87,7 +87,17 @@
   padding: 0.5rem 2rem;
 }
 
-.disOne {
+.containerBtnDmr {
+  position: absolute;
+  top: 52%;
+  left: 27.5%;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+/* .disOne {
   position: absolute;
   top: 52%;
   left: 25%;
@@ -97,7 +107,7 @@
   position: absolute;
   top: 52%;
   left: 47%;
-}
+} */
 
 .disOne:hover,
 .disTwo:hover {
