@@ -42,13 +42,21 @@
   font-weight: 600;
   margin-bottom: 1rem;
   position: absolute;
-  Top: 15%;
-  left: 5%;
+  Top: 29%;
+  left: 15%;
   display: flex;
   flex-direction: column;
   width: 20vw;
   color: white;
   text-shadow: aqua 0px 0px 10px;
+}
+
+.logo_main_img {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+ height: 15%;
+  /* width: 10%; */
 }
 
 .titleCompanyintro span {

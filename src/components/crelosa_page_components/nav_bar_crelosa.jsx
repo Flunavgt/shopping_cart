@@ -9,16 +9,17 @@ const NavBarCrelosa = () => {
 
   return (
     <>
-      {/* desktop version */}
-      <section className="Main_container desktop_navbar">
+      {/* Mobil version */}
+      {/* <section className="Main_container desktop_navbar">
         <header className="top_line" />
 
-        <section className="NavBarCrelosa_MainContainer">
-          <div className="caratula_logo_container">
-            <img src="https://crelosa.com/wp-content/uploads/2019/11/logo.jpg" alt="CRELOSA_LOGO" className="logo_main_img" />
-          </div>
+        <section className="NavBarCrelosa_MainContainer"> */}
+      {/* <div className="caratula_logo_container">
+            <img src={logo} alt="CRELOSA_LOGO Movil version" className="logo_main_img" />
+            <h1>hola</h1>
+          </div> */}
 
-          <div className="buttons_links_container">
+      {/* <div className="buttons_links_container">
             <a className="btn" href="#cobertura">COBERTURA</a>
             <a className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
             <a className="btn" href={routes.store}>TIENDA</a>
@@ -29,13 +30,13 @@ const NavBarCrelosa = () => {
 
         </section>
 
-      </section>
+      </section> */}
 
+      {/* desktop version */}
       <section className="bolita_retorno_container desktop_navbar">
         <div className="bolita_retorno" />
       </section>
 
-      {/* Mobil version */}
       <section className="Main_container">
         <header className="top_line" />
 
@@ -47,9 +48,9 @@ const NavBarCrelosa = () => {
         />
 
         <section className={`NavBarCrelosa_MainContainer ${showMenu ? 'null' : 'mobil_navbar'}`}>
-          <div className="caratula_logo_container">
-            <img src="https://crelosa.com/wp-content/uploads/2019/11/logo.jpg" alt="CRELOSA_LOGO" className="logo_main_img" />
-          </div>
+          {/* <div className="caratula_logo_container">
+            <img src=" " alt=" " className="logo_main_img" />
+          </div> */}
 
           <div className="buttons_links_container">
             <a className="btn" href="#cobertura">COBERTURA</a>

@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 
-.Main_container {
+/* .Main_container {
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -35,12 +35,12 @@ body {
   flex-direction: column;
   align-items: center;
   /* background: var(--bg-color); */
-  background: black;
+  /* background: black;
   padding: 0 5% 0 5%;
   overflow-x: hidden;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.156);
-}
-
+} */
+/* 
 .buttons_links_container {
   width: 60%;
   display: flex;
@@ -70,15 +70,15 @@ body {
   right: 25px;
   z-index: 99;
   /* border: 1px solid #000; */
-}
+/* } */
 
-.desktop_navbar {
+/* .desktop_navbar {
   display: none;
 }
 
 .mobil_navbar {
   display: none;
-}
+} */
 
 /* desktop version */
 @media screen and (min-width: 768px) {
@@ -102,20 +102,21 @@ body {
     width: 100vw;
     height: 12vh;
     z-index: 9999;
+    /* border: 10px solid #cf0e0e; */
   }
   
-  .caratula_logo_container {
+  /* .caratula_logo_container {
     height: 90%;
     max-height: 50px;
-  }
+  } */
   
-  .logo_main_img {
+  /* .logo_main_img {
     height: 100%;
-  }
+  } */
   
   .top_line {
     width: 100vw;
-    height: 20px;
+    height: 100px;
     background-color: var(--First-main-bg-color);
   }
   
@@ -123,13 +124,13 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    /* position: absolute; */
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background: var(--bg-color);
+    background: rgba(0, 0, 0, 0.271);
     padding: 0 5% 0 5%;
     overflow-x: hidden;
+    /* border: 1px solid #ffffff; */
   }
   
   .buttons_links_container {
@@ -145,11 +146,17 @@ body {
     align-items: center;
     text-align: center;
     font-size: medium;
+    color: white;
+    font-size: medium;
+    transition: 0.2s;
   }
   
   .buttons_links_container a:hover {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;;
+    color: aqua;
+    font-size: larger;
+    margin: 7px;
+    border-bottom: 3px solid aqua;
+    border-bottom-right-radius: 15px;
   }
   
   .size_menuCrelosa_btn {
