@@ -60,14 +60,14 @@
   flex-direction: column;
   width: 35vw;
   color: white;
-  text-shadow: aqua 0px 0px 10px;
+  text-shadow: rgb(11, 98, 239) 0px 0px 10px;
 }
 
 .logo_main_img {
   position: absolute;
-  top: 12%;
+  top: 0%;
   left: 5%;
- height: 15%;
+ height: 45%;
   /* width: 10%; */
 }
 

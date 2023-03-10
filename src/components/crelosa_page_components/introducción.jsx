@@ -1,7 +1,7 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 import '../../styles/CrelosaPage-styles/introduccion.css';
-import logo from './images/Introduccion/crelosa_logo.png';
+import logo from './images/Introduccion/LOGO1.png';
 
 const Introducción = () => {
   // const disOne = () => {
@@ -24,7 +24,7 @@ const Introducción = () => {
     <div className="Main_introduccion_container">
       <div className="videoIntro">
         <video className="videoTag" autoPlay loop muted>
-          <source src="/video/hd1000.mp4" type="video/mp4" />
+          <source src="/video/space.mp4" type="video/mp4" />
         </video>
         <img src={logo} alt="Crelosa logo" className="logo_main_img" />
         <h1 className="titleCompanyintro">
