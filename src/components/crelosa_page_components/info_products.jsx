@@ -21,73 +21,97 @@ const InfoProducts = () => (
       className="mySwiper"
     >
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_PNC560_list.png" alt="IMG 1" />
+        </div>
+
+        <div className="container_model_description">
+          <h4>PNC 560</h4>
+          <h3>5G XSecure Rugged Device</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_gc550_list.png" alt="IMG 2" />
+        </div>
+        <div className="container_model_description">
+          <h4>GC550</h4>
+          <h3>2K Mini Body Camera</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/HR65X_list.png" alt="IMG 3" />
+        </div>
+        <div className="container_model_description">
+          <h4>HR65X</h4>
+          <h3>Compact DMR Repeater</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_hp780_list.png" alt="IMG 4" />
+        </div>
+        <div className="container_model_description">
+          <h4>HP78X</h4>
+          <h3>Professional DMR Portable Two-way Radio</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_hp56x_list.png" alt="IMG 5" />
+        </div>
+        <div className="container_model_description">
+          <h4>HP56X</h4>
+          <h3>Professional DMR Portable Two-way Radio</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_PNC560_list.png" alt="IMG 1" />
+        </div>
+
+        <div className="container_model_description">
+          <h4>PNC 560</h4>
+          <h3>5G XSecure Rugged Device</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_gc550_list.png" alt="IMG 2" />
+        </div>
+        <div className="container_model_description">
+          <h4>GC550</h4>
+          <h3>2K Mini Body Camera</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/HR65X_list.png" alt="IMG 3" />
+        </div>
+        <div className="container_model_description">
+          <h4>HR65X</h4>
+          <h3>Compact DMR Repeater</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_hp780_list.png" alt="IMG 4" />
+        </div>
+        <div className="container_model_description">
+          <h4>HP78X</h4>
+          <h3>Professional DMR Portable Two-way Radio</h3>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e" alt="IMG 1" />
-        <div>
-          <h4>Modelo</h4>
-          <h3>Descripción</h3>
+        <div className="img_container">
+          <img src="https://www.hytera.com/iwov-resources/hytera/02_products/1_list_image/en_hp56x_list.png" alt="IMG 5" />
+        </div>
+        <div className="container_model_description">
+          <h4>HP56X</h4>
+          <h3>Professional DMR Portable Two-way Radio</h3>
         </div>
       </SwiperSlide>
     </Swiper>
