@@ -154,7 +154,7 @@ body {
   .buttons_links_container a:hover {
     color: aqua;
     font-size: larger;
-    margin: 7px;
+    margin: 0px 7px 7px 7px;
     border-bottom: 3px solid aqua;
     border-bottom-right-radius: 15px;
   }
