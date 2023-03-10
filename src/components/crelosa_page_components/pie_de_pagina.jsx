@@ -13,6 +13,24 @@ import '../../styles/CrelosaPage-styles/pie_de_pagina.css';
 
 const PieDePagina = () => (
   <div className="crelosaGeneral">
+    <a
+      href="https://api.whatsapp.com/send?phone=50231017755"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        position: 'fixed',
+        bottom: '20px',
+        right: '20px',
+        backgroundColor: '#25D366',
+        color: '#fff',
+        padding: '10px',
+        borderRadius: '50%',
+        textDecoration: 'none',
+        boxShadow: '1px 1px 10px #999',
+      }}
+    >
+      <FaWhatsapp color="white" fontSize="2rem" />
+    </a>
     {/* <div className="social">
       <h2>Información de contacto</h2>
       <img
