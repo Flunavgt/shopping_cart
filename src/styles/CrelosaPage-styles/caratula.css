@@ -1,9 +1,13 @@
 body {
   overflow-x: hidden;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Fira Sans', sans-serif;
-  font-family: 'KoHo', sans-serif !important;
+  font-family: 'Comfortaa', cursive ;
+  font-family: 'Fira Sans', sans-serif ;
+  font-family: 'KoHo', sans-serif !important;;
   font-family: 'Lobster', cursive;
+}
+
+body h1 {
+  font-family: 'Lobster', cursive !important;
 }
 
 .Main_caratula_container {
