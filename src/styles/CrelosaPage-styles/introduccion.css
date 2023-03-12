@@ -1,7 +1,7 @@
 .Main_introduccion_container {
   width: 100vw;
   height: 100vh;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   border: 1px solid #000;
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -24,11 +24,11 @@
 
 .infoCompany {
   position: absolute;
-  top: 15%;
-  right: 7%;
+  top: 55%;
+  left: 18%;
   display: flex;
   flex-direction: column;
-  width: 25vw;
+  width: 65vw;
   text-align: justify;
   color: white;
   /* background-color: rgba(250, 235, 215, 0.445); */
@@ -54,19 +54,19 @@
   font-weight: 600;
   margin-bottom: 1rem;
   position: absolute;
-  Top: 29%;
-  left: 15%;
+  Top: 39%;
+  left: 25%;
   display: flex;
   flex-direction: column;
-  width: 35vw;
+  width: 70vw;
   color: white;
   text-shadow: rgb(11, 98, 239) 0px 0px 10px;
 }
 
 .logo_main_img {
   position: absolute;
-  top: 0%;
-  left: 5%;
+  top: 10%;
+  left: 15%;
  height: 45%;
   /* width: 10%; */
 }
@@ -75,7 +75,6 @@
   margin: 5% 0 0 30%;
 }
 
-.disOne,
 .disTwo {
   border: none;
   /* background-color: transparent; */
@@ -89,10 +88,10 @@
 
 .containerBtnDmr {
   position: absolute;
-  top: 52%;
-  left: 27.5%;
+  bottom: 8%;
+  left: 25%;
   display: flex;
-  width: 30vw;
+  width: 50vw;
   justify-content: space-between;
   gap: 2vw;
 }
@@ -117,7 +116,8 @@
 }
 
 .dissapearone,
-.dissapeartwo {
+.dissapeartwo,
+.dissapearthree {
   display: none;
 };
 

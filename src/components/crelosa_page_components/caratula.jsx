@@ -7,6 +7,8 @@ import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
 import collegePng from './images/radio-tower.png';
+import adds from './images/Introduccion/adds.jpg';
+import InfoProducts from './info_products';
 // import Imgradcarat from './images/hytera-walkie.png';
 
 const Caratula = () => {
@@ -300,45 +302,29 @@ const Caratula = () => {
   }, []);
 
   return (
-    <section id="cobertura" className="Main_caratula_container">
-      {/* <div className="map_container">
-        <>
-          <div id={mapId} className="mapCover" />
-        </>
-      </div> */}
-      <div className="Container_title_caraturla">
-        <h6>Ésta es nuestra</h6>
-        <h1>Cobertura</h1>
-        {/* <img src={Imgradcarat} alt="Imagen de radio" /> */}
-        {/* <div className="Container_text_caratula">
-          <div>
-            <p> Abarcamos todo el territorio nacional</p>
-            <br />
-            <p>Haz click en las imágenes del mapa </p>
-            <p>para mas información</p>
+    <section id="cobertura" className="Main_caratula_container1">
+      <h6>Ésta es nuestra</h6>
+      <h1 className="only_lobster">Cobertura</h1>
+      <div className="margin_for_main">
+        <div className="Main_caratula_container">
+          <div className="Container_adds_caratula">
+            <h1>esto es publicidad</h1>
+            <img src={adds} alt="adds" />
           </div>
-          <div className="pocInfo">
-            <h2>Que es PoC</h2>
-            <p>
-              Push to talk Over Cellular es una comunicación instantánea
-              que permite utilizar radions de comunicación como un teléfono
-              celular y transmitir voz, video y datos.
-            </p>
-            <br />
-            <br />
-            <h2>Beneficios</h2>
-            <ol>
-              <li>- Gran escalabilidad</li>
-              <li>- Orientados a Trabajo</li>
-              <li>- Se ajusta a presupuesto</li>
-            </ol>
+          <div className="Container_title_caraturla">
+            <div>
+              <div id={mapId} className="mapCover" />
+            </div>
+            <div className="store_link_add">
+              <h1>visita nuestra tienda en línea</h1>
+              <a href="/main" type="submit">VISITA NUESTRA TIENDA</a>
+            </div>
           </div>
+        </div>
+        {/* <div className="modelosMasVend">
+          <h1>Modelos mas vendidosssssss</h1>
         </div> */}
-      </div>
-      <div className="map_container">
-        <>
-          <div id={mapId} className="mapCover" />
-        </>
+        <InfoProducts />
       </div>
     </section>
   );

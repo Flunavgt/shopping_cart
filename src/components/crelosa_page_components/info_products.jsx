@@ -116,11 +116,11 @@ const InfoProducts = () => (
       </SwiperSlide>
     </Swiper>
 
-    <div className="bottom_background" />
+    {/* <div className="bottom_background" />
     <div className="btn_store_section">
       <h1>¿No está seguro de qué producto busca?</h1>
       <a href="/main" type="submit">VISITA NUESTRA TIENDA</a>
-    </div>
+    </div> */}
 
   </section>
 );

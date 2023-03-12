@@ -1,13 +1,22 @@
 
 
-/* .Main_asociados_container {
+.Main_asociados_container {
   width: 99vw;
-  background-color: var(--bg-asociados-section);
+  /* background-color: var(--bg-asociados-section); */
   height: 35vh;
+  margin-top: 20vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
+}
+
+.Main_asociados_container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 4vh;
+}
 
 .brands {
   display: flex;

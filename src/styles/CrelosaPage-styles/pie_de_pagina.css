@@ -11,10 +11,24 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 90vw;
-  margin-inline: 5vw;
-  /* align-items: center; */
+  width: 100vw;
+  height: 35vh;
+  /* margin-inline: 5vw; */
+  background-color: rgba(164, 169, 169, 0.362);
+  align-items: center;
   /* padding: 20px 15px; */
+}
+
+.general_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 92vw;
+  margin-inline: 4vw;
+  flex-wrap: wrap;
+  /* height: 100%; */
+  /* margin: 0 5vw; */
+  /* padding: 0 5vw; */
+  /* border: 3px solid red; */
 }
 
 .crelosaGeneral h2 {
@@ -40,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
 }
 
 .instagram {
@@ -69,6 +83,17 @@
 .terminos a {
   position: relative;
   padding: 10px 20px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.social img {
+  width: 15vw;
+  align-self: center;
 }
 
 /* a::after {

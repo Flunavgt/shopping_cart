@@ -1,15 +1,16 @@
 /* Contenedor general */
 .Main_infoproducts_container {
-  width: 100vw;
+  width: 93vw;
   height: 100vh;
   padding: 30px 00px 0px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background: #fefffef3;
   /* border: 5px solid #c60000; */
   position: relative;
   overflow: visible;
+  margin-top: 15vh;
 }
 
 .title_section_infoproducts {
@@ -18,12 +19,14 @@
   align-items: center;
   font-size: 40px;
   font-weight: bolder;
+  padding-bottom: 8vh;
+  /* border: 5px solid blue; */
 }
 
 .mySwiper{
   /* border: 5px solid #1eff00; */
   height: 70%;
-  width: 95%;
+  width: 100%;
 }
 
 .swiper-horizontal>
@@ -105,7 +108,7 @@
   font-weight: bold;
 }
 
-.btn_store_section {
+/* .btn_store_section {
   height: 20%;
   display: flex;
   flex-direction: column;
@@ -118,19 +121,19 @@
   background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.btn_store_section h1 {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  font-size: 2rem;
+/* .btn_store_section h1 { */
+  /* position: absolute; */
+  /* top: 40px;
+  left: 40px; */
+  /* font-size: 2rem;
   color: rgb(255, 254, 254);
-}
+} */
 
-.btn_store_section a {
-  position: absolute;
-  top: 60%;
+.store_link_add a {
+  /* position: absolute; */
+  /* top: 60%; */
   height: 15%;
   border-radius: 50px;
   background-color: #8D97BA;
@@ -141,18 +144,18 @@
   transition: 0.5s;
   font-size: 22px;
   font-weight: 100;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
-.btn_store_section a:hover {
+.store_link_add a:hover {
   border: 2px solid #ffffff;
+  font-weight: 400;
   text-shadow: 4px 1px 1px black;
 }
 
-.bottom_background {
-  /* border: 1px solid #000; */
+/* .bottom_background {
   position: absolute;
   bottom: 0;
   height: 20%;
@@ -160,4 +163,4 @@
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(141,151,186,1) 5%, rgba(113,121,149,1) 8%, rgba(86,92,112,1) 16%, rgba(64,68,83,1) 25%, rgba(6,6,6,1) 84%);
   box-shadow: -10px 20px 20px rgba(50, 50, 50, 0.752);
-}
+} */

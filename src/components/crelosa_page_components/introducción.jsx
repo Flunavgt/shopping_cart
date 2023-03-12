@@ -1,7 +1,7 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 import '../../styles/CrelosaPage-styles/introduccion.css';
-import logo from './images/Introduccion/LOGO1.png';
+import logo from './images/Introduccion/CRELOSA-01.png';
 
 const Introducción = () => {
   // const disOne = () => {
@@ -24,20 +24,22 @@ const Introducción = () => {
     <div className="Main_introduccion_container">
       <div className="videoIntro">
         <video className="videoTag" autoPlay loop muted>
-          <source src="/video/space.mp4" type="video/mp4" />
+          <source src="/video/test1.mp4" type="video/mp4" />
         </video>
         <img src={logo} alt="Crelosa logo" className="logo_main_img" />
         <h1 className="titleCompanyintro">
-          Líder en
-          <span>Comunicaciones</span>
+          Líder en comunicaciones
         </h1>
         <div className="containerBtnDmr">
-          <button onClick={() => distwo('.dissapearone')} type="button" className="disOne">
+          <button onClick={() => distwo('.dissapearone')} type="button" className="disTwo">
             <h2>DMR</h2>
           </button>
 
           <button onClick={() => distwo('.dissapeartwo')} type="button" className="disTwo">
-            <h2>DMR Tier 3</h2>
+            <h2>DMR III</h2>
+          </button>
+          <button onClick={() => distwo('.dissapearthree')} type="button" className="disTwo">
+            <h2>Microonda</h2>
           </button>
         </div>
         <div className="infoCompany">
@@ -65,6 +67,12 @@ const Introducción = () => {
             canal de 12,5 kilohercios.
             Esto proporciona una duplicación útil de la capacidad dentro del
             mismo espacio de canales analógicos.
+          </p>
+          <p className="dissapearthree">
+            DMR de nivel I tienen una potencia de transmisión más baja y son más
+            utilizadas por personas en actividades recreativas al aire libre,
+            pequeñas empresas u otras aplicaciones que no requieren una
+            cobertura de área amplia.
           </p>
         </div>
       </div>
