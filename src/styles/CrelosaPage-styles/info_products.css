@@ -2,30 +2,21 @@
 .Main_infoproducts_container {
   width: 93vw;
   height: 100vh;
-  padding: 30px 00px 0px 0px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   background: #fefffef3;
-  /* border: 5px solid #c60000; */
   position: relative;
   overflow: visible;
-  margin-top: 15vh;
 }
 
 .title_section_infoproducts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
+  font-size: 4vw;
   font-weight: bolder;
-  padding-bottom: 8vh;
-  /* border: 5px solid blue; */
+  padding: 10px 0px;
 }
 
 .mySwiper{
-  /* border: 5px solid #1eff00; */
-  height: 70%;
+  height: 100%;
   width: 100%;
 }
 
@@ -35,7 +26,7 @@
 .swiper-pagination-custom, 
 .swiper-pagination-fraction {
   position: absolute;
-  bottom: 0 !important;
+  bottom: 10px !important;
 }
 
 /* :root {
@@ -58,7 +49,6 @@
 }
 
 .swiper-slide .img_container {
-  /* border: 1px solid #f50404; */
   width: 100%;
   height: 70%;
   overflow: hidden;
@@ -70,9 +60,8 @@
 
 .swiper-slide .img_container img {
   position: absolute;
-  width: 200%;
-  padding-bottom: 220px;
-  /* border: 1px solid #000; */
+  width: 180%;
+  top: -65%;
 }
 
 .swiper-slide .container_model_description {
@@ -82,11 +71,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* border: 1px solid #7700ff; */
 }
 
 .swiper-slide .container_model_description h4 {
-  /* border: 1px solid #000; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -97,7 +84,6 @@
 }
 
 .swiper-slide .container_model_description h3 {
-  /* border: 1px solid #000; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -131,10 +117,7 @@
   color: rgb(255, 254, 254);
 } */
 
-
-
 .store_link_add a:hover {
-  /* border: 2px solid #ffffff; */
   font-weight: 700;
   text-shadow: 4px 1px 1px black;
   border: 3px;

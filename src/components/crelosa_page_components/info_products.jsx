@@ -13,7 +13,7 @@ const InfoProducts = () => (
 
     <Swiper
       slidesPerView={4}
-      spaceBetween={100}
+      spaceBetween={30}
       navigation={{ clickable: true }}
       pagination={{
         clickable: true,
