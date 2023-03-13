@@ -1,25 +1,20 @@
 .Main_introduccion_container {
   width: 100vw;
   height: 100vh;
-  /* padding-top: 50px; */
-  border: 1px solid #000;
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: bottom;
+  position: relative;
+  overflow: hidden;
 }
 
-/* .cover_img_intro {
+/* .videoIntro {
   width: fit-content;
 } */
 
-.videoIntro {
-  position: relative;
-}
-
 .videoTag {
   width: 100vw;
-  margin-bottom: 1rem;
 }
 
 .infoCompany {
@@ -31,17 +26,7 @@
   width: 65vw;
   text-align: justify;
   color: white;
-  /* background-color: rgba(250, 235, 215, 0.445); */
-  /* padding: 2%; */
-  /* box-shadow: 3px 3px 5px gray, -3px -3px 5px gray; */
-  /* border-radius: 15px; */
 }
-
-/* .infoCompany h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-} */
 
 .infoCompany p {
   font-size: 1.2rem;
@@ -68,7 +53,6 @@
   top: 10%;
   left: 22%;
  height: 45%;
-  /* width: 10%; */
 }
 
 .titleCompanyintro span {
@@ -77,13 +61,14 @@
 
 .disTwo {
   border: none;
-  /* background-color: transparent; */
   background-color: rgba(240, 248, 255, 0.262);
   border-radius: 15px;
   font-size: 2rem;
   font-weight: 600;
   color: white;
+  text-shadow: 1px 2px 5px black;
   padding: 0.5rem 2rem;
+  height: 60px;
 }
 
 .containerBtnDmr {
@@ -91,27 +76,23 @@
   bottom: 8%;
   left: 25%;
   display: flex;
-  width: 50vw;
-  justify-content: space-between;
-  gap: 2vw;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-around;
+  height: 80px;
 }
 
-/* .disOne {
-  position: absolute;
-  top: 52%;
-  left: 25%;
-}
-
-.disTwo {
-  position: absolute;
-  top: 52%;
-  left: 47%;
-} */
-
-.disOne:hover,
+/* .disOne:hover,
 .disTwo:hover {
   background-color: rgba(240, 248, 255, 0.385);
   border: 2px solid rgb(240, 248, 2);
+  cursor: pointer;
+} */
+
+.containerBtnDmr button:hover {
+  background-color: rgba(240, 248, 255, 0.385);
+  border: 2px solid rgb(240, 248, 2);
+  padding: 0.5rem 2rem;
   cursor: pointer;
 }
 
@@ -120,8 +101,3 @@
 .dissapearthree {
   display: none;
 };
-
-/* .dissapeartwo {
-  display: none;
-}; */
-
