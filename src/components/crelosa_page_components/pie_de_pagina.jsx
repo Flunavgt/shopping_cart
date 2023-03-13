@@ -16,35 +16,6 @@ import WhatsappIcon from './whatsapp_business_logo';
 const PieDePagina = () => (
   <div className="crelosaGeneral">
     <WhatsappIcon />
-    {/* <div className="social">
-      <h2>Información de contacto</h2>
-      <img
-        src="https://crelosa.com/wp-content/uploads/2019/11/logo.jpg"
-        alt="CRELOSA_LOGO"
-        className="logo_main"
-      />
-      <div>
-        <div className="sNetworks">
-          <a href="https://www.facebook.com/people/Crelosa/100064049460071/">
-            <FaFacebookF style={{ color: '#4267B2' }} />
-          </a>
-          <a href="https://twitter.com/crelosagt">
-            <FaTwitter style={{ color: '#1DA1F2' }} />
-          </a>
-          <a href="https://www.youtube.com/channel/UCKO7Og-r4lviwFcaXUNDNLA">
-            <FaYoutube style={{ color: '#FF0000' }} />
-          </a>
-          <a href="https://www.instagram.com/crelosagua/?hl=en">
-            <FaInstagram className="instagram" />
-          </a>
-          <div className="crelosaMail">
-            <a href="mailto:crelosa@crelosa.com" target="_blank" rel="noreferrer">
-              <FaEnvelope />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> */}
     <div className="general_footer">
       <div className="terminos">
         <h2>Términos y condiciones</h2>

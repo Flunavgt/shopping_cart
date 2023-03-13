@@ -3,31 +3,32 @@
 .Main_asociados_container {
   width: 99vw;
   /* background-color: var(--bg-asociados-section); */
-  height: 35vh;
-  margin-top: 20vh;
+  /* height: 55vh; */
+  padding: 5vh 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .Main_asociados_container h2 {
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: bold;
-  color: var(--text-color);
-  margin-bottom: 4vh;
+  color: black;
 }
 
 .brands {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 3vh;
+  /* margin-bottom: 3vh; */
   justify-content: center;
+  width: 100%;
 }
 
 .brands img {
-  width: 12rem;
+  width: 12vw;
 	-webkit-filter: grayscale(1) !important;
   -moz-filter: grayscale(1);
 	filter:  grayscale(100%)!important;
