@@ -11,30 +11,11 @@ import { BsEnvelopeAt } from 'react-icons/bs';
 import { GoDeviceMobile, GoLocation } from 'react-icons/go';
 import crelosa from './images/Introduccion/CRELOSA-01.png';
 import '../../styles/CrelosaPage-styles/pie_de_pagina.css';
+import WhatsappIcon from './testing';
 
 const PieDePagina = () => (
   <div className="crelosaGeneral">
-    <a
-      href="https://api.whatsapp.com/send?phone=50231017755"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        position: 'fixed',
-        bottom: '20px',
-        right: '20px',
-        backgroundColor: '#25D366',
-        color: '#fff',
-        padding: '12px',
-        borderRadius: '50%',
-        textDecoration: 'none',
-        boxShadow: '1px 1px 10px #999',
-        fontSize: '1.75rem',
-        fontWeight: 'bold',
-      }}
-    >
-      {/* <FaWhatsapp color="white" fontSize="2rem" /> */}
-      B
-    </a>
+    <WhatsappIcon />
     {/* <div className="social">
       <h2>Información de contacto</h2>
       <img
@@ -157,7 +138,6 @@ const PieDePagina = () => (
       </div>
     </div>
   </div>
-  // </section>
 );
 
 export default PieDePagina;
