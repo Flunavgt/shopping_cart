@@ -303,29 +303,35 @@ const Caratula = () => {
 
   return (
     <section id="cobertura" className="Main_caratula_container1">
-      <h6>Ésta es nuestra</h6>
-      <h1 className="only_lobster">Cobertura</h1>
-      <div className="margin_for_main">
-        <div className="Main_caratula_container">
-          <div className="Container_adds_caratula">
-            <h1>Publicidad</h1>
-            <img src={adds} alt="adds" />
-          </div>
-          <div className="Container_title_caraturla">
-            <div>
-              <div id={mapId} className="mapCover" />
-            </div>
-            <div className="store_link_add">
-              <h1>visita nuestra tienda en línea</h1>
-              <a href="/main" type="submit">VISITA NUESTRA TIENDA</a>
-            </div>
-          </div>
+
+      <h6 className="small_title_cobertura">Ésta es nuestra</h6>
+      <h1 className="main_title_cobertura">Cobertura</h1>
+
+      {/* <div className="margin_for_main"> */}
+      <div className="Main_caratula_container">
+
+        <div className="Container_adds_caratula">
+          <h1>Publicidad</h1>
+          <img src={adds} alt="adds" />
         </div>
-        {/* <div className="modelosMasVend">
-          <h1>Modelos mas vendidosssssss</h1>
-        </div> */}
-        <InfoProducts />
+
+        {/* <div className="Container_title_caraturla"> */}
+
+        <div>
+          <div id={mapId} className="mapCover" />
+        </div>
+
+        <div className="store_link_add">
+          <h1>Visita nuestra tienda en línea</h1>
+          <a href="/main" type="submit">VISITA NUESTRA TIENDA</a>
+        </div>
+
+        {/* </div> */}
       </div>
+
+      <InfoProducts />
+
+      {/* </div> */}
     </section>
   );
 };
