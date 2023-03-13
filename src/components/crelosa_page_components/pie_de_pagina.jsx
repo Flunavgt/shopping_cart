@@ -11,7 +11,7 @@ import { BsEnvelopeAt } from 'react-icons/bs';
 import { GoDeviceMobile, GoLocation } from 'react-icons/go';
 import crelosa from './images/Introduccion/CRELOSA-01.png';
 import '../../styles/CrelosaPage-styles/pie_de_pagina.css';
-import WhatsappIcon from './testing';
+import WhatsappIcon from './whatsapp_business_logo';
 
 const PieDePagina = () => (
   <div className="crelosaGeneral">

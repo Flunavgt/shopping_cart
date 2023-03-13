@@ -10,7 +10,6 @@ const WhatsappIcon = () => (
       rel="noopener noreferrer"
       className="whatsapp_business_logo"
     >
-      {/* <FaWhatsapp color="white" fontSize="2rem" /> */}
       <img src={BsWhatsapp} alt="" />
     </a>
   </>
