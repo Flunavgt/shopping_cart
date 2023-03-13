@@ -1,34 +1,22 @@
-/* .Main_piedepagina_container {
-  width: 99vw;
-  background-color: var(--bg-piedepagina-section);
-  height: 35vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .crelosaGeneral {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100vw;
-  height: 35vh;
-  /* margin-inline: 5vw; */
+  height: 40vh;
   background-color: rgba(164, 169, 169, 0.362);
   align-items: center;
-  /* padding: 20px 15px; */
+  /* border: 1px solid #000; */
+  overflow-x: hidden;
 }
 
 .general_footer {
   display: flex;
   justify-content: space-between;
   width: 92vw;
-  margin-inline: 4vw;
+  margin: 20px 4vw;
   flex-wrap: wrap;
-  /* height: 100%; */
-  /* margin: 0 5vw; */
-  /* padding: 0 5vw; */
-  /* border: 3px solid red; */
+  /* border: 1px solid #000; */
 }
 
 .crelosaGeneral h2 {
@@ -45,7 +33,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 100%; */
   gap: 2rem;
   margin-bottom: 2.5rem;
 }
@@ -88,24 +75,12 @@
 .social {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .social img {
   width: 15vw;
   align-self: center;
 }
-
-/* a::after {
-  content: ' ';
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 100%;
-  height: 0;
-  background: blue;
-  transition: height 0.3s;
-} */
 
 .terminos a:hover::after {
   height: 5px;

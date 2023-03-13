@@ -17,6 +17,7 @@ const PieDePagina = () => (
   <div className="crelosaGeneral">
     <WhatsappIcon />
     <div className="general_footer">
+
       <div className="terminos">
         <h2>Términos y condiciones</h2>
         <a
@@ -31,6 +32,7 @@ const PieDePagina = () => (
         <a href="https://crelosa.com/terminos-y-condiciones/">- Garantía</a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Privacidad</a>
       </div>
+
       <div className="generalesCrelosa">
         <h2>Generales</h2>
         <br />
@@ -55,10 +57,6 @@ const PieDePagina = () => (
             <GoDeviceMobile className="iconoEspacio" />
             PBX: (502) 2333 4620  o  (502) 2313 7200
           </p>
-          <p>
-            <GoDeviceMobile className="iconoEspacio" />
-            PBX:(502) 2313 7200
-          </p>
         </div>
         {/* <p> Horarios:</p>
         <p> Lunes a Viernes</p>
@@ -70,6 +68,7 @@ const PieDePagina = () => (
           </a>
         </div> */}
       </div>
+
       <div className="social">
         <h2>Contactáctanos</h2>
         <img
@@ -107,6 +106,7 @@ const PieDePagina = () => (
           </div>
         </div>
       </div>
+
     </div>
   </div>
 );
