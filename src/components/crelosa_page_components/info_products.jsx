@@ -9,11 +9,12 @@ import { Pagination } from 'swiper';
 const InfoProducts = () => (
   <section id="info_products" className="Main_infoproducts_container">
 
-    <h1 className="title_section_infoproducts">Modelos más vendidos</h1>
+    <h1 className="title_section_infoproducts">Adquiere a un click</h1>
 
     <Swiper
       slidesPerView={4}
       spaceBetween={100}
+      navigation={{ clickable: true }}
       pagination={{
         clickable: true,
       }}

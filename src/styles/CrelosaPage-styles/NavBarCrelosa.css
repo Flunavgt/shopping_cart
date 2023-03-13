@@ -127,7 +127,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.271);
+    background: rgba(0, 0, 0, 0.508);
     padding: 0 5% 0 5%;
     overflow-x: hidden;
     /* border: 1px solid #ffffff; */
@@ -152,11 +152,13 @@ body {
   }
   
   .buttons_links_container a:hover {
-    color: aqua;
+    color: #ffffff;;
     font-size: larger;
     margin: 0px 7px 7px 7px;
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid #edeff3;;
     border-bottom-right-radius: 15px;
+    text-shadow: rgb(11, 98, 239) 0px 0px 20px;
+
   }
   
   .size_menuCrelosa_btn {

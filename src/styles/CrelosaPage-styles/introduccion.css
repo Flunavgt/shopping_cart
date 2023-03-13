@@ -55,7 +55,7 @@
   margin-bottom: 1rem;
   position: absolute;
   Top: 39%;
-  left: 25%;
+  left: 22%;
   display: flex;
   flex-direction: column;
   width: 70vw;
@@ -66,7 +66,7 @@
 .logo_main_img {
   position: absolute;
   top: 10%;
-  left: 15%;
+  left: 22%;
  height: 45%;
   /* width: 10%; */
 }
@@ -78,7 +78,7 @@
 .disTwo {
   border: none;
   /* background-color: transparent; */
-  background-color: rgba(240, 248, 255, 0.185);
+  background-color: rgba(240, 248, 255, 0.262);
   border-radius: 15px;
   font-size: 2rem;
   font-weight: 600;

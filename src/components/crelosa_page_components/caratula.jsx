@@ -308,7 +308,7 @@ const Caratula = () => {
       <div className="margin_for_main">
         <div className="Main_caratula_container">
           <div className="Container_adds_caratula">
-            <h1>esto es publicidad</h1>
+            <h1>Publicidad</h1>
             <img src={adds} alt="adds" />
           </div>
           <div className="Container_title_caraturla">

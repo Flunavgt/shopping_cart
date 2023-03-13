@@ -24,7 +24,7 @@ const Introducción = () => {
     <div className="Main_introduccion_container">
       <div className="videoIntro">
         <video className="videoTag" autoPlay loop muted>
-          <source src="/video/test1.mp4" type="video/mp4" />
+          <source src="/video/test6.mp4" type="video/mp4" />
         </video>
         <img src={logo} alt="Crelosa logo" className="logo_main_img" />
         <h1 className="titleCompanyintro">

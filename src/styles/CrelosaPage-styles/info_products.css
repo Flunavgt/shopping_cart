@@ -131,28 +131,16 @@
   color: rgb(255, 254, 254);
 } */
 
-.store_link_add a {
-  /* position: absolute; */
-  /* top: 60%; */
-  height: 15%;
-  border-radius: 50px;
-  background-color: #8D97BA;
-  color: white !important;
-  text-decoration: none;
-  /* text-shadow: 4px 1px 1px rgb(7, 102, 180); */
-  padding: 15px 30px;
-  transition: 0.5s;
-  font-size: 22px;
-  font-weight: 100;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
+
 
 .store_link_add a:hover {
-  border: 2px solid #ffffff;
-  font-weight: 400;
+  /* border: 2px solid #ffffff; */
+  font-weight: 700;
   text-shadow: 4px 1px 1px black;
+  border: 3px;
+  border-style: dashed;
+  border-color: #151414;
+  background-color: crimson;
 }
 
 /* .bottom_background {

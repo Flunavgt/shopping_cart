@@ -24,13 +24,16 @@ const PieDePagina = () => (
         right: '20px',
         backgroundColor: '#25D366',
         color: '#fff',
-        padding: '10px',
+        padding: '12px',
         borderRadius: '50%',
         textDecoration: 'none',
         boxShadow: '1px 1px 10px #999',
+        fontSize: '1.75rem',
+        fontWeight: 'bold',
       }}
     >
-      <FaWhatsapp color="white" fontSize="2rem" />
+      {/* <FaWhatsapp color="white" fontSize="2rem" /> */}
+      B
     </a>
     {/* <div className="social">
       <h2>Información de contacto</h2>
@@ -116,7 +119,7 @@ const PieDePagina = () => (
         </div> */}
       </div>
       <div className="social">
-        <h2>Información de contacto</h2>
+        <h2>Contactáctanos</h2>
         <img
           src={crelosa}
           alt="CRELOSA_LOGO"
