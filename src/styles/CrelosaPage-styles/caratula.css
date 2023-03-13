@@ -21,7 +21,6 @@ body {
   border-top: 8px solid #0759cd;
   border-right: 8px solid #0759cd;
   border-radius: 30px;
-  /* border: 3px solid red !important; */
   position: relative;
 }
 
@@ -31,18 +30,12 @@ body {
   margin-bottom: 1.5rem;
   font-weight: 600;
   width: fit-content;
-  border: 1px solid #000;
 }
 
 .small_title_cobertura {
   margin-top: 1rem;
   margin-left: 3vw;
 }
-
-/* .margin_for_main {
-  position: absolute;
-  background-color: transparent !important;
-} */
 
 .Main_caratula_container {
   height: 125vh;
@@ -51,7 +44,6 @@ body {
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
-  /* border: 3px solid blue; */
 }
 
 /* .Main_caratula_container > div:first-child {
