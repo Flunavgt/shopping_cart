@@ -75,6 +75,7 @@
 .social {
   display: flex;
   flex-direction: column;
+  margin-right: 2rem;
 }
 
 .social img {

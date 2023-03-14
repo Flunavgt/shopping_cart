@@ -86,8 +86,10 @@ const Caratula = () => {
       [15.568419, -90.064098],
       [15.588441, -89.285939]];
 
-    Leafleat.polygon(coordenadas, { color: 'red' }).addTo(map);
-    Leafleat.polygon(coordenadas2, { color: 'green' }).addTo(map);
+    const xxx = Leafleat.polygon(coordenadas, { color: 'red' });
+    let xxxa = false;
+    const marmolera = Leafleat.polygon(coordenadas2, { color: 'green' });
+    let marmoleraNo = false;
 
     Leafleat.marker([14.585798, -90.517950], {
       icon: customIcon,
@@ -108,7 +110,16 @@ const Caratula = () => {
       draggable: false,
     })
       .addTo(map)
-      .bindPopup('Volcán de Agua');
+      .bindPopup('Volcán de Agua')
+      .on('click', () => {
+        if (!xxxa) {
+          xxx.addTo(map);
+          xxxa = true;
+        } else {
+          map.removeLayer(xxx);
+          xxxa = false;
+        }
+      });
 
     Leafleat.marker([14.8210556, -91.4074083], {
       icon: Leafleat.icon({
@@ -121,6 +132,15 @@ const Caratula = () => {
     })
       .addTo(map)
       .bindPopup('Parraxquin');
+    // .on('click', () => {
+    //   if (!xxxa) {
+    //     xxx.addTo(map);
+    //     xxxa = true;
+    //   } else {
+    //     map.removeLayer(xxx);
+    //     xxxa = false;
+    //   }
+    // });
     // .openPopup();
 
     Leafleat.marker([14.5453861, -90.1185611], {
@@ -313,7 +333,16 @@ const Caratula = () => {
       draggable: false,
     })
       .addTo(map)
-      .bindPopup('Marmolera');
+      .bindPopup('Marmolera')
+      .on('click', () => {
+        if (!marmoleraNo) {
+          marmolera.addTo(map);
+          marmoleraNo = true;
+        } else {
+          map.removeLayer(marmolera);
+          marmoleraNo = false;
+        }
+      });
   }, []);
 
   return (
