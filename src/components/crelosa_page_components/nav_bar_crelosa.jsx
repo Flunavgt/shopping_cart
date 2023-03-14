@@ -56,7 +56,7 @@ const NavBarCrelosa = () => {
             <a className="btn" href="#cobertura">COBERTURA</a>
             <a className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
             <a className="btn" href={routes.store}>TIENDA</a>
-            <a className="btn" href="#quienes_somos?">¿QUIENES SOMOS?</a>
+            <a className="btn" href="/quienes_somos">¿QUIENES SOMOS?</a>
             <a className="btn" href="#asociados">SOCIOS</a>
             <a className="btn" href="#piedepagina">CONTACTO</a>
           </div>

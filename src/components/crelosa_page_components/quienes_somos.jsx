@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import backgroundmv from './images/backgroundmv.jpg';
 import '../../styles/CrelosaPage-styles/quienes_somos.css';
 
@@ -39,6 +40,7 @@ const QuieneSomos = () => (
         </p>
       </div>
     </div>
+    <Link to={{ pathname: '/' }}>Regreso a Crelosa</Link>
   </section>
 );
 

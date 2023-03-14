@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   FaFacebookF,
   FaTwitter,
@@ -14,7 +15,7 @@ import '../../styles/CrelosaPage-styles/pie_de_pagina.css';
 import WhatsappIcon from './whatsapp_business_logo';
 
 const PieDePagina = () => (
-  <div className="crelosaGeneral">
+  <div className="crelosaGeneral" id="piedepagina">
     <WhatsappIcon />
     <div className="general_footer">
 
@@ -31,6 +32,7 @@ const PieDePagina = () => (
         </a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Garantía</a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Privacidad</a>
+        <Link to="/quienes_somos">Mision y Visión</Link>
       </div>
 
       <div className="generalesCrelosa">
