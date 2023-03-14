@@ -12,7 +12,7 @@ body {
 }
 
 .Main_caratula_container1 {
-  height: 250vh;
+  height: 240vh;
   width: 95vw;
   display: flex;
   flex-direction: column;
@@ -90,7 +90,6 @@ body {
 .store_link_add {
   position: absolute;
   right: 50px;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -101,8 +100,8 @@ body {
   font-weight: 600;
   color: #000000;
   padding: 10px 50px 10px 0px;
-  border-bottom: 5px solid #0759cd;
-  border-bottom-right-radius: 15px;
+  /* border-bottom: 5px solid #0759cd; */
+  /* border-bottom-right-radius: 15px; */
   width: fit-content;
 }
 
@@ -131,16 +130,16 @@ body {
 
 .store_link_add {
   display: flex;
-  height: 45vh;
+  height: 50vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-weight: 500;
   /* border: 8px solid pink */
 }
 
 .store_link_add a{
-  margin-top: 8vh;
+  /* margin-top: 8vh; */
   font-weight: 700 !important;
   height: 15%;
   border-radius: 15px;

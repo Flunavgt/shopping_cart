@@ -1,12 +1,13 @@
 /* Contenedor general */
 .Main_infoproducts_container {
   width: 93vw;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   background: #fefffef3;
   position: relative;
   overflow: visible;
+  margin-top: 7vh;
 }
 
 .title_section_infoproducts {

@@ -9,7 +9,7 @@ import { Pagination } from 'swiper';
 const InfoProducts = () => (
   <section id="info_products" className="Main_infoproducts_container">
 
-    <h1 className="title_section_infoproducts"> O adquiere a un click</h1>
+    {/* <h1 className="title_section_infoproducts"> O adquiere a un click</h1> */}
 
     <Swiper
       slidesPerView={4}
