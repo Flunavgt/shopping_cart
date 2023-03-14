@@ -86,8 +86,20 @@ const Caratula = () => {
       [15.568419, -90.064098],
       [15.588441, -89.285939]];
 
-    const xxx = Leafleat.polygon(coordenadas, { color: 'red' });
+    const popupContent = 'Costa Sur de Guatemala';
+    const popup = Leafleat.popup({ closeButton: false }).setContent(popupContent);
     let xxxa = false;
+    const xxx = Leafleat.polygon(coordenadas, { color: 'red' }).on('click', () => {
+      if (!xxxa) {
+        xxx.addTo(map);
+        xxx.bindPopup(popup);
+        xxxa = true;
+      } else {
+        map.removeLayer(xxx);
+        xxxa = false;
+      }
+    });
+
     const marmolera = Leafleat.polygon(coordenadas2, { color: 'green' });
     let marmoleraNo = false;
 
@@ -95,6 +107,7 @@ const Caratula = () => {
       icon: customIcon,
       title: 'Oficina de atención al cliente',
       draggable: false,
+      closeButton: false,
     })
       .addTo(map)
       .bindPopup('Parquep de Crelosa continuo');
@@ -105,15 +118,22 @@ const Caratula = () => {
         iconUrl: collegePng,
         iconSize: [30, 30],
         iconAnchor: [20, 0],
+        className: 'laPincheClase',
       }),
-      title: 'Volcán de Agua',
+      // title: 'gefe',
       draggable: false,
     })
       .addTo(map)
-      .bindPopup('Volcán de Agua')
+      .bindTooltip('Volcán de Agua', {
+        direction: 'top',
+        offset: [-50, 0],
+        opacity: 0.8,
+      })
+      .bindPopup(popup)
       .on('click', () => {
         if (!xxxa) {
           xxx.addTo(map);
+          // xxx.bindPopup(popup);
           xxxa = true;
         } else {
           map.removeLayer(xxx);
@@ -367,7 +387,8 @@ const Caratula = () => {
 
         <div className="store_link_add">
           <h1>Visita nuestra tienda en línea</h1>
-          <a href="/main" type="submit">VISITA NUESTRA TIENDA</a>
+          <a href="/main" type="submit">Crelosa onLine</a>
+          <h1 className="title_section_infoproducts"> O adquiere a un click</h1>
         </div>
 
         {/* </div> */}
