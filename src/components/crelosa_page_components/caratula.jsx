@@ -126,7 +126,7 @@ const Caratula = () => {
       .addTo(map)
       .bindTooltip('Volcán de Agua', {
         direction: 'top',
-        offset: [-50, 0],
+        offset: [0, 0],
         opacity: 0.8,
       })
       .bindPopup(popup)
