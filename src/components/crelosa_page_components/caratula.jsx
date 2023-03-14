@@ -70,9 +70,24 @@ const Caratula = () => {
       shadowUrl: markShadowPng,
     });
 
-    const coordenadas = [[15.203717, -91.741847], [14.5453861, -90.1185611], [15.7835, -90.2308]];
+    const coordenadas = [
+      [14.048208, -91.528269],
+      [14.307560, -91.446870],
+      [14.337303, -91.261942],
+      [14.292882, -91.194566],
+      [14.455848, -90.655992],
+      [14.261899, -90.575590],
+      [13.926240, -90.659647],
+      [13.936695, -91.246602]];
+
+    const coordenadas2 = [
+      [16.042793, -89.503193],
+      [15.965542, -89.897827],
+      [15.568419, -90.064098],
+      [15.588441, -89.285939]];
 
     Leafleat.polygon(coordenadas, { color: 'red' }).addTo(map);
+    Leafleat.polygon(coordenadas2, { color: 'green' }).addTo(map);
 
     Leafleat.marker([14.585798, -90.517950], {
       icon: customIcon,
