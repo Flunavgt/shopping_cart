@@ -32,7 +32,7 @@ const PieDePagina = () => (
         </a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Garantía</a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Privacidad</a>
-        <Link to="/quienes_somos">Mision y Visión</Link>
+        <Link to="/quienes_somos">- Mision y Visión</Link>
       </div>
 
       <div className="generalesCrelosa">
