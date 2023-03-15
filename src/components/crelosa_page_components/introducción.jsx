@@ -1,25 +1,40 @@
+/* eslint-disable max-len */
 import React, { useState } from 'react';
 import '../../styles/CrelosaPage-styles/introduccion.css';
 import logo from './images/Introduccion/CRELOSA-01.png';
 
 const Introducción = () => {
-  const [lastClicked, setLastClicked] = useState({ selector: '', status: '' });
+  const [lastclicked, setLastiClicked] = useState('');
 
   const distwo = (input) => {
-    const dissapeartwo = document.querySelector(input);
-
-    if (lastClicked.status !== 'none' && lastClicked.status !== '' && lastClicked.selector !== '') {
-      const element = document.querySelector(lastClicked.selector);
-      element.style.display = 'none';
-      setLastClicked({ selector: input, status: 'none' });
-    }
-
-    if (dissapeartwo.style.display === 'none' || dissapeartwo.style.display === '') {
-      dissapeartwo.style.display = 'block';
-      setLastClicked({ selector: input, status: 'block' });
+    const message = [{
+      cartel_one: document.querySelector('.dissapearone'),
+      cartel_two: document.querySelector('.dissapeartwo'),
+      cartel_three: document.querySelector('.dissapearthree'),
+    }];
+    if (lastclicked === input) {
+      message[0].cartel_one.style.display = 'none';
+      message[0].cartel_two.style.display = 'none';
+      message[0].cartel_three.style.display = 'none';
+      setLastiClicked('');
     } else {
-      dissapeartwo.style.display = 'none';
-      setLastClicked({ selector: '', status: 'none' });
+      if (input === '.dissapearone') {
+        message[0].cartel_one.style.display = 'block';
+        message[0].cartel_two.style.display = 'none';
+        message[0].cartel_three.style.display = 'none';
+      }
+      if (input === '.dissapeartwo') {
+        message[0].cartel_one.style.display = 'none';
+        message[0].cartel_two.style.display = 'block';
+        message[0].cartel_three.style.display = 'none';
+      }
+      if (input === '.dissapearthree') {
+        message[0].cartel_one.style.display = 'none';
+        message[0].cartel_two.style.display = 'none';
+        message[0].cartel_three.style.display = 'block';
+      }
+
+      setLastiClicked(input);
     }
   };
 
