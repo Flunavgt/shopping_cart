@@ -93,8 +93,9 @@ body {
   body {
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth !important;
   }
-  
+
   .Main_container {
     display: flex;
     position: absolute;
@@ -134,10 +135,11 @@ body {
   }
   
   .buttons_links_container {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 5px;
   }
   
   .buttons_links_container a {
@@ -145,20 +147,18 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: medium;
+    font-size: 1vw;
     color: white;
-    font-size: medium;
-    transition: 0.2s;
+    transition: 0.5s;
   }
   
   .buttons_links_container a:hover {
     color: #ffffff;;
-    font-size: larger;
-    margin: 0px 7px 7px 7px;
+    padding: 5px 10px;
     border-bottom: 3px solid #edeff3;;
     border-bottom-right-radius: 15px;
-    text-shadow: rgb(11, 98, 239) 0px 0px 20px;
-
+    text-shadow: rgb(11, 98, 239) 1px 0px 20px;
+    color: rgb(185, 210, 251);
   }
   
   .size_menuCrelosa_btn {

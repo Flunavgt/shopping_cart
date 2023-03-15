@@ -48,9 +48,6 @@ const NavBarCrelosa = () => {
         />
 
         <section className={`NavBarCrelosa_MainContainer ${showMenu ? 'null' : 'mobil_navbar'}`}>
-          {/* <div className="caratula_logo_container">
-            <img src=" " alt=" " className="logo_main_img" />
-          </div> */}
 
           <div className="buttons_links_container">
             <a className="btn" href="#cobertura">COBERTURA</a>

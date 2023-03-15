@@ -51,7 +51,7 @@ const Caratula = () => {
 
     const map = Leafleat.map(mapId, {
       center: [15.7835, -90.2308],
-      zoom: 8,
+      zoom: 7,
       scrollWheelZoom: false,
     });
 
@@ -116,7 +116,7 @@ const Caratula = () => {
     Leafleat.marker([14.4666028, -90.7430111], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
         className: 'laPincheClase',
       }),
@@ -144,7 +144,7 @@ const Caratula = () => {
     Leafleat.marker([14.8210556, -91.4074083], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Parraxquin',
@@ -166,7 +166,7 @@ const Caratula = () => {
     Leafleat.marker([14.5453861, -90.1185611], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Miramundo',
@@ -178,7 +178,7 @@ const Caratula = () => {
     Leafleat.marker([14.2086056, -89.7994306], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'YUPILTEPEQUE',
@@ -190,7 +190,7 @@ const Caratula = () => {
     Leafleat.marker([15.2465889, -89.1739417], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'TIPON',
@@ -202,7 +202,7 @@ const Caratula = () => {
     Leafleat.marker([15.6720111, -88.6936583], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Las Escobas',
@@ -214,7 +214,7 @@ const Caratula = () => {
     Leafleat.marker([14.7918306, -91.5886833], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: '7 orejas',
@@ -226,7 +226,7 @@ const Caratula = () => {
     Leafleat.marker([15.3966167, -91.4323861], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'LA CAPELLANIA',
@@ -238,7 +238,7 @@ const Caratula = () => {
     Leafleat.marker([14.7844917, -91.0266583], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Tecpan',
@@ -250,7 +250,7 @@ const Caratula = () => {
     Leafleat.marker([14.6184361, -90.5163222], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Centro Financiero',
@@ -262,7 +262,7 @@ const Caratula = () => {
     Leafleat.marker([14.6245, -90.6403083], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Cerro Alux',
@@ -274,7 +274,7 @@ const Caratula = () => {
     Leafleat.marker([14.3916056, -90.6085861], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Cerro Chino',
@@ -286,7 +286,7 @@ const Caratula = () => {
     Leafleat.marker([14.6421306, -89.3840556], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Quetzaltepeque',
@@ -298,7 +298,7 @@ const Caratula = () => {
     Leafleat.marker([14.9057111, -91.8129528], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Ixtagel',
@@ -310,7 +310,7 @@ const Caratula = () => {
     Leafleat.marker([14.57155, -90.4757556], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Monte Bello',
@@ -322,7 +322,7 @@ const Caratula = () => {
     Leafleat.marker([14.6292583, -90.5619833], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'BRS',
@@ -334,7 +334,7 @@ const Caratula = () => {
     Leafleat.marker([15.3386389, -90.2751667], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Xucaneb',
@@ -346,7 +346,7 @@ const Caratula = () => {
     Leafleat.marker([15.6797667, -89.6678556], {
       icon: Leafleat.icon({
         iconUrl: collegePng,
-        iconSize: [30, 30],
+        iconSize: [15, 15],
         iconAnchor: [20, 0],
       }),
       title: 'Marmolera',

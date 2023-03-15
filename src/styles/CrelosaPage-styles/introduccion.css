@@ -1,3 +1,7 @@
+:root {
+  scroll-behavior: smooth;
+}
+
 .Main_introduccion_container {
   width: 100vw;
   height: 100vh;
@@ -15,6 +19,8 @@
 
 .videoTag {
   width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .infoCompany {

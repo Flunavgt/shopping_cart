@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React, { useState } from 'react';
 import '../../styles/CrelosaPage-styles/introduccion.css';
 import logo from './images/Introduccion/CRELOSA-01.png';
