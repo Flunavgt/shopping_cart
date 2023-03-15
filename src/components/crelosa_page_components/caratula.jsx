@@ -7,7 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
 import collegePng from './images/radio-tower.png';
-import adds from './images/Introduccion/adds.jpg';
+import adds from './images/Introduccion/adds1.png';
 import InfoProducts from './info_products';
 // import Imgradcarat from './images/hytera-walkie.png';
 
@@ -375,7 +375,7 @@ const Caratula = () => {
       <div className="Main_caratula_container">
 
         <div className="Container_adds_caratula">
-          <h1>Publicidad</h1>
+          {/* <h1>Publicidad</h1> */}
           <img src={adds} alt="adds" />
         </div>
 
