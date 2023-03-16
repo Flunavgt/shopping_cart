@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +36,29 @@
   100% {
     transform: translateY(0px);
   }
+} */
+
+.Mens_Working_here {
+  /* border: 1px solid #000; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Mens_Working_here h1 {
+  /* border: 1px solid #000; */
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.Mens_Working_here img {
+  /* border: 1px solid #000; */
+  width: 100vw;
 }
