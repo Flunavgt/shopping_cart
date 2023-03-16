@@ -119,3 +119,13 @@
   top: 15%;
   right: 2%;
 }
+
+#videoTest2,
+#videoTest3,
+#videoTest4,
+#videoTest5,
+#videoTest6,
+#videoTest7,
+#videoTest8 {
+    display: none;
+}

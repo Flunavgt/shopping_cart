@@ -1,5 +1,6 @@
 import { Icon } from '@iconify/react';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import * as routes from '../../pages/routes';
 import '../../styles/CrelosaPage-styles/NavBarCrelosa.css';
 import '../../styles/CrelosaPage-styles/VARIABLES.css';
@@ -53,7 +54,7 @@ const NavBarCrelosa = () => {
             <a className="btn" href="#cobertura">COBERTURA</a>
             <a className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
             <a className="btn" href={routes.store}>TIENDA</a>
-            <a className="btn" href="/quienes_somos">¿QUIENES SOMOS?</a>
+            <Link className="btn" to="/quienes_somos">¿QUIENES SOMOS?</Link>
             <a className="btn" href="#asociados">SOCIOS</a>
             <a className="btn" href="#piedepagina">CONTACTO</a>
           </div>

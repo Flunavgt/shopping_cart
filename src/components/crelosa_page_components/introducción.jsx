@@ -5,9 +5,63 @@ import logo from './images/Introduccion/CRELOSA-01.png';
 const Introducción = () => {
   const [lastclicked, setLastiClicked] = useState('');
 
-  // const handleVideo = (input) => {
+  const handleVideo = (input) => {
+    document.querySelector('#videoTest1').style.display = 'none';
+    document.querySelector('#videoTest2').style.display = 'none';
+    document.querySelector('#videoTest3').style.display = 'none';
+    document.querySelector('#videoTest4').style.display = 'none';
+    document.querySelector('#videoTest5').style.display = 'none';
+    document.querySelector('#videoTest6').style.display = 'none';
+    document.querySelector('#videoTest7').style.display = 'none';
+    document.querySelector('#videoTest8').style.display = 'none';
 
-  // }
+    switch (input) {
+      case 1: {
+        const element = document.querySelector('#videoTest1');
+        element.style.display = 'block';
+        break;
+      }
+      case 2: {
+        const element = document.querySelector('#videoTest2');
+        element.style.display = 'block';
+        break;
+      }
+      case 3: {
+        const element = document.querySelector('#videoTest3');
+        element.style.display = 'block';
+        break;
+      }
+      case 4: {
+        const element = document.querySelector('#videoTest4');
+        element.style.display = 'block';
+        break;
+      }
+      case 5: {
+        const element = document.querySelector('#videoTest5');
+        element.style.display = 'block';
+        break;
+      }
+      case 6: {
+        const element = document.querySelector('#videoTest6');
+        element.style.display = 'block';
+        break;
+      }
+      case 7: {
+        const element = document.querySelector('#videoTest7');
+        element.style.display = 'block';
+        break;
+      }
+      case 8: {
+        const element = document.querySelector('#videoTest8');
+        element.style.display = 'block';
+        break;
+      }
+
+      default: {
+        break;
+      }
+    }
+  };
 
   const distwo = (input) => {
     const message = [{
@@ -43,18 +97,22 @@ const Introducción = () => {
 
   return (
     <div className="Main_introduccion_container">
+      <div className="btn-group handlevideo_container">
+        <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          Fondos de Ejemplo
+        </button>
+        <ul className="dropdown-menu dropdown-menu-lg-end">
+          <li><button onClick={() => handleVideo(1)} className="dropdown-item" type="button">Video 1</button></li>
+          <li><button onClick={() => handleVideo(2)} className="dropdown-item" type="button">Video 2</button></li>
+          <li><button onClick={() => handleVideo(3)} className="dropdown-item" type="button">Video 3</button></li>
+          <li><button onClick={() => handleVideo(4)} className="dropdown-item" type="button">Video 4</button></li>
+          <li><button onClick={() => handleVideo(5)} className="dropdown-item" type="button">Video 5</button></li>
+          <li><button onClick={() => handleVideo(6)} className="dropdown-item" type="button">Video 6</button></li>
+          <li><button onClick={() => handleVideo(7)} className="dropdown-item" type="button">Video 7</button></li>
+          <li><button onClick={() => handleVideo(8)} className="dropdown-item" type="button">Video 8</button></li>
+        </ul>
+      </div>
       <div className="videoIntro">
-
-        <div className="btn-group handlevideo_container">
-          <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Right-aligned menu example
-          </button>
-          <ul className="dropdown-menu dropdown-menu-end">
-            <li><button className="dropdown-item" type="button">Action</button></li>
-            <li><button className="dropdown-item" type="button">Another action</button></li>
-            <li><button className="dropdown-item" type="button">Something else here</button></li>
-          </ul>
-        </div>
 
         <video id="videoTest1" className="videoTag" autoPlay loop muted>
           <source src="/video/test1.mp4" type="video/mp4" />
