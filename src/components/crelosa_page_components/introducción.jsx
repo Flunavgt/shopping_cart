@@ -5,6 +5,10 @@ import logo from './images/Introduccion/CRELOSA-01.png';
 const Introducción = () => {
   const [lastclicked, setLastiClicked] = useState('');
 
+  // const handleVideo = (input) => {
+
+  // }
+
   const distwo = (input) => {
     const message = [{
       cartel_one: document.querySelector('.dissapearone'),
@@ -40,13 +44,48 @@ const Introducción = () => {
   return (
     <div className="Main_introduccion_container">
       <div className="videoIntro">
-        <video className="videoTag" autoPlay loop muted>
+
+        <div className="btn-group handlevideo_container">
+          <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Right-aligned menu example
+          </button>
+          <ul className="dropdown-menu dropdown-menu-end">
+            <li><button className="dropdown-item" type="button">Action</button></li>
+            <li><button className="dropdown-item" type="button">Another action</button></li>
+            <li><button className="dropdown-item" type="button">Something else here</button></li>
+          </ul>
+        </div>
+
+        <video id="videoTest1" className="videoTag" autoPlay loop muted>
           <source src="/video/test1.mp4" type="video/mp4" />
         </video>
+        <video id="videoTest2" className="videoTag" autoPlay loop muted>
+          <source src="/video/test2.mp4" type="video/mp4" />
+        </video>
+        <video id="videoTest3" className="videoTag" autoPlay loop muted>
+          <source src="/video/test3.mp4" type="video/mp4" />
+        </video>
+        <video id="videoTest4" className="videoTag" autoPlay loop muted>
+          <source src="/video/test4.mp4" type="video/mp4" />
+        </video>
+        <video id="videoTest5" className="videoTag" autoPlay loop muted>
+          <source src="/video/test5.mp4" type="video/mp4" />
+        </video>
+        <video id="videoTest6" className="videoTag" autoPlay loop muted>
+          <source src="/video/test6.mp4" type="video/mp4" />
+        </video>
+        <video id="videoTest7" className="videoTag" autoPlay loop muted>
+          <source src="/video/test7.mp4" type="video/mp4" />
+        </video>
+        <video id="videoTest8" className="videoTag" autoPlay loop muted>
+          <source src="/video/test8.mp4" type="video/mp4" />
+        </video>
+
         <img src={logo} alt="Crelosa logo" className="logo_main_img" />
         <h1 className="titleCompanyintro">
           Líder en comunicaciones
         </h1>
+
         <div className="containerBtnDmr">
           <button onClick={() => distwo('.dissapearone')} type="button" className="disTwo">
             <h2>DMR</h2>
