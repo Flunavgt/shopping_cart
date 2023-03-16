@@ -25,23 +25,25 @@
 
 .infoCompany {
   position: absolute;
-  top: 55%;
-  left: 18%;
+  top: 52%;
   display: flex;
   flex-direction: column;
-  width: 65vw;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 25vh;
   text-align: justify;
   color: white;
+  padding: 0 10%;
 }
 
 .infoCompany p {
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   font-weight: 400;
-  margin-bottom: 1rem;
 }
 
 .titleCompanyintro {
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: 600;
   margin-bottom: 1rem;
   position: absolute;
@@ -57,8 +59,8 @@
 .logo_main_img {
   position: absolute;
   top: 10%;
-  left: 22%;
- height: 45%;
+  left: 1%;
+  height: 45%;
 }
 
 .titleCompanyintro span {
@@ -69,13 +71,12 @@
   border: none;
   background-color: rgba(240, 248, 255, 0.262);
   border-radius: 15px;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 600;
   color: white;
   text-shadow: 1px 2px 5px black;
   padding: 0.5rem 2rem;
   height: 60px;
-  border: 1px solid #000;
 }
 
 .containerBtnDmr {

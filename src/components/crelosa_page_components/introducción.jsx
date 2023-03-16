@@ -159,30 +159,46 @@ const Introducción = () => {
         <div className="infoCompany">
 
           <p className="dissapearone">
-            DMR de nivel I tienen una potencia de transmisión más baja y son más
-            utilizadas por personas en actividades recreativas al aire libre,
-            pequeñas empresas u otras aplicaciones que no requieren una
-            cobertura de área amplia.
+            DMR o Radio Móvil Digital (Digital Mobile Radio por sus siglas en inglés)
+            es un estándar de radio digital abierto. Con reconocimiento mundial,
+            es una tecnología que combina voz, datos, características y aplicaciones.
+            <br />
+            <br />
+            Gracias al estándar DMR,
+            las radios Hytera DMR funcionan tienen gran compatibilidad con cualquier otro sistema.
+            Los radios Hytera DMR se distinguen por su amplitud de rango y sus características
+            únicas para comunicaciones de negocio y de misión crítica.
+            <br />
+            <br />
+            Desde la ligera y compacta serie H, diseñada para facilitar el uso en interiores,
+            hasta la robusta y segura radio intrínsecamente segura PD796Ex que opera en ambientes
+            hostiles donde la seguridad es vital. Hay un radio para todos: radios para seguridad,
+            radios para mejorar la productividad, radios para atmósferas explosivas, y más.
+            En Hytera, estamos conectando personas en todo el mundo, mejorando la seguridad y
+            la productividad de millones de personas.
+
           </p>
 
           <p className="dissapeartwo">
-            DMR Tier III también utiliza la banda de frecuencia de 66 a 960 MHz,
-            específicamente 66-88 MHz, 136-174 MHz, 400-527 MHz y 806-941 MHz.
-            DMR Tier III admite enlaces de radio que operan bajo licencias
-            individuales.
-            El nivel III permite servicios de voz, mensajes de texto y paquetes de
-            datos en una variedad de formatos. El estándar DMR también especifica el uso
-            de la tecnología TDMA. TDMA significa Acceso Múltiple por División
-            de Tiempo. TDMA proporciona dos canales lógicos y cada espacio de
-            canal de 12,5 kilohercios.
-            Esto proporciona una duplicación útil de la capacidad dentro del
-            mismo espacio de canales analógicos.
+            El Nivel III de DMR, según lo define el ETSI, cubre las operaciones de trunking en las
+            bandas de frecuencia 66-960 MHz. El estándar especifica dos intervalos de tiempo
+            en canales de12,5
+            kHz, y es similar a TETRA en que admite funcionalidades de voz y mensajería corta
+            en una amplia
+            gama de formatos. Sin embargo, en comparación con TETRA, su precio no es tan alto.
+            El Tier III al ser un más avanzado que la tecnología análoga y DMR I o II, es
+            adecuado para
+            algunas de las operaciones más complejas del mundo.
+            La solución DMR Tier III de Hytera, el DS-6211, constituye la verdadera ruta
+            de actualización para los clientes de MPT1327.
+
           </p>
           <p className="dissapearthree">
-            DMR de nivel I tienen una potencia de transmisión más baja y son más
-            utilizadas por personas en actividades recreativas al aire libre,
-            pequeñas empresas u otras aplicaciones que no requieren una
-            cobertura de área amplia.
+            Tiene como características que su ancho de banda varíaentre
+            300 a 3.000 MHz, aunque con algunos canales de banda superior,
+            entre 3.5 GHz y 26 GHz. Es usado como enlace entre una empresa y
+            un centro que funcione como centro de conmutación del operador,
+            o como un enlace entre redes LAN.
           </p>
         </div>
       </div>

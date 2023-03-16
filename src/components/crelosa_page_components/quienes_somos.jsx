@@ -40,7 +40,9 @@ const QuieneSomos = () => (
         </p>
       </div>
     </div>
-    <Link to={{ pathname: '/' }}>Regreso a Crelosa</Link>
+    <div className="return_btn_container">
+      <Link to={{ pathname: '/' }} className=""> Regreso a Crelosa </Link>
+    </div>
   </section>
 );
 
