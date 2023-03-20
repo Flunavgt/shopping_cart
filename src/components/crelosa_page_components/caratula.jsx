@@ -64,7 +64,6 @@ const Caratula = () => {
       shadowUrl: markShadowPng,
     });
 
-    // MAP para todas las oficinas de CRELOSA -> OFICINA CENTRAL
     oficinaCentral.map((oficina) => {
       Leafleat.marker(oficina.coordenadas, {
         icon: customIcon,
@@ -76,7 +75,6 @@ const Caratula = () => {
         .bindPopup(oficina.popUpMessage);
     });
 
-    // MAP para todos las antenas / repetidoras
     markers.map((marker) => {
       // const popupContent = marker.popUpMessage;
       // const popup = Leafleat.popup({ closeButton: false }).setContent(popupContent);

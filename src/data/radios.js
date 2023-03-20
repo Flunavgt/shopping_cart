@@ -19,7 +19,7 @@ export const articulos = [
     modelo: 'BD616',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -35,7 +35,7 @@ export const articulos = [
     modelo: 'HP606 ',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -52,7 +52,7 @@ export const articulos = [
     modelo: 'HP706',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -69,7 +69,7 @@ export const articulos = [
     modelo: 'AP516',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -85,7 +85,7 @@ export const articulos = [
     modelo: 'BP516',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -101,7 +101,7 @@ export const articulos = [
     modelo: 'BD506',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -132,7 +132,7 @@ export const articulos = [
     modelo: 'TC-500',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -149,7 +149,7 @@ export const articulos = [
     modelo: 'BD610',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -165,7 +165,7 @@ export const articulos = [
     modelo: 'BD556',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -178,7 +178,7 @@ export const articulos = [
     modelo: 'HP786',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -213,7 +213,7 @@ export const articulos = [
     modelo: 'PNC370',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
@@ -247,7 +247,7 @@ export const articulos = [
     modelo: 'PNC560',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
       '',
     ],
     caracteristicas: [
