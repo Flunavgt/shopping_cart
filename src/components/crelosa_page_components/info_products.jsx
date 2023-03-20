@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-boolean-value */
 import '../../styles/CrelosaPage-styles/info_products.css';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper';
 import radios from '../../data/radios';
 
 const InfoProducts = () => (
@@ -13,11 +15,12 @@ const InfoProducts = () => (
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
-        navigation={{ clickable: true }}
+        loop={false}
+        navigation
         pagination={{
-          clickable: true,
+          clickable: false,
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         {
