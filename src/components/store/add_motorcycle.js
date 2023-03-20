@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { addProductAsync } from '../redux/models/models';
-import '../styles/add_motorcycle.css';
+import { addProductAsync } from '../../redux/models/models';
+import '../../styles/add_motorcycle.css';
 
 const Form = () => {
   const [model, setModel] = useState('');

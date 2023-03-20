@@ -6,8 +6,8 @@ import {
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
-import { fetchModelsAsync } from '../redux/models/models';
-import '../styles/models.css';
+import { fetchModelsAsync } from '../../redux/models/models';
+import '../../styles/models.css';
 
 const Product = ({ product }) => {
   const {

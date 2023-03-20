@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { cleanUser, createUserAsync } from '../redux/models/login';
-import '../styles/login.css';
-import * as routes from '../pages/routes';
+import { cleanUser, createUserAsync } from '../../redux/models/login';
+import '../../styles/login.css';
+import * as routes from '../../pages/routes';
 
 const Signin = () => {
   const currentUser = useSelector((state) => state.current_user);

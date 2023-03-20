@@ -1,11 +1,11 @@
 /* eslint-disable */
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { addOperation } from '../redux/operations/operations';
-import '../styles/reserve.css'
+import { addOperation } from '../../redux/operations/operations';
+import '../../styles/reserve.css'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { fetchModelsAsync } from '../redux/models/models';
+import { fetchModelsAsync } from '../../redux/models/models';
 
 const Reserve = () => {
   const dispatch = useDispatch();

@@ -165,10 +165,6 @@ body {
   display: none;
 }
 
-/* .laPincheClase {
-  border: 4px solid #f20707;
-} */
-
 .leaflet-tooltip {
   position: absolute;
   padding: 5px;

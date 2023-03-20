@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import {
   fetchModelsAsync,
   deleteProductAsync,
-} from '../redux/models/models';
-import '../styles/delete_motorcycle.css';
+} from '../../redux/models/models';
+import '../../styles/delete_motorcycle.css';
 
 const ModelName = ({ product, deleteHandler }) => {
   const { id, model } = product;

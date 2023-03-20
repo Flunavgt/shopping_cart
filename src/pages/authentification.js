@@ -1,5 +1,5 @@
-import Login from '../components/login';
-import Signin from '../components/singin';
+import Login from '../components/login/login';
+import Signin from '../components/login/singin';
 
 const Authentification = () => (
   <>

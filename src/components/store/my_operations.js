@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import moment from 'moment';
-import { fetchOperationsFromServer, removeOperations } from '../redux/operations/operations';
-import { fetchModelsAsync } from '../redux/models/models';
-import '../styles/my_operations.css';
+import { fetchOperationsFromServer, removeOperations } from '../../redux/operations/operations';
+import { fetchModelsAsync } from '../../redux/models/models';
+import '../../styles/my_operations.css';
 
 const MyOperations = () => {
   const dispatch = useDispatch();

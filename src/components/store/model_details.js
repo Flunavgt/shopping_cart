@@ -3,8 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useParams, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Icon } from '@iconify/react';
-import { fetchDetailsAsync } from '../redux/models/model_details';
-import '../styles/details.css';
+import { fetchDetailsAsync } from '../../redux/models/model_details';
+import '../../styles/details.css';
 
 const BackToModels = () => (
   <Link className="back-btn" to="/models">

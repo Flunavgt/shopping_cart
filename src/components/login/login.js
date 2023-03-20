@@ -1,9 +1,9 @@
-import '../styles/login.css';
+import '../../styles/login.css';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { cleanUser, findUserAsync } from '../redux/models/login';
-import * as routes from '../pages/routes';
+import { cleanUser, findUserAsync } from '../../redux/models/login';
+import * as routes from '../../pages/routes';
 //  error = This user is not in database
 
 const Login = () => {

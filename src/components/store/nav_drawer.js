@@ -2,9 +2,9 @@ import { Icon } from '@iconify/react';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, Link } from 'react-router-dom';
-import '../styles/navdrawer.css';
-import { cleanUser } from '../redux/models/login';
-import * as routes from '../pages/routes';
+import '../../styles/navdrawer.css';
+import { cleanUser } from '../../redux/models/login';
+import * as routes from '../../pages/routes';
 
 const NavDrawer = () => {
   const [showMenu, setShowMenu] = useState(false);
