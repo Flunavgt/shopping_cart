@@ -78,13 +78,13 @@ const Caratula = () => {
 
     // MAP para todos las antenas / repetidoras
     markers.map((marker) => {
-      const popupContent = marker.popUpMessage;
-      const popup = Leafleat.popup({ closeButton: false }).setContent(popupContent);
+      // const popupContent = marker.popUpMessage;
+      // const popup = Leafleat.popup({ closeButton: false }).setContent(popupContent);
       let popUpAbierto = false;
       const popUpInformacion = Leafleat.polygon(marker.mancha, { color: marker.mancha_Color }).on('click', () => {
         if (!popUpAbierto) {
           popUpInformacion.addTo(map);
-          popUpInformacion.bindPopup(popup);
+          // popUpInformacion.bindPopup(popup);
           popUpAbierto = true;
         } else {
           map.removeLayer(popUpInformacion);
@@ -106,7 +106,7 @@ const Caratula = () => {
           offset: [0, 0],
           opacity: 0.8,
         })
-        .bindPopup(popup)
+        // .bindPopup(popup)
         .on('click', () => {
           if (!popUpAbierto) {
             popUpInformacion.addTo(map);
@@ -146,7 +146,6 @@ const Caratula = () => {
 
       <InfoProducts />
 
-      {/* </div> */}
     </section>
   );
 };
