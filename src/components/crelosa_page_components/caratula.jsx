@@ -2,6 +2,7 @@
 import '../../styles/CrelosaPage-styles/caratula.css';
 import React, { useEffect, useRef } from 'react';
 import Leafleat from 'leaflet';
+import ReactPlayer from 'react-player';
 import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
@@ -76,13 +77,13 @@ const Caratula = () => {
     });
 
     markers.map((marker) => {
-      // const popupContent = marker.popUpMessage;
-      // const popup = Leafleat.popup({ closeButton: false }).setContent(popupContent);
+      const popupContent = marker.popUpMessage;
+      const popup = Leafleat.popup({ closeButton: false }).setContent(popupContent);
       let popUpAbierto = false;
       const popUpInformacion = Leafleat.polygon(marker.mancha, { color: marker.mancha_Color }).on('click', () => {
         if (!popUpAbierto) {
           popUpInformacion.addTo(map);
-          // popUpInformacion.bindPopup(popup);
+          popUpInformacion.bindPopup(popup);
           popUpAbierto = true;
         } else {
           map.removeLayer(popUpInformacion);
@@ -104,7 +105,7 @@ const Caratula = () => {
           offset: [0, 0],
           opacity: 0.8,
         })
-        // .bindPopup(popup)
+        .bindPopup(popup)
         .on('click', () => {
           if (!popUpAbierto) {
             popUpInformacion.addTo(map);
@@ -131,6 +132,19 @@ const Caratula = () => {
 
         <div>
           <div id={mapId} className="mapCover" />
+        </div>
+
+        <div style={{ width: '50%', height: '50vh' }}>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=NiVMbP2y0Ho"
+            className="react-player"
+            playing
+            width="100%"
+            height="77%"
+            controls={false}
+            alt=""
+            objectFit="cover"
+          />
         </div>
 
         <div className="store_link_add">

@@ -1,6 +1,6 @@
 export const centroDelMapa = {
   coordenadas: [15.7835, -90.2308],
-  zoom: 7.5,
+  zoom: 6,
 };
 
 export const oficinaCentral = [{
