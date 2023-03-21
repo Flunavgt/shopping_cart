@@ -6,6 +6,7 @@ import PieDePagina from '../components/crelosa_page_components/pie_de_pagina';
 import Introducción from '../components/crelosa_page_components/introducción';
 import '../App.css';
 import logo from '../components/crelosa_page_components/images/Introduccion/CRELOSA-01.png';
+import YoutubeVideo from '../components/crelosa_page_components/youtube_video';
 
 const CrelosaMainPage = () => {
   const useScreenSize = () => {
@@ -40,6 +41,7 @@ const CrelosaMainPage = () => {
     <section className="crelosa_main_page_container">
       <NavBarCrelosa />
       <Introducción />
+      <YoutubeVideo />
       <Caratula />
       {/* <InfoProducts /> */}
       {/* <QuieneSomos /> */}

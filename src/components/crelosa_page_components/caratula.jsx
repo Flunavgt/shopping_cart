@@ -1,11 +1,12 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable array-callback-return */
 import '../../styles/CrelosaPage-styles/caratula.css';
 import React, { useEffect, useRef } from 'react';
 import Leafleat from 'leaflet';
-import ReactPlayer from 'react-player';
 import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
+// import YouTube from 'react-youtube';
 import collegePng from './images/radio-tower.png';
 import adds from './images/Introduccion/adds1.png';
 import InfoProducts from './info_products';
@@ -134,26 +135,12 @@ const Caratula = () => {
           <div id={mapId} className="mapCover" />
         </div>
 
-        <div style={{ width: '50%', height: '50vh' }}>
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=NiVMbP2y0Ho"
-            className="react-player"
-            playing
-            width="100%"
-            height="77%"
-            controls={false}
-            alt=""
-            objectFit="cover"
-          />
-        </div>
-
         <div className="store_link_add">
           <h1>Visita nuestra tienda en línea</h1>
           <a href="/main" type="submit">Crelosa onLine</a>
           <h1 className="title_section_infoproducts"> O adquiere a un click</h1>
         </div>
 
-        {/* </div> */}
       </div>
 
       <InfoProducts />

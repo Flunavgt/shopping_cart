@@ -180,3 +180,18 @@ body {
   pointer-events: none;
   box-shadow: 0 3px 6px rgba(0,0,0,2);
   }
+
+  .youtube_container_video {
+    border: 1px solid #000;
+    background-color: red;
+    height: 80vh;
+    object-fit: cover;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .react-player {
+    border: 1px solid #000;
+  }
