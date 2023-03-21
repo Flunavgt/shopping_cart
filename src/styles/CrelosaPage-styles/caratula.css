@@ -182,16 +182,23 @@ body {
   }
 
   .youtube_container_video {
-    border: 1px solid #000;
-    background-color: red;
-    height: 80vh;
-    object-fit: cover;
+    /* border: 1px solid #000; */
+    /* background-color: red; */
+    height: 60vh;
+    /* object-fit: cover; */
     /* padding: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
-  .react-player {
-    border: 1px solid #000;
-  }
+  .react-player{
+  border-radius: 15px;
+  border: 5px solid #090909;
+}
+
+.react-player {
+  width: calc(50vh * 16/9) !important;
+  height: 50vh !important;
+}  
