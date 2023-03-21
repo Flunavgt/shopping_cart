@@ -181,10 +181,25 @@ body {
   box-shadow: 0 3px 6px rgba(0,0,0,2);
   }
 
+  .videoTitleyt  {
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width:95vw;
+    margin-inline: 2.5vw;
+    border-bottom: 8px solid yellow;
+    border-right: 8px solid yellow;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
   .youtube_container_video {
     /* border: 1px solid #000; */
     /* background-color: red; */
-    height: 60vh;
+    height: 57vh;
     /* object-fit: cover; */
     /* padding: 10px; */
     display: flex;
@@ -193,9 +208,19 @@ body {
     flex-direction: column;
   }
 
+  .youtube_container_video h1 {
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 4vh;
+    /* border-bottom: 5px solid #0759cd; */
+    /* border-bottom-right-radius: 15px; */
+  }
+
   .react-player{
   border-radius: 15px;
   border: 5px solid #090909;
+  background-color: #090909;
 }
 
 .react-player {
