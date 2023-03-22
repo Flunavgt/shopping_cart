@@ -1,5 +1,21 @@
 export const articulos = [
   {
+    modelo: 'NX1300',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
+  }, {
+    modelo: 'DGM8500',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
+  }, {
     modelo: 'TC-320',
     descripcion: 'Descripción va aquí',
     imagen: [
@@ -15,6 +31,14 @@ export const articulos = [
       ['Batería 1100 mAh (Li-Ion)'],
       ['Duración de la Batería (en ciclo de trabajo 5-5-90) Mas de 8 Horas.'],
     ],
+  }, {
+    modelo: 'A120',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
   }, {
     modelo: 'BD616',
     descripcion: 'Descripción va aquí',
@@ -129,39 +153,6 @@ export const articulos = [
       ['Autonomía de la batería: 14h'],
     ],
   }, {
-    modelo: 'TC-500',
-    descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
-    caracteristicas: [
-      ['Diseño ergonómico antideslizante.'],
-      ['Doble moldeado por inyección (PC+ABS.)'],
-      ['Compacto y ligero sólo pesa 269 g '],
-      ['16 canales.'],
-      ['VHF (136-150 / 150-174 MHz.)'],
-      ['UHF (400-420 / 450-470 MHz.'],
-      ['Espaciamiento de canales 25 kHz.'],
-      ['Voltaje de operación 6.0 V.'],
-    ],
-  }, {
-    modelo: 'BD610',
-    descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
-    caracteristicas: [
-      ['Rango de frecuencia: UHF 400-470 MHz, VHF: 136-174 MHz'],
-      ['Capacidad de canal: 48'],
-      ['Área capacidad: 3'],
-      ['Puntuación audio potencia de salida:0,5 w'],
-      ['Batería: 1500 mAh (Li-Ion)'],
-      ['Duración de la batería: 12/16 horas (1500 mAh) '],
-
-    ],
-  }, {
     modelo: 'BD556',
     descripcion: 'Descripción va aquí',
     imagen: [
@@ -173,23 +164,6 @@ export const articulos = [
       ['Potencia RF: VHF 1-5 W / UHF 1-4 W'],
       ['Canales: 256'],
       ['Batería: 1.500 mAh (16h*) '],
-    ],
-  }, {
-    modelo: 'HP786',
-    descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
-    caracteristicas: [
-      ['Rango de frecuencia: UHF: 350~470 MHz, VHF: 136~174 MHz'],
-      ['Capacidad de canales: 1024'],
-      ['Capacidad de la zona: 64'],
-      ['Canales por zona: 256'],
-      ['Espaciado entre canales: 12,5 kHz/20 kHz/25 kHz'],
-      ['Batería: 2400 mAh de polímero de litio'],
-      ['Autonomía de la batería: 24 h (GNSS desactivado) 20 h (GNSS activado) '],
-
     ],
   }, {
     modelo: 'PNC360',
@@ -208,22 +182,6 @@ export const articulos = [
       [' WIFI: 2,4 GHz, 802.11 b/g/n'],
       ['Batería: 4000 mAh, Extraíble'],
       ['Puerto de Carga: USB tipo C '],
-    ],
-  }, {
-    modelo: 'PNC370',
-    descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
-    caracteristicas: [
-      ['Rango de frecuencia: WCDMA: B2/B4/B5 WLAN: 2,4GHz 802.11b/g/n'],
-      ['Sistema operativo: Android '],
-      ['Sistema posicionamiento: GPS/BDS/GLONASS'],
-      ['Memoria: 512M RAM, 4GB ROM'],
-      ['Tarjeta SIM: Micro SIM'],
-      ['Baterìa: 3100 mAh'],
-      ['Autonomía de Bateria: 18h'],
     ],
   }, {
     modelo: 'PNC380 ',
@@ -259,6 +217,38 @@ export const articulos = [
       ['Camara Delantera: 8Mp, Trasera: 48MP*8MP'],
       ['Bluetooth, linterna '],
     ],
+  }, {
+    modelo: 'DEP450',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
+  }, {
+    modelo: 'DEP570',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
+  }, {
+    modelo: 'A25',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
+  }, {
+    modelo: 'DGP8550',
+    descripcion: 'Descripción va aquí',
+    imagen: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      '',
+    ],
+    caracteristicas: [],
   }];
 
 export default articulos;
