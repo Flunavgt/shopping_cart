@@ -20,23 +20,15 @@ const PieDePagina = () => (
     <div className="general_footer">
 
       <div className="terminos">
-        <h2>Términos y condiciones</h2>
-        <a
-          href="https://www.instagram.com/crelosagua/?hl=en"
-          className="invisibleCre"
-        >
-          <FaInstagram className="invisibleCre" />
-        </a>
-        <a href="https://crelosa.com/terminos-y-condiciones/">
-          - Términos y condiciones
-        </a>
+        <h2 className="titulo_contenedores">Términos y condiciones</h2>
+        <a href="https://crelosa.com/terminos-y-condiciones/">- Términos y condiciones</a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Garantía</a>
         <a href="https://crelosa.com/terminos-y-condiciones/">- Privacidad</a>
         <Link to="/quienes_somos">- Mision y Visión</Link>
       </div>
 
       <div className="generalesCrelosa">
-        <h2>Generales</h2>
+        <h2 className="titulo_contenedores">Generales</h2>
         <br />
         <div className="contactodirecciones">
           <div>
@@ -60,24 +52,17 @@ const PieDePagina = () => (
             PBX: (502) 2333 4620  o  (502) 2313 7200
           </p>
         </div>
-        {/* <p> Horarios:</p>
-        <p> Lunes a Viernes</p>
-        <p> 8:00 am a 5:00 pm</p> */}
-        {/* <div className="crelosaMail">
-          <FaEnvelope />
-          <a href="mailto:crelosa@crelosa.com" target="_blank" rel="noreferrer">
-            Crelosa
-          </a>
-        </div> */}
       </div>
 
       <div className="social">
-        <h2>Contactáctanos</h2>
-        <img
-          src={crelosa}
-          alt="CRELOSA_LOGO"
-          className="logo_main"
-        />
+        <h2 className="titulo_contenedores">Contactáctanos</h2>
+        <div className="social_container_logo">
+          <img
+            src={crelosa}
+            alt="CRELOSA_LOGO"
+            className="logo_main"
+          />
+        </div>
         <div>
           <div className="sNetworks">
             <a href="https://www.facebook.com/people/Crelosa/100064049460071/">
@@ -90,14 +75,14 @@ const PieDePagina = () => (
               <FaYoutube style={{ color: '#FF0000' }} />
             </a>
             <a href="https://www.instagram.com/crelosagua/?hl=en">
-              <FaInstagram className="instagram" />
+              <FaInstagram />
             </a>
             <a
               href="https://api.whatsapp.com/send?phone=50231017755"
               target="_blank"
               rel="noreferrer"
             >
-              <FaWhatsapp color="green" fontSize="2rem" />
+              <FaWhatsapp color="green" />
 
             </a>
             <div className="crelosaMail">
