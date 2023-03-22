@@ -1,22 +1,23 @@
 .crelosaGeneral {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
   width: 100vw;
-  height: 40vh;
   background-color: rgba(164, 169, 169, 0.362);
+  justify-content: center;
   align-items: center;
   /* border: 1px solid #000; */
-  overflow-x: hidden;
 }
 
 .general_footer {
   display: flex;
   justify-content: space-between;
-  width: 92vw;
-  margin: 20px 4vw;
+  width: 100%;
+  padding: 10px;
   flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
   /* border: 1px solid #000; */
+  gap: 10px;
 }
 
 .crelosaGeneral h2 {
@@ -29,12 +30,18 @@
   margin-right: 7px;
 }
 
+.generalesCrelosa {
+  /* border: 1px solid #0051ff; */
+  width: 31%;
+  height: max-content;
+}
+
 .contactodirecciones {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */
 }
 
 .sNetworks {
@@ -54,7 +61,6 @@
 .crelosaMail {
   display: flex;
   align-items: center;
-  /* font-size: 1.5rem; */
   color: #000;
 }
 
@@ -67,6 +73,12 @@
   display: none;
 }
 
+.terminos {
+  /* border: 1px solid #ff00ea; */
+  width: 31%;
+  height: 100%;
+}
+
 .terminos a {
   position: relative;
   padding: 10px 20px;
@@ -75,12 +87,15 @@
 .social {
   display: flex;
   flex-direction: column;
-  margin-right: 2rem;
+  /* border: 1px solid #ff0000; */
+  width: 31%;
 }
 
 .social img {
   width: 15vw;
+  height: 100%;
   align-self: center;
+  /* border: 1px solid #000; */
 }
 
 .terminos a:hover::after {
