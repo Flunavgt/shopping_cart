@@ -35,12 +35,14 @@ body {
   flex-direction: column;
   align-items: center;
   /* background: var(--bg-color); */
-  /* background: black;
+
+/* background: black;
   padding: 0 5% 0 5%;
   overflow-x: hidden;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.156);
 } */
-/* 
+
+/*
 .buttons_links_container {
   width: 60%;
   display: flex;
@@ -70,6 +72,7 @@ body {
   right: 25px;
   z-index: 99;
   /* border: 1px solid #000; */
+
 /* } */
 
 /* .desktop_navbar {
@@ -103,24 +106,25 @@ body {
     width: 100vw;
     height: 12vh;
     z-index: 9999;
+
     /* border: 10px solid #cf0e0e; */
   }
-  
+
   /* .caratula_logo_container {
     height: 90%;
     max-height: 50px;
   } */
-  
+
   /* .logo_main_img {
     height: 100%;
   } */
-  
+
   .top_line {
     width: 100vw;
     height: 100px;
     background-color: var(--First-main-bg-color);
   }
-  
+
   .NavBarCrelosa_MainContainer {
     width: 100vw;
     height: 100vh;
@@ -131,9 +135,10 @@ body {
     background: rgba(0, 0, 0, 0.508);
     padding: 0 5% 0 5%;
     overflow-x: hidden;
+
     /* border: 1px solid #ffffff; */
   }
-  
+
   .buttons_links_container {
     width: 80%;
     display: flex;
@@ -141,7 +146,7 @@ body {
     justify-content: space-around;
     margin: 5px;
   }
-  
+
   .buttons_links_container a {
     display: flex;
     justify-content: center;
@@ -151,16 +156,15 @@ body {
     color: white;
     transition: 0.5s;
   }
-  
+
   .buttons_links_container a:hover {
-    color: #ffffff;;
     padding: 5px 10px;
-    border-bottom: 3px solid #edeff3;;
+    border-bottom: 3px solid #edeff3;
     border-bottom-right-radius: 15px;
-    text-shadow: rgb(11, 98, 239) 1px 0px 20px;
+    text-shadow: rgb(11, 98, 239) 1px 0 20px;
     color: rgb(185, 210, 251);
   }
-  
+
   .size_menuCrelosa_btn {
     display: none;
   }

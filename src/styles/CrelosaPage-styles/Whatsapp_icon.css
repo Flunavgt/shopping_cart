@@ -2,38 +2,27 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-
-  border-radius: 50%;
   z-index: 9999;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border-radius: 50px 50px 50px 0px;
+  border-radius: 50px 50px 50px 0;
 }
 
 .whatsapp_business_logo img {
   width: 3vw;
   height: 3vw;
-
   min-height: 80px;
   min-width: 80px;
-
   max-width: 120px;
   max-height: 120px;
-
-  border-radius: 50px 50px 50px 0px;
-
+  border-radius: 50px 50px 50px 0;
   transition: 0.1s;
 }
 
 .whatsapp_business_logo img:hover {
   width: calc(6vw + 10px) !important;
   height: calc(6vw + 10px) !important;
-
-  border-radius: 50px 50px 50px 0px;
-
+  border-radius: 50px 50px 50px 0;
   background-color: rgba(255, 255, 255, 0.227);
 }
-

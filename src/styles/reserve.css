@@ -11,8 +11,10 @@
   width: 100%;
   height: 100vh;
   padding: 20vh;
+
   /* background-color: rgba(151, 191, 1); */
   background-color: rgb(1, 150, 191);
+
   /* background-color: transparent; */
   display: flex;
   flex-direction: column;
@@ -27,18 +29,25 @@
   top: 0;
   width: 100%;
   height: 100%;
+
   /* opacity: 1; */
+
   /* background-image: url('https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center; */
+
   /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
   /* background-image: url('https://images.pexels.com/photos/4417069/pexels-photo-4417069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
   /* background-image: url('https://images.pexels.com/photos/2081132/pexels-photo-2081132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: top 15px right 15px;
+
   /* background-image: url('https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
   /* background-image: url('../../public/images/hytera_sinfondo.png'); */
   background-image: url('https://www.hytera.la/assets/img/logo.svg');
 }
