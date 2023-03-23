@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.form-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 20vh;
+
+  /* background-color: rgba(151, 191, 1); */
+  background-color: rgb(1, 150, 191);
+
+  /* background-color: transparent; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* opacity: 1; */
+
+  /* background-image: url('https://images.hytera.us/images/PNC360S_front-1.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=407a5a9d28927bdbafe0cf3e368afb8e');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; */
+
+  /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
+  /* background-image: url('https://images.pexels.com/photos/4417069/pexels-photo-4417069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
+  /* background-image: url('https://images.pexels.com/photos/2081132/pexels-photo-2081132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: top 15px right 15px;
+
+  /* background-image: url('https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
+  /* background-image: url('../../public/images/hytera_sinfondo.png'); */
+  background-image: url('https://www.hytera.la/assets/img/logo.svg');
+}
+
+.res-form {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 2vh;
+}
+
+form > div {
+  width: 80%;
+}
+
+form > div > label {
+  font-weight: 500;
+  color: aliceblue;
+  font-size: large;
+}
+
+form input {
+  width: 100%;
+  margin: 4px auto;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+}
+
+.res-btn-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.reserve-btn {
+  width: 150px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  color: rgba(151, 191, 1);
+  font-weight: 600;
+  background-color: white;
+  padding: 12px 18px;
+}
+
+.reserve-btn:hover {
+  background-color: rgb(26, 168, 7);
+  cursor: pointer;
+  color: white;
+}
+
+.tit-form {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: large;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    padding: 2%;
+  }
+
+  form > div {
+    width: 100%;
+    padding-left: 6px;
+  }
+
+  .tit-form {
+    margin-top: 2vh;
+  }
+
+  .res-form {
+    padding: 0 2%;
+  }
+}

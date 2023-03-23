@@ -1,0 +1,28 @@
+:root {
+  /* Logo colors */
+  --First-main-bg-color: #222593;
+  --Snd-main-bg-color: #ddda2d;
+
+  /* NavBar colors */
+  --bg-color: rgb(255, 255, 255);
+
+  /* Caratula */
+  --bg-main-caratula: rgb(255, 255, 255);
+
+  /* Info product */
+  --bg-infoproducs-section: rgb(3, 3, 3);
+  --letter-color: rgb(1, 1, 1);
+  --bg-color-store-btn: rgb(255, 255, 255);
+  --bg-hovercolor-store-btn: rgb(0, 0, 0);
+  --bg-shadow-photoscontainer: rgb(153, 153, 153);
+  --bg-container-photoscontainer: rgb(83, 100, 120);
+
+  /* Quienes Somos? */
+  --bg-quienessomos-section: rgb(255, 255, 255);
+
+  /* Asociados */
+  --bg-asociados-section: purple;
+
+  /* Footer */
+  --bg-piedepagina-section: rgb(7, 177, 168);
+}
