@@ -1,0 +1,48 @@
+
+.Main_asociados_container {
+  width: 99vw;
+
+  /* background-color: var(--bg-asociados-section); */
+
+  /* height: 55vh; */
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Main_asociados_container h2 {
+  font-size: 3vw;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 3.5vh;
+}
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  /* margin-bottom: 3vh; */
+  justify-content: center;
+  width: 100%;
+}
+
+.brands img {
+  width: 12vw;
+  -webkit-filter: grayscale(1) !important;
+  -moz-filter: grayscale(1);
+  filter: grayscale(100%) !important;
+  transition: all 1.7s ease-in-out;
+  padding: 20px 30px;
+}
+
+.brands img:hover {
+  -webkit-filter: grayscale(0%) !important;
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%) !important;
+  transition: all 1.7s ease-in-out;
+  transform: scale(1.4) rotateY(360deg);
+}
