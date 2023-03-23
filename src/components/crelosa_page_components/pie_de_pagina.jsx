@@ -83,7 +83,6 @@ const PieDePagina = () => (
               rel="noreferrer"
             >
               <FaWhatsapp color="green" />
-
             </a>
             <div className="crelosaMail">
               <a href="mailto:ventas@crelosa.com" target="_blank" rel="noreferrer">

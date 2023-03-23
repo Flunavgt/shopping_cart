@@ -9,7 +9,7 @@
 .general_footer {
   display: flex;
   width: 100%;
-  padding: 10px;
+  padding: 30px;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
@@ -73,12 +73,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 70%;
   overflow: hidden;
 }
 
 .social_container_logo img {
-  width: 100%;
+  width: 80%;
 }
 
 .terminos a {
@@ -93,7 +93,7 @@
 .sNetworks {
   display: flex;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   justify-content: space-between;
   width: 80%;
   max-width: 25vw;

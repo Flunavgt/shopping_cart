@@ -103,6 +103,12 @@
 .dissapeartwo,
 .dissapearthree {
   display: none;
+  color: rgb(253, 251, 251);
+  font-weight: 500;
+  text-shadow: 0px 0px 5px #000;
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 5px;
+  padding: 10px 50px;
 }
 
 .testing {
@@ -115,14 +121,4 @@
   z-index: 999;
   top: 15%;
   right: 2%;
-}
-
-#videoTest2,
-#videoTest3,
-#videoTest4,
-#videoTest5,
-#videoTest6,
-#videoTest7,
-#videoTest8 {
-  display: none;
 }
