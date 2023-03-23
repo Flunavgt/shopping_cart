@@ -9,7 +9,10 @@ const YoutubeVideo = () => (
       <div className="container">
         <ReactPlayer
           playing
-          url="http://www.youtube.com/live/NiVMbP2y0Ho?feature=share"
+          muted
+          loop
+          // url="http://www.youtube.com/live/NiVMbP2y0Ho?feature=share"
+          url="https://youtu.be/20Wz5jKAYx0"
           className="react-player"
           controls={false}
         />
