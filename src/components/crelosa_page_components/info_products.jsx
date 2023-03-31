@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper';
 import radios from '../../data/radios';
+import pendiente from './images/infoproductos/crelosa_not_found.png';
 
 const InfoProducts = () => (
   <>
@@ -27,7 +28,11 @@ const InfoProducts = () => (
           radios.map((radio) => (
             <SwiperSlide key={radio.modelo}>
               <div className="img_container">
-                <img src={radio.imagen[0]} alt={radio.modelo} />
+                {
+                  radio.imagen[0] !== ''
+                    ? <img src={radio.imagen[0]} alt={radio.modelo} />
+                    : <img src={pendiente} alt={radio.modelo} />
+                }
               </div>
 
               <div className="container_model_description">
