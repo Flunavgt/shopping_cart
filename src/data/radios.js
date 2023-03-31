@@ -1,7 +1,9 @@
+import cover from '../components/crelosa_page_components/images/infoproductos/crelosa_not_found.png';
+
 const motorola = 'motorola';
 const kenwood = 'Kenwood';
 const icom = 'ICOM ';
-const pendiente = 'https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1920.jpg?size=626&ext=jpg&ga=GA1.2.1703578061.1677174303&semt=sph';
+const pendiente = cover;
 
 export const articulos = [
   {
