@@ -1,22 +1,30 @@
+const motorola = 'motorola';
+const kenwood = 'Kenwood';
+const icom = 'ICOM ';
+const pendiente = 'https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1920.jpg?size=626&ext=jpg&ga=GA1.2.1703578061.1677174303&semt=sph';
+
 export const articulos = [
   {
     modelo: 'NX1300',
+    marca: kenwood,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://www.wfcommunications.net/include/shared-images/kenwood/products-large/kenwood-nx-1200-1300.png',
       '',
     ],
     caracteristicas: [],
   }, {
     modelo: 'DGM8500',
+    marca: motorola,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://www.soundybrasil.com.br/upload/arquivos/DGM8550%281%29.png',
       '',
     ],
     caracteristicas: [],
   }, {
     modelo: 'TC-320',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
@@ -33,17 +41,19 @@ export const articulos = [
     ],
   }, {
     modelo: 'A120',
+    marca: icom,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://www.cntlwire.com/wp-content/uploads/CW-icom-A120img1.png',
       '',
     ],
     caracteristicas: [],
   }, {
     modelo: 'BD616',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -57,9 +67,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'HP606 ',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -74,9 +85,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'HP706',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -91,9 +103,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'AP516',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -107,9 +120,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'BP516',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -123,9 +137,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'BD506',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -138,6 +153,7 @@ export const articulos = [
     ],
   }, {
     modelo: 'TC-508',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-508_Analog_Radio_1.png',
@@ -154,9 +170,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'BD556',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -167,6 +184,7 @@ export const articulos = [
     ],
   }, {
     modelo: 'PNC360',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/PNC360S_PoC_Radio_1.png',
@@ -185,6 +203,7 @@ export const articulos = [
     ],
   }, {
     modelo: 'PNC380 ',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/PNC380S_PoC_Radio_1.png',
@@ -203,9 +222,10 @@ export const articulos = [
     ],
   }, {
     modelo: 'PNC560',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [
@@ -219,33 +239,37 @@ export const articulos = [
     ],
   }, {
     modelo: 'DEP450',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [],
   }, {
     modelo: 'DEP570',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [],
   }, {
     modelo: 'A25',
+    marca: icom,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://butik.limmared.nu/5501-large_default/icom-ic-a25ce-vhf-flygradio-6-w-com.jpg',
       '',
     ],
     caracteristicas: [],
   }, {
     modelo: 'DGP8550',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      pendiente,
       '',
     ],
     caracteristicas: [],
