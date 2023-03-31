@@ -29,7 +29,7 @@ const InfoProducts = () => (
             <SwiperSlide key={radio.modelo}>
               <div className="img_container">
                 {
-                  radio.imagen[0] !== ''
+                  radio.imagen.length !== 0
                     ? <img src={radio.imagen[0]} alt={radio.modelo} />
                     : <img src={pendiente} alt={radio.modelo} />
                 }

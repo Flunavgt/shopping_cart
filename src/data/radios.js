@@ -1,21 +1,14 @@
-/* eslint-disable max-len */
-// import cover from '../components/crelosa_page_components/images/infoproductos/crelosa_not_found.png';
-
 const motorola = 'motorola';
 const kenwood = 'Kenwood';
 const icom = 'ICOM ';
 const hytera = 'Hytera';
-// const pendiente = cover;
 
 export const articulos = [
   {
     modelo: 'NX1300',
     marca: kenwood,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://www.wfcommunications.net/include/shared-images/kenwood/products-large/kenwood-nx-1200-1300.png',
-      '',
-    ],
+    imagen: ['https://www.wfcommunications.net/include/shared-images/kenwood/products-large/kenwood-nx-1200-1300.png'],
     caracteristicas: [
       ['Rango de frecuencia: 450-520 Mhz // 400 -470 Mhz'],
       ['Los modelos NXDN o DMR digital CAI y FM analógico solo están disponibles'],
