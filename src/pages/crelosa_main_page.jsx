@@ -43,8 +43,6 @@ const CrelosaMainPage = () => {
       <Introducción />
       <YoutubeVideo />
       <Caratula />
-      {/* <InfoProducts /> */}
-      {/* <QuieneSomos /> */}
       <Asociados />
       <PieDePagina />
     </section>

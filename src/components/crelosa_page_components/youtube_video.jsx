@@ -4,9 +4,9 @@ import ReactPlayer from 'react-player';
 
 const YoutubeVideo = () => (
   <div className="youtube_container_video">
-    <h1>Transmisión en directo Volcán de Fuego</h1>
     <div className="videoTitleyt">
-      <div className="container">
+      <h1>Transmisión en directo Volcán de Fuego</h1>
+      <div className="react_player_container">
         <ReactPlayer
           playing
           muted
