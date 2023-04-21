@@ -24,22 +24,24 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
-  /* margin-bottom: 3vh; */
   justify-content: center;
   width: 100%;
 }
 
-.brands img {
-  width: 12vw;
+.brands .btn img {
+  width: 10vw;
   -webkit-filter: grayscale(1) !important;
   -moz-filter: grayscale(1);
   filter: grayscale(100%) !important;
   transition: all 1.7s ease-in-out;
-  padding: 20px 30px;
+  padding: 10px 4px;
 }
 
-.brands img:hover {
+.brands a:hover:active {
+  border: none;
+}
+
+.brands .btn img:hover {
   -webkit-filter: grayscale(0%) !important;
   -moz-filter: grayscale(0%);
   filter: grayscale(0%) !important;
