@@ -8,9 +8,10 @@ import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
 // import YouTube from 'react-youtube';
 import collegePng from './images/radio-tower.png';
-import adds from './images/Introduccion/adds1.png';
+// import adds from './images/Introduccion/adds1.png';
 import InfoProducts from './info_products';
 import { centroDelMapa, oficinaCentral, markers } from '../../data/Coordenadas';
+import VideoComponent from './VideoComponent';
 
 const Caratula = () => {
   const savedMap = useRef();
@@ -124,11 +125,13 @@ const Caratula = () => {
 
       <h6 className="small_title_cobertura">Ésta es nuestra</h6>
       <h1 className="main_title_cobertura">Cobertura</h1>
+      {/* <VideoComponent /> */}
 
       <div className="Main_caratula_container">
 
         <div className="Container_adds_caratula">
-          <img src={adds} alt="adds" />
+          {/* <img src={adds} alt="adds" /> */}
+          <VideoComponent />
         </div>
 
         <div>
