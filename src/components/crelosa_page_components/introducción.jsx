@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState } from 'react';
 import '../../styles/CrelosaPage-styles/introduccion.css';
-import logo from './images/Introduccion/LOGO1.png';
+import logo from './images/Introduccion/CRELOSA-01.png';
 
 const Introducción = () => {
   const [lastclicked, setLastiClicked] = useState('');
@@ -47,8 +47,9 @@ const Introducción = () => {
         </video>
 
         <img src={logo} alt="Crelosa logo" className="logo_main_img" />
+
         <h1 className="titleCompanyintro">
-          Líder en comunicaciones
+          Lider en comunicaciones
         </h1>
 
         <div className="containerBtnDmr">

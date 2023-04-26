@@ -22,6 +22,7 @@ body {
   border-right: 8px solid #0759cd;
   border-radius: 30px;
   position: relative;
+  /* border: 1px solid #000; */
 }
 
 .main_title_cobertura {
@@ -59,10 +60,14 @@ body {
 
 .Container_adds_caratula {
   width: 25vw;
-  top: 200px;
+  height: 60vw;
+  top: 150px;
   left: 5%;
   position: absolute;
   overflow: hidden;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
 }
 
 .Container_adds_caratula h1 {
@@ -80,14 +85,17 @@ body {
 
 .store_link_add {
   position: absolute;
-  right: 50px;
+  right: 40px;
   padding: 20px;
   height: 50vh;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
   align-items: center;
   font-weight: 500;
+  /* border: 1px solid #000; */
 }
 
 .store_link_add h1 {
@@ -148,20 +156,15 @@ body {
 }
 
 .videoTitleyt {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   height: 95%;
   width: 95vw;
   margin-top: 20px;
   margin-inline: 2.5vw;
-  border-bottom: 8px solid yellow;
-  border-right: 8px solid yellow;
+  border-bottom: 8px solid #E0DD2E;
+  border-right: 8px solid #E0DD2E;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
-  /* border: 1px solid #000; */
 }
 
 .videoTitleyt h1 {
@@ -170,12 +173,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1%; */
-  /* border: 1px solid #000; */
+  text-align: center;
 }
 
 .react_player_container {

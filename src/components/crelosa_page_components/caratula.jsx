@@ -139,7 +139,7 @@ const Caratula = () => {
         </div>
 
         <div className="store_link_add">
-          <h1>Visita nuestra tienda en línea</h1>
+          <h1>Visita nuestra tienda</h1>
           <a href="/main" type="submit">Crelosa onLine</a>
           <h1 className="title_section_infoproducts"> O adquiere a un click</h1>
         </div>

@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa';
 import { BsEnvelopeAt } from 'react-icons/bs';
 import { GoDeviceMobile, GoLocation } from 'react-icons/go';
-import crelosa from './images/Introduccion/LOGO1.png';
+import crelosa from './images/Introduccion/CRELOSA-01.png';
 import '../../styles/CrelosaPage-styles/pie_de_pagina.css';
 import WhatsappIcon from './whatsapp_business_logo';
 
