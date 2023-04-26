@@ -37,7 +37,7 @@ const InfoProducts = () => (
 
               <div className="container_model_description">
                 <h4>{radio.modelo}</h4>
-                <h3>{radio.descripcion}</h3>
+                {/* <h3>{radio.descripcion}</h3> */}
               </div>
             </SwiperSlide>
           ))
