@@ -9,12 +9,7 @@ const NavBarCrelosa = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <>
-      {/* desktop version */}
-      <section className="bolita_retorno_container desktop_navbar">
-        <div className="bolita_retorno" />
-      </section>
-
+    <div className="container_nabbar_mobil">
       <section className="Main_container">
         <header className="top_line" />
 
@@ -28,18 +23,20 @@ const NavBarCrelosa = () => {
         <section className={`NavBarCrelosa_MainContainer ${showMenu ? 'null' : 'mobil_navbar'}`}>
 
           <div className="buttons_links_container">
-            <a className="btn" href="#cobertura">COBERTURA</a>
-            <a className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
-            <a className="btn" href={routes.store}>TIENDA</a>
-            <Link className="btn" to="/quienes_somos">¿QUIENES SOMOS?</Link>
-            <a className="btn" href="#asociados">SOCIOS</a>
-            <a className="btn" href="#piedepagina">CONTACTO</a>
+            <a onClick={() => setShowMenu(false)} className="btn" href="#cobertura">COBERTURA</a>
+            <a onClick={() => setShowMenu(false)} className="btn" href="#info_products">PRODUCTOS & SEVICIOS</a>
+            <a onClick={() => setShowMenu(false)} className="btn" href={routes.store}>TIENDA</a>
+            <Link onClick={() => setShowMenu(false)} className="btn" to="/quienes_somos">¿QUIENES SOMOS?</Link>
+            <a onClick={() => setShowMenu(false)} className="btn" href="#asociados">SOCIOS</a>
+            <a onClick={() => setShowMenu(false)} className="btn" href="#piedepagina">CONTACTO</a>
           </div>
+
+          {/* <div className="flur_background" /> */}
 
         </section>
 
       </section>
-    </>
+    </div>
   );
 };
 
