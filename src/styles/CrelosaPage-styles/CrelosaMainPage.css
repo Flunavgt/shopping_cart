@@ -1,5 +1,5 @@
 .crelosa_main_page_container {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   width: 100vw;
 }
 

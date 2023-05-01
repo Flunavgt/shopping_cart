@@ -20,17 +20,15 @@ body {
 
   .Main_container {
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
   }
 
   /* Hamburguer button */
   .Main_container .size_menuCrelosa_btn {
-    /* border: 1px solid #00ff00; */
     position: fixed;
-    z-index: 999;
-    right: 20px !important;
-    top: 20px !important;
+    right: 20px;
+    top: 20px;
     width: 6vw;
     min-width: 30px;
     height: 6vw;
@@ -39,10 +37,11 @@ body {
 
   .NavBarCrelosa_MainContainer {
     /* border: 1px solid red; */
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(251, 7, 7);
     height: 100%;
     width: 100%;
     transition: transform 1s ease-out;
+    border: 1px solid #000;
   }
 
   /* Difuminado del fondo */
@@ -60,17 +59,14 @@ body {
 
   /* Div de los botones */
   .buttons_links_container {
-    /* border: 1px solid #f3eb00; */
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    z-index: 1000;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 2s;
   } 
 }
 

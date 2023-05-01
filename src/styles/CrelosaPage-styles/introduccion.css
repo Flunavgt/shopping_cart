@@ -2,116 +2,241 @@
   scroll-behavior: smooth;
 }
 
-.Main_introduccion_container {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
+/* Mobil version */
+@media screen and (max-width: 767px) {
+  .Main_introduccion_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .videoTag {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: right;
+    /* display: flex;
+    justify-content: flex-end; */
+  }
+
+  .infoCompany {
+    /* position: absolute;
+    top: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 25vh;
+    text-align: justify;
+    color: white;
+    padding: 0 10%;
+    border: 5px solid #01fb44; */
+    display: none;
+  }
+
+  .infoCompany p {
+    font-size: 1.2vw;
+    font-weight: 400;
+  }
+
+  .titleCompanyintro {
+    font-size: 5vw !important;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
+    text-shadow: rgb(11, 98, 239) 0 0 10px;
+  }
+
+  .logo_main_img {
+    position: absolute;
+    bottom: -5%;
+    left: -15%;
+    width: 130vw;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+
+  .disTwo {
+    /* border: none;
+    background-color: rgba(240, 248, 255, 0.262);
+    border-radius: 15px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    padding: 0.5rem 2rem;
+    height: 60px; */
+    display: none;
+  }
+
+  .containerBtnDmr {
+    /* position: absolute;
+    bottom: 8%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    justify-content: space-around;
+    height: 80px; */
+    display: none;
+  }
+
+  .containerBtnDmr button:hover {
+    background-color: rgba(240, 248, 255, 0.385);
+    border: 2px solid rgb(240, 248, 2);
+    cursor: pointer;
+  }
+
+  .dissapearone,
+  .dissapeartwo,
+  .dissapearthree {
+    display: none;
+    color: rgb(253, 251, 251);
+    font-weight: 500;
+    text-shadow: 1px 1px 5px black;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    padding: 10px 50px;
+  }
+
+  /* .testing {
+    border: 10px solid #000 !important;
+    color: red !important;
+  } */
+
+  .handlevideo_container {
+    position: absolute;
+    z-index: 999;
+    top: 15%;
+    right: 2%;
+  }
 }
 
-.videoTag {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-}
+/* Desktop Version */
+@media screen and (min-width: 768px) {w
+  /* .br_mobil_version {
+    display: none;
+  } */
 
-.infoCompany {
-  position: absolute;
-  top: 52%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 25vh;
-  text-align: justify;
-  color: white;
-  padding: 0 10%;
-}
+  .Main_introduccion_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
 
-.infoCompany p {
-  font-size: 1.2vw;
-  font-weight: 400;
-}
+  .videoTag {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
 
-.titleCompanyintro {
-  font-size: 5vw;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  position: absolute;
-  top: 39%;
-  left: 22%;
-  display: flex;
-  flex-direction: column;
-  width: 70vw;
-  color: white;
-  text-shadow: rgb(11, 98, 239) 0 0 10px;
-}
+  .infoCompany {
+    position: absolute;
+    top: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 25vh;
+    text-align: justify;
+    color: white;
+    padding: 0 10%;
+  }
 
-.logo_main_img {
-  position: absolute;
-  top: 6%;
-  left: 1%;
-  height: 45%;
-}
+  .infoCompany p {
+    font-size: 1.2vw;
+    font-weight: 400;
+  }
 
-.titleCompanyintro span {
-  margin: 5% 0 0 30%;
-}
+  .titleCompanyintro {
+    font-size: 5vw;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 39%;
+    left: 22%;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    color: white;
+    text-shadow: rgb(11, 98, 239) 0 0 10px;
+  }
 
-.disTwo {
-  border: none;
-  background-color: rgba(240, 248, 255, 0.262);
-  border-radius: 15px;
-  font-size: 2vw;
-  font-weight: 600;
-  color: white;
-  text-shadow: 1px 2px 5px black;
-  padding: 0.5rem 2rem;
-  height: 60px;
-}
+  .logo_main_img {
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    height: 45%;
+  }
 
-.containerBtnDmr {
-  position: absolute;
-  bottom: 8%;
-  left: 25%;
-  display: flex;
-  align-items: center;
-  width: 60vw;
-  justify-content: space-around;
-  height: 80px;
-}
+  .titleCompanyintro span {
+    margin: 5% 0 0 30%;
+  }
 
-.containerBtnDmr button:hover {
-  background-color: rgba(240, 248, 255, 0.385);
-  border: 2px solid rgb(240, 248, 2);
-  cursor: pointer;
-}
+  .disTwo {
+    border: none;
+    background-color: rgba(240, 248, 255, 0.262);
+    border-radius: 15px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    padding: 0.5rem 2rem;
+    height: 60px;
+  }
 
-.dissapearone,
-.dissapeartwo,
-.dissapearthree {
-  display: none;
-  color: rgb(253, 251, 251);
-  font-weight: 500;
-  text-shadow: 1px 1px 5px black;
-  background-color: rgba(0, 0, 0, 0.295);
-  border-radius: 5px;
-  padding: 10px 50px;
-}
+  .containerBtnDmr {
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    justify-content: space-around;
+    height: 80px;
+  }
 
-.testing {
-  border: 10px solid #000 !important;
-  color: red !important;
-}
+  .containerBtnDmr button:hover {
+    background-color: rgba(240, 248, 255, 0.385);
+    border: 2px solid rgb(240, 248, 2);
+    cursor: pointer;
+  }
 
-.handlevideo_container {
-  position: absolute;
-  z-index: 999;
-  top: 15%;
-  right: 2%;
+  .dissapearone,
+  .dissapeartwo,
+  .dissapearthree {
+    display: none;
+    color: rgb(253, 251, 251);
+    font-weight: 500;
+    text-shadow: 1px 1px 5px black;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    padding: 10px 50px;
+  }
+
+  .testing {
+    border: 10px solid #000 !important;
+    color: red !important;
+  }
+
+  .handlevideo_container {
+    position: absolute;
+    z-index: 999;
+    top: 15%;
+    right: 2%;
+  }
 }
