@@ -14,13 +14,11 @@ body {
   }
 
   .container_nabbar_mobil {
-    position: absolute;
-    height: 50vh;
+    position: relative;
     z-index: 99999;
   }
 
   .Main_container {
-    /* border: 1px solid #d901ff; */
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -31,8 +29,8 @@ body {
     /* border: 1px solid #00ff00; */
     position: fixed;
     z-index: 999;
-    right: 10px;
-    top: 10px;
+    right: 20px !important;
+    top: 20px !important;
     width: 6vw;
     min-width: 30px;
     height: 6vw;
@@ -62,8 +60,8 @@ body {
 
   /* Div de los botones */
   .buttons_links_container {
-    border: 1px solid #f3eb00;
-    background-color: white;
+    /* border: 1px solid #f3eb00; */
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     z-index: 1000;
     width: 100%;
