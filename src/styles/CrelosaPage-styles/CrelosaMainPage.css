@@ -1,5 +1,34 @@
 .crelosa_main_page_container {
-  display: flex;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   width: 100vw;
+}
+
+@font-face {
+  font-family: 'Helios';
+  src: local('Helios'), url(../../fonts/Helios\ Regular.woff) format('opentype');
+}
+
+@font-face {
+  font-family: 'HeliosRounded';
+  src: local('HeliosRounded'), url(../../fonts/Helios\ Rounded.woff) format('opentype');
+}
+
+@font-face {
+  font-family: 'Anurati_Regular';
+  src: local('Anurati_Regular'), url(../../fonts/Anurati-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Centauri';
+  src: local('Centauri'), url(../../fonts/FontsFree-Net-Centauri.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'DarkNet';
+  src: local('DarkNet'), url(../../fonts/Darknet.ttf) format('opentype');
+}
+
+h1 {
+  font-family: Centauri !important;
+  font-size: 2.5vw !important;
 }

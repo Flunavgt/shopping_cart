@@ -1,22 +1,41 @@
+const motorola = 'motorola';
+const kenwood = 'Kenwood';
+const icom = 'ICOM ';
+const hytera = 'Hytera';
+
 export const articulos = [
   {
     modelo: 'NX1300',
+    marca: kenwood,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
+    imagen: ['https://www.wfcommunications.net/include/shared-images/kenwood/products-large/kenwood-nx-1200-1300.png'],
+    caracteristicas: [
+      ['Rango de frecuencia: 450-520 Mhz // 400 -470 Mhz'],
+      ['Los modelos NXDN o DMR digital CAI y FM analógico solo están disponibles'],
+      ['LCD retroiluminada blanca de alto contraste con teclado o modelos con gabinete básico'],
+      ['Gran indicador LED de 7 colores en el panel superior'],
+      ['Cobertura de banda ancha UHF 70MHz'],
     ],
-    caracteristicas: [],
   }, {
     modelo: 'DGM8500',
+    marca: motorola,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://www.soundybrasil.com.br/upload/arquivos/DGM8550%281%29.png',
       '',
     ],
-    caracteristicas: [],
+    caracteristicas: [
+      ['1000 canales.'],
+      ['Análogo / Digital.'],
+      ['Banda de frecuencia VHF y UHF.'],
+      ['Función GPS (únicamente en DGM8500).'],
+      ['Pantalla alfanumérica a color .'],
+      ['Bluetooth® para audio'],
+      ['Rango de frecuencia: VHF 136-174 MHZ // UHF 403-470 Mhz'],
+    ],
   }, {
     modelo: 'TC-320',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-320_Analog_Radio_1.png',
@@ -33,17 +52,28 @@ export const articulos = [
     ],
   }, {
     modelo: 'A120',
+    marca: icom,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://www.cntlwire.com/wp-content/uploads/CW-icom-A120img1.png',
       '',
     ],
-    caracteristicas: [],
+    caracteristicas: [
+      ['Frecuencias: 118.000-136.992MHz'],
+      ['Potencia de salida: 36W típ . (PEP)'],
+      ['Canales: 200 con nombres de canales de 12 caracteres'],
+      ['Separación entre canales: 8,33/25 kHz'],
+      ['Pantalla LCD: Matriz de puntos con iconos y caracteres alfanuméricos'],
+      ['Resistencia al agua: Protección contra el polvo IP54 y resistente al agua'],
+      ['Especificaciones militares: 810 C, D, E, F, G'],
+      ['Peso (aprox.): 3 lb // 3 oz'],
+    ],
   }, {
     modelo: 'BD616',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://ae01.alicdn.com/kf/H489ea4bf94f14fedbc8a8b008fbcd3d2G.jpg',
       '',
     ],
     caracteristicas: [
@@ -57,11 +87,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'HP606 ',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://images.hytera.us/images/hp606_radio-digital.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=9104b6f9d639b8e37a1e43e16cf0e3e7'],
     caracteristicas: [
       ['Dimensiones: 122 x 55 x 30,5mmUHF:400-'],
       ['Rango de frecuencia 527 MHz VHF: 136-174 MHz'],
@@ -74,11 +102,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'HP706',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://images.hytera.us/images/hp706_radio-digital.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=8ee824b5d7c76462f5dc6f20dcf21168'],
     caracteristicas: [
       ['Rango de frecuencia UHF: 350-470 MHz VHF: 136-174 MHz'],
       ['Capacidad de canales: 1024'],
@@ -91,11 +117,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'AP516',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://images.hytera.us/images/radio-dmr-hytera-ap516-portada.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=72304ec60238f30f05b0092f42d0c029'],
     caracteristicas: [
       ['Rango de frecuencia: 400-470 MHZ; 136-174 MHZ'],
       ['Capacidad de canales: 32'],
@@ -107,11 +131,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'BP516',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://images.hytera.us/images/bp516_radio_dmr_2.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=bbf3048415f8df22948c1bb87cc3ba7a'],
     caracteristicas: [
       ['Rango de frecuencia: UHF: 400-470 MHZ; VHF: 136-174 MHZ'],
       ['Capacidad de canales: 64'],
@@ -123,11 +145,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'BD506',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://images.hytera.us/images/BD500Series.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=a66cc8d7a0882cbcf32a5b303f0866aa'],
     caracteristicas: [
       ['Rango de frecuencia: UHF: 400-470 MHZ VHF: 146-174 MHZ '],
       ['Capacidad de canales: 48'],
@@ -138,6 +158,7 @@ export const articulos = [
     ],
   }, {
     modelo: 'TC-508',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/TC-508_Analog_Radio_1.png',
@@ -154,11 +175,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'BD556',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://www.hytera.la/images/_product360/BD555/tiles/c1_l2_0_0.jpg'],
     caracteristicas: [
       ['Rango de frecuencia: VHF (136-174 MHz) / UHF (400-470 MHz)'],
       ['Potencia RF: VHF 1-5 W / UHF 1-4 W'],
@@ -167,6 +186,7 @@ export const articulos = [
     ],
   }, {
     modelo: 'PNC360',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/PNC360S_PoC_Radio_1.png',
@@ -185,6 +205,7 @@ export const articulos = [
     ],
   }, {
     modelo: 'PNC380 ',
+    marca: '',
     descripcion: 'Descripción va aquí',
     imagen: [
       'https://hytera-dealer-content-portal.com/wp-content/uploads/PNC380S_PoC_Radio_1.png',
@@ -203,11 +224,9 @@ export const articulos = [
     ],
   }, {
     modelo: 'PNC560',
+    marca: hytera,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
-    ],
+    imagen: ['https://images.hytera.us/images/PNC560-radio-poc-cover.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=7ee5d48e6d55632597f01f42b2ae44ce'],
     caracteristicas: [
       ['Sistema operative: Android 12'],
       ['Memoria: 6GB-6GB RAM, 64GB-128GB ROM'],
@@ -219,36 +238,75 @@ export const articulos = [
     ],
   }, {
     modelo: 'DEP450',
+    marca: motorola,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
+    imagen: ['https://www.radios-motorola.com/images/dep450.png'],
+    caracteristicas: [
+      ['Radio Digital/Analogo'],
+      ['Canales: 16'],
+      ['DEP: 450'],
+      ['Rango de frecuencias: VHF 5 W 136-174 // UHF 4 W 403-470 MHz'],
+      ['Capacidad de canal: 16'],
+      ['Batería: NiMH de 1400mAH // Ion de litio delgada de 1600mAH // Ion de litio de 2200mAH'],
     ],
-    caracteristicas: [],
   }, {
     modelo: 'DEP570',
+    marca: '',
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
+    imagen: ['https://www.radios-motorola.com/images/DEP570.jpg'],
+    caracteristicas: [
+      ['Modo análogo y/o digital'],
+      ['Ergonómico y ligero sólo pesa 285g'],
+      ['128 Canales'],
+      ['Pantalla monocromática y teclado limitado'],
+      ['Operación 403-527 MHz'],
+      ['3 botones programables'],
+      ['Espaciamiento de canales 12.5/25 análogo'],
+      ['Ancho de banda en digital 12.5/25kHz. por canal'],
+      ['Potencia en UHF 4 watts'],
+      ['IP Site Conect™ (requiere licencia)'],
+      ['Tonos CTCSS CSQ/PL/DPL análogo'],
+      ['Bloqueo de canal ocupado'],
+      ['Botón de emergencia'],
+      ['Conector IP55 para accesorios '],
     ],
-    caracteristicas: [],
   }, {
     modelo: 'A25',
+    marca: icom,
     descripcion: 'Descripción va aquí',
     imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
+      'https://butik.limmared.nu/5501-large_default/icom-ic-a25ce-vhf-flygradio-6-w-com.jpg',
       '',
     ],
-    caracteristicas: [],
+    caracteristicas: [
+      ['Vatios de Potencia: 6W typ. (PEP), 1,8W (CW)'],
+      ['Frecuencias: TX (COM) RX (COM/NAV)  RX (Weather) 118,00-136.975MHz // 108,00-136.975MHz // 161,650-163.275MHz'],
+      ['Espaciamiento: 8,33/25KhZ'],
+      ['Canales: 300'],
+      ['Bateria: 2350mAh Li-ion battery, up to 10,5 hours'],
+      ['Typical operation; Tx:Rx:Stand-by duty ratio = 5:5:90, Power save ON'],
+      ['Versiones: Solo comunicación'],
+      ['Comunicación y navegación'],
+    ],
   }, {
     modelo: 'DGP8550',
+    marca: motorola,
     descripcion: 'Descripción va aquí',
-    imagen: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4G8nxDYhkxSefxcGVYu8Osd7KpbzVKzYsQ&usqp=CAU',
-      '',
+    imagen: ['https://www.insignia-link.com.mx/wp-content/uploads/2018/03/DGP-8550-5550-motorola-Insignia-Link.png'],
+    caracteristicas: [
+      ['Ergonómico y ligero sólo pesa 303g'],
+      ['1000 Canales'],
+      ['Operación 136-174 MHz'],
+      ['6 botones programables'],
+      ['Espaciamiento de canales 12.5, 25 Khz'],
+      ['Potencia en VHF 5 watts, UHF 4 watts'],
+      ['Pantalla día/noche de alta definición 14 caracteres con 5 líneas de texto y uso de íconos'],
+      ['Teclado DTMF'],
+      ['Botón para navegación amigable'],
+      ['GPS integrado'],
+      ['Audio y datos vía Bluetooth™'],
+      ['Capacity Plus™ (requiere licencia)'],
     ],
-    caracteristicas: [],
   }];
 
 export default articulos;

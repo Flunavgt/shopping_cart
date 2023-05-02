@@ -5,7 +5,8 @@ import Asociados from '../components/crelosa_page_components/asociados';
 import PieDePagina from '../components/crelosa_page_components/pie_de_pagina';
 import Introducción from '../components/crelosa_page_components/introducción';
 import '../App.css';
-import logo from '../components/crelosa_page_components/images/Introduccion/CRELOSA-01.png';
+import '../styles/CrelosaPage-styles/CrelosaMainPage.css';
+// import logo from '../components/crelosa_page_components/images/Introduccion/CRELOSA-01.png';
 import YoutubeVideo from '../components/crelosa_page_components/youtube_video';
 
 const CrelosaMainPage = () => {
@@ -28,23 +29,34 @@ const CrelosaMainPage = () => {
     return { width, height };
   };
 
+  // Mobil Version
   if (useScreenSize().width < 800) {
     return (
-      <div className="Mens_Working_here">
-        <h1>Versión Mobil no disponible</h1>
-        <img src={logo} alt="Logo_Crelosa" />
-      </div>
+      <section className="crelosa_main_page_container">
+        <NavBarCrelosa />
+        <Introducción />
+        <YoutubeVideo />
+        <Caratula />
+        <Asociados />
+        <PieDePagina />
+      </section>
+
+    // Maintenance zone --------------------------------------
+    // <div className="Mens_Working_here">
+    //   <h1>Version   Mobil   no   disponible</h1>
+    //   <img src={logo} alt="Logo_Crelosa" />
+    // </div>
+    // Maintenance zone --------------------------------------
     );
   }
 
+  // Desktop version
   return (
     <section className="crelosa_main_page_container">
       <NavBarCrelosa />
       <Introducción />
       <YoutubeVideo />
       <Caratula />
-      {/* <InfoProducts /> */}
-      {/* <QuieneSomos /> */}
       <Asociados />
       <PieDePagina />
     </section>

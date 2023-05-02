@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState } from 'react';
 import '../../styles/CrelosaPage-styles/introduccion.css';
-import logo from './images/Introduccion/LOGO1.png';
+import logo from './images/Introduccion/CRELOSA-01.png';
 
 const Introducción = () => {
   const [lastclicked, setLastiClicked] = useState('');
@@ -47,15 +47,19 @@ const Introducción = () => {
         </video>
 
         <img src={logo} alt="Crelosa logo" className="logo_main_img" />
+
         <h1 className="titleCompanyintro">
-          Líder en comunicaciones
+          Líder
+          <br className="br_mobil_version" />
+          en
+          <br className="br_mobil_version" />
+          comunicaciones
         </h1>
 
         <div className="containerBtnDmr">
           <button onClick={() => distwo('.dissapearone')} type="button" className="disTwo">
             <h2>DMR</h2>
           </button>
-
           <button onClick={() => distwo('.dissapeartwo')} type="button" className="disTwo">
             <h2>DMR III</h2>
           </button>
