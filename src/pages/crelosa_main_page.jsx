@@ -37,8 +37,8 @@ const CrelosaMainPage = () => {
         <Introducción />
         <YoutubeVideo />
         <Caratula />
-        {/* <Asociados />
-        <PieDePagina /> */}
+        <Asociados />
+        <PieDePagina />
       </section>
 
     // Maintenance zone --------------------------------------

@@ -1,50 +1,101 @@
+@media screen and (max-width: 767px) { 
+  .Main_asociados_container {
+    width: 100vw;
+    height: 100vh;
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
 
-.Main_asociados_container {
-  width: 99vw;
+  .Asociados_main_title {
+    font-size: 9vw;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3.5vh;
+  }
 
-  /* background-color: var(--bg-asociados-section); */
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 2px solid blue;
+  }
 
-  /* height: 55vh; */
-  padding: 5vh 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  .brands .btn img {
+    width: 36vw;
+    -webkit-filter: grayscale(1) !important;
+    -moz-filter: grayscale(1);
+    filter: grayscale(100%) !important;
+    transition: all 1.7s ease-in-out;
+    padding: 10px 10px;
+  }
+
+  .brands a:hover:active {
+    border: none;
+  }
+
+  .brands .btn img:hover {
+    -webkit-filter: grayscale(0%) !important;
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%) !important;
+    transition: all 1.7s ease-in-out;
+    transform: scale(1.4) rotateY(360deg);
+  }
 }
 
-.Main_asociados_container h2 {
-  font-size: 3vw;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 3.5vh;
-}
+@media screen and (min-width: 768px) { 
+  .Main_asociados_container {
+    width: 99vw;
 
-.brands {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+    /* background-color: var(--bg-asociados-section); */
 
-.brands .btn img {
-  width: 10vw;
-  -webkit-filter: grayscale(1) !important;
-  -moz-filter: grayscale(1);
-  filter: grayscale(100%) !important;
-  transition: all 1.7s ease-in-out;
-  padding: 10px 4px;
-}
+    /* height: 55vh; */
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
 
-.brands a:hover:active {
-  border: none;
-}
+  .Main_asociados_container h2 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3.5vh;
+  }
 
-.brands .btn img:hover {
-  -webkit-filter: grayscale(0%) !important;
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%) !important;
-  transition: all 1.7s ease-in-out;
-  transform: scale(1.4) rotateY(360deg);
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .brands .btn img {
+    width: 10vw;
+    -webkit-filter: grayscale(1) !important;
+    -moz-filter: grayscale(1);
+    filter: grayscale(100%) !important;
+    transition: all 1.7s ease-in-out;
+    padding: 10px 4px;
+  }
+
+  .brands a:hover:active {
+    border: none;
+  }
+
+  .brands .btn img:hover {
+    -webkit-filter: grayscale(0%) !important;
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%) !important;
+    transition: all 1.7s ease-in-out;
+    transform: scale(1.4) rotateY(360deg);
+  }
 }

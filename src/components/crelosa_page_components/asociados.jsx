@@ -11,7 +11,7 @@ import '../../styles/CrelosaPage-styles/asociados.css';
 
 const Asociados = () => (
   <section id="asociados" className="Main_asociados_container">
-    <h2>Nuestras marcas</h2>
+    <h2 className="Asociados_main_title">Nuestras marcas</h2>
     <div className="brands">
       <a className="btn" href="https://www.kenwood.com/pa/" target="blank">
         <img src={kenwood1} alt="kenwood" />
