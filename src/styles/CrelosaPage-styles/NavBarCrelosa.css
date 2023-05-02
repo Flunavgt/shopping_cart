@@ -41,7 +41,6 @@ body {
     height: 100%;
     width: 100%;
     transition: transform 1s ease-out;
-    border: 1px solid #000;
   }
 
   /* Difuminado del fondo */

@@ -7,6 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
 // import YouTube from 'react-youtube';
+import { Icon } from '@iconify/react';
 import collegePng from './images/radio-tower.png';
 // import adds from './images/Introduccion/adds1.png';
 import InfoProducts from './info_products';
@@ -125,12 +126,11 @@ const Caratula = () => {
 
       <h6 className="small_title_cobertura">Ésta es nuestra</h6>
       <h1 className="main_title_cobertura">Cobertura</h1>
-      {/* <VideoComponent /> */}
 
       <div className="Main_caratula_container">
 
+        {/* Publicidad */}
         <div className="Container_adds_caratula">
-          {/* <img src={adds} alt="adds" /> */}
           <VideoComponent />
         </div>
 
@@ -139,9 +139,14 @@ const Caratula = () => {
         </div>
 
         <div className="store_link_add">
-          <h1>Visita nuestra tienda</h1>
-          <a href="/main" type="submit">Crelosa onLine</a>
-          <h1 className="title_section_infoproducts"> O adquiere a un click</h1>
+          <h1>Visita nuestra tienda en línea</h1>
+          <a href="/main" type="submit">
+            {/* STORE AQUÍ */}
+            <Icon
+              className="icon_crelosa_store"
+              icon="ic:outline-shopping-cart-checkout"
+            />
+          </a>
         </div>
 
       </div>

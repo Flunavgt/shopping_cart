@@ -36,8 +36,8 @@ const CrelosaMainPage = () => {
         <NavBarCrelosa />
         <Introducción />
         <YoutubeVideo />
-        {/* <Caratula />
-        <Asociados />
+        <Caratula />
+        {/* <Asociados />
         <PieDePagina /> */}
       </section>
 
