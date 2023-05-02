@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) { 
   .Main_asociados_container {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 5vh 0;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,8 @@
   }
 
   .brands .btn img {
-    width: 36vw;
+    width: 20vw;
+    min-width: 100px;
     -webkit-filter: grayscale(1) !important;
     -moz-filter: grayscale(1);
     filter: grayscale(100%) !important;
