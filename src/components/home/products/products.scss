@@ -3,3 +3,19 @@ h1{
   font-size: 4vw;
   color: #1e1a52 !important;
 }
+
+.btn{
+  border-radius: var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0 0!important;
+}
+
+.btn-secondary{
+  --bs-btn-bg: white !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font{
+  font-family: 'PT Sans', sans-serif !important
+}

@@ -1,9 +1,11 @@
 .banner-container {
-  left: 50px; /* establece el margen del borde de 50px a la izquierda */
-  top: 0;
-  height: 85vh;
+  /*left: 50px; !* establece el margen del borde de 50px a la izquierda *!*/
+  /*top: 0;*/
+  /*height: 85vh;*/
+  /*overflow: hidden;*/
+  /*border-radius: 30px; !* establece esquinas redondeadas de 30px *!*/
+  height: 60vh;
   overflow: hidden;
-  border-radius: 30px; /* establece esquinas redondeadas de 30px */
 
   /* border: 4px solid rgb(0, 0, 0); !* establece un borde de color azul *! */
 }
@@ -23,14 +25,13 @@
 }
 
 .video {
-  position: absolute;
-  top: 50%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-  width: 150%;
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 53%;*/
+  /*transform: translate(-50%, -50%);*/
+  /*width: 150%;*/
   height: 100%;
   object-fit: cover;
-  clip: rect(0, calc(100% / 3), 9999px, calc(100% / 3));
 }
 
 .text-overlay {
