@@ -28,7 +28,7 @@
   src: local('DarkNet'), url(../../fonts/Darknet.ttf) format('opentype');
 }
 
-h1 {
-  font-family: Centauri !important;
-  font-size: 2.5vw !important;
-}
+/*h1 {*/
+/*  font-family: Centauri !important;*/
+/*  font-size: 2.5vw !important;*/
+/*}*/

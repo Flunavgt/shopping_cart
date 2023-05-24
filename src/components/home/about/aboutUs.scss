@@ -1,0 +1,30 @@
+.line{
+  width: 35%;
+  height: 0;
+  border: 3px solid #E0DD2C;
+  margin: auto;
+
+}
+
+h1{
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 4vw;
+  color: #1e1a52;
+}
+
+.description{
+  font-family: Nunito, sans-serif;
+  font-size: 1.5vw;
+  color: #1e1a52;
+}
+
+.mv-card{
+  background-color: #EAE9E9;
+}
+
+
+@media screen and (max-width: 767px) {
+  .description{
+    font-size: 3vw;
+  }
+}
