@@ -6,6 +6,7 @@ import Introduction from '../crelosa_page_components/introducción';
 import AboutUs from './about/AboutUs';
 import Products from './products/Products';
 import Asociados from '../crelosa_page_components/asociados';
+import Caratula from '../crelosa_page_components/caratula';
 
 const Home = () => (
   <>
@@ -13,6 +14,7 @@ const Home = () => (
     <Introduction />
     <AboutUs />
     <Products />
+    <Caratula />
     <Asociados />
     <PieDePagina />
   </>

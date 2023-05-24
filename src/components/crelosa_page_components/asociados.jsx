@@ -10,8 +10,8 @@ import terrestrial from './images/asociados/terrestrial.png';
 import '../../styles/CrelosaPage-styles/asociados.css';
 
 const Asociados = () => (
-  <section id="asociados" className="Main_asociados_container">
-    <h2 className="Asociados_main_title">Nuestras marcas</h2>
+  <section id="partners" className="Main_asociados_container mt-md-5 mt-3">
+    <h1 className="text-start text-primary fw-bold  mx-3 mx-md-5">NUESTRAS MARCAS</h1>
     <div className="brands">
       <a className="btn" href="https://www.kenwood.com/pa/" target="blank">
         <img src={kenwood1} alt="kenwood" />

@@ -56,9 +56,8 @@ body {
   }
 
   #map {
-    width: 80vw;
+    width: 90vw;
     height: 60vh;
-    border: 3px solid #000000;
   }
 
   .Container_adds_caratula {
@@ -249,14 +248,8 @@ body {
   }
 
   #map {
-    width: 57vw;
-    height: 80vh;
-    border-radius: 5px;
-    border: 5px solid #000;
-    box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.83);
-    position: absolute !important;
-    top: 40px;
-    right: 40px;
+    width: 100%;
+    height: 65vh;
   }
 
   .Container_adds_caratula {

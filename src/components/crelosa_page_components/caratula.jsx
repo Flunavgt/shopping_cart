@@ -6,13 +6,8 @@ import Leafleat from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import markShadowPng from 'leaflet/dist/images/marker-shadow.png';
-// import YouTube from 'react-youtube';
-import { Icon } from '@iconify/react';
 import collegePng from './images/radio-tower.png';
-// import adds from './images/Introduccion/adds1.png';
-import InfoProducts from './info_products';
 import { centroDelMapa, oficinaCentral, markers } from '../../data/Coordenadas';
-import VideoComponent from './VideoComponent';
 
 const Caratula = () => {
   const savedMap = useRef();
@@ -122,37 +117,18 @@ const Caratula = () => {
   }, []);
 
   return (
-    <section id="cobertura" className="Main_caratula_container1">
-
-      <h6 className="small_title_cobertura">Ésta es nuestra</h6>
-      <h1 className="main_title_cobertura">Cobertura</h1>
-
-      <div className="Main_caratula_container">
-
-        {/* Publicidad */}
-        <div className="Container_adds_caratula">
-          <VideoComponent />
-        </div>
-
-        <div>
-          <div id={mapId} className="mapCover" />
-        </div>
-
-        <div className="store_link_add">
-          <h1>Visita nuestra tienda en línea</h1>
-          <a href="/main" type="submit">
-            {/* STORE AQUÍ */}
-            <Icon
-              className="icon_crelosa_store"
-              icon="ic:outline-shopping-cart-checkout"
-            />
-          </a>
-        </div>
-
+    <section id="cover" className="m-4 mt-md-5 mx-md-5">
+      <h1 className="text-center text-primary fw-bold">NUESTRA COBERTURA</h1>
+      <div className="line text-center" />
+      <p className="text-center description mt-4 px-5">
+        {/* eslint-disable-next-line max-len */}
+        Cada llamada, cada mensaje y cada comunicación es vital en situaciones críticas.
+        Es por eso que buscamos ofrecerte la mejor señal sin importar dónde te encuentres
+        {' '}
+      </p>
+      <div className="d-flex justify-content-center mt-3">
+        <div id={mapId} className="mapCover" />
       </div>
-
-      <InfoProducts />
-
     </section>
   );
 };
