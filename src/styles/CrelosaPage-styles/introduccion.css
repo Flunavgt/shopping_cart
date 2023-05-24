@@ -58,8 +58,9 @@
   }
 
   .titleCompanyintro {
-    font-size: 7vw;
-    left: 5%;
+    font-size: 7.2vw;
+    left: 18%;
+    top: 80%;
     background: white;
     opacity: 75%;
     border-radius: 10px;
@@ -68,7 +69,7 @@
 
   .logo_main_img {
     top: 5%;
-    left: -3%;
+    left: 6%;
     width: 84vw;
     max-width: 500px;
     margin-inline: auto;

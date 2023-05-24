@@ -1,4 +1,4 @@
-.line{
+.line {
   width: 35%;
   height: 0;
   border: 3px solid #E0DD2C;
@@ -6,25 +6,116 @@
 
 }
 
-h1{
+h1 {
   font-family: 'PT Sans', sans-serif !important;
   font-size: 4vw;
   color: #1e1a52;
 }
 
-.description{
+.description {
   font-family: Nunito, sans-serif;
   font-size: 1.5vw;
-  color: #1e1a52;
 }
 
 .mv-card{
   background-color: #EAE9E9;
+  border-radius: 5px 0 0 5px;
+  padding: 1.2rem;
+}
+
+.imgs {
+  height: 100%;
+  max-height: 410px;
+  width: 100%;
+}
+
+.b{
+  border-radius: 5px 5px 5px 5px;
+}
+
+.gs{
+  --bs-gutter-x: 0 !important;
+}
+
+
+
+@media screen and (min-width: 767px) {
+  .mv-container{
+    position: relative;
+    width: 100%;
+    height: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mv-card{
+    width: 50%;
+    padding-right: 4rem;
+    .description{
+      font-size: 1.27vw;
+    }
+  }
+
+  .box{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .r{
+    right: 1.5rem;
+  }
+
+  .l{
+  left: 1.5rem;
+  }
+
+  .stack-top-r{
+    z-index: 9;
+    margin-left: 1.5rem;
+  }
+
+  .stack-top-l{
+    z-index: 9;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: end;
+  }
+
+
 }
 
 
 @media screen and (max-width: 767px) {
-  .description{
+  .description {
     font-size: 3vw;
   }
+
+  .imgs{
+    max-height: 258px;
+  }
+
+  .mv-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+
+  .mv-card{
+    width: 100%;
+  }
+
+  .box{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .stack-top{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
 }

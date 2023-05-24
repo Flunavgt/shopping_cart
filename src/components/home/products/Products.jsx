@@ -3,9 +3,9 @@ import './products.scss';
 import VideoComponent from '../../crelosa_page_components/VideoComponent';
 
 const Products = () => (
-  <div className="mx-4">
+  <div className="m-4 mt-md-4 mx-md-5">
     <div className="row row-cols-1 row-cols-md-2">
-      <div className="col mx-4">
+      <div className="col mx-md-4">
         <h1 className="fw-bold">PRODUCTOS Y SERVICIOS</h1>
         {/* eslint-disable-next-line max-len */}
         <div className="mt-3 mx-4">
